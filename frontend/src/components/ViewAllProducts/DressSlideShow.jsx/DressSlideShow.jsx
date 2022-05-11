@@ -1,7 +1,7 @@
 import React from "react";
 import {Carousel} from 'react-bootstrap'
 
-export default function SlideShow3() {
+export default function DressSlideShow() {
   return (
     <Carousel fade={true}>
       <Carousel.Item interval={2000}>
