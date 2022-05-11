@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
+    <div style={{marginBottom:"30px"}}>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <a className="navbar-brand" href="/">
           <img style={{height:'50px', width:'70px'}} src="https://cdn.mos.cms.futurecdn.net/Ziv82j6YvdrvHqmxYjiTo3-1024-80.png.webp" alt="" />
