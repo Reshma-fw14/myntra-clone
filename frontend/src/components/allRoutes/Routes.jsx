@@ -11,10 +11,10 @@ export default function AllRoutes() {
     <div>
         <Routes>
            <Route path="/" element={<Landing/>} />
+           <Route path='/cart/:id' element={<Cart/>}/>
            <Route path="/products/:routeName" element={<Products />} />
            <Route path="/allProducts/:gender" element={<WomenModel/>}/>
            <Route path="/ProductView/:SingleItem" element={<ViewItem/>}/>
-           <Route path='/CartItems/:cartItem' element={<Cart/>}/>
         </Routes>
     </div>
   )

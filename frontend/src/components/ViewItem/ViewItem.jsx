@@ -3,31 +3,49 @@ import { useParams } from 'react-router-dom'
 import { useSelector } from "react-redux";
 import "./ViewItem.css"
 
+import { useNavigate } from "react-router-dom";
+import { bindActionCreators } from "redux";
+import { ActionCreators } from "../states/store/ActionCreator";
+import { useDispatch } from "react-redux";
+
 export default function ViewItem() {
     const SingleItem=useParams()
     // console.log("item",SingleItem.SingleItem)
+    
+    const dispatch = useDispatch();
+    const action = bindActionCreators(ActionCreators, dispatch)
+    const url = useSelector((state) => state.ViewReducer);
+    const nav = useNavigate();
+    // console.log("url",url.item)
 
-    const url = useSelector((state) => state.TypeReducer);
-    // console.log("url",url.url)
+//     const nav=useNavigate()
+//     const dispatch = useDispatch();
+//   const action = bindActionCreators(ActionCreators, dispatch);
+
+    const handleCart=(item)=>{
+    // console.log("cart",cartItem);
+    action.CartAction({item:item})
+    nav(`/cart/${item.id}`)
+  }
     
   return (
     <div>
         <div>
         <div className='Container'>
             <div className='LeftImageContainer'>
-                <div className="itemImg"><img src={url.url.image[0]} alt="image1" /></div>
-                <div className="itemImg"><img src={url.url.image[1]} alt="image1" /></div>
-                <div className="itemImg"><img src={url.url.image[2]} alt="image1" /></div>
-                <div className="itemImg"><img src={url.url.image[3]} alt="image1" /></div>
+                <div className="itemImg"><img src={url.item.image[0]} alt="image1" /></div>
+                <div className="itemImg"><img src={url.item.image[1]} alt="image1" /></div>
+                <div className="itemImg"><img src={url.item.image[2]} alt="image1" /></div>
+                <div className="itemImg"><img src={url.item.image[3]} alt="image1" /></div>
             </div>
             <div className='RightDescriptionContainer'>
-                <p className='brand'>{url.url.brand}</p>
-                <p className='description'>{url.url.description}</p>
+                <p className='brand'>{url.item.brand}</p>
+                <p className='description'>{url.item.description}</p>
                 <br /><br />
                 <div className='allAboutPrice'>
-                    <p className='price'>{`Rs. ${url.url.price}`}</p>
-                    <p className='strikeOff_price'>{`Rs. ${url.url.strikeOff_price}`}</p>
-                    <p className='offer'>{`(${url.url.offer}% off)`}</p>
+                    <p className='price'>{`Rs. ${url.item.price}`}</p>
+                    <p className='strikeOff_price'>{`Rs. ${url.item.strikeOff_price}`}</p>
+                    <p className='offer'>{`(${url.item.offer}% off)`}</p>
                 </div>
                 <p className='tax'>inclusive of all taxes</p>
                 <div className='allSIze'>
@@ -42,7 +60,9 @@ export default function ViewItem() {
                     <button>XXL</button>
                 </div>
                 <div>
-                    <button className='cart-btn'>ADD TO BAG</button>
+                    <button className='cart-btn' onClick={()=>{
+                        handleCart(url.item)
+                    }}>ADD TO BAG</button>
                     <button className='wishlist-btn'>WISHLIST</button>
                 </div>
                 <div className='details'>
@@ -55,7 +75,7 @@ export default function ViewItem() {
                 <p className='best-offers'>BEST OFFERS : </p>
                 <div className='dec-price'>
                     <p>Best Price : </p>
-                    <p>{`RS. ${url.url.price-150}`}</p>
+                    <p>{`RS. ${url.item.price-150}`}</p>
                 </div>
                 <div>
                     <ul>

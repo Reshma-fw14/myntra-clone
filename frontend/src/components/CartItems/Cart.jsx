@@ -7,8 +7,8 @@ export default function Cart() {
     const cartItem=useParams()
     // console.log("item",cartItem.cartItem)
 
-    const url = useSelector((state) => state.TypeReducer);
-    console.log("url",url.url)
+    const url = useSelector((state) => state.CartReducer);
+    console.log("url",url)
 
 
   return (
@@ -19,7 +19,7 @@ export default function Cart() {
                         <p className='delivery'>Check delivery time & services</p>
                         <button className='pincode-btn'>ENTER PINCODE</button>
                     </div>
-                    <div className='discount'>
+                    <div className='Discount'>
                         <p>Available Offers</p>
                         <p>10% Discount on Kotakk Credit and Debit Cards on a min spend of Rs 3,000 TCA</p>
                     </div>
@@ -32,29 +32,31 @@ export default function Cart() {
                     <button>REMOVE</button>
                     <button>MOVE TO WISHLIST</button>
                 </div>
-                <div className='mainAppend'>
-                    <div className='append'>
-                        <div className='imageDiv'>
-                            <img src={url.url.image[0]} alt="" />
-                        </div>
-                        <div className='right-details'>
-                            <div className='details'>
-                                <p>{`${url.url.brand}`}</p>
-                                <p>{`${url.url.description}`}</p>
-                                <p>{`Sold by : ${url.url.brand} Apparels`}</p>
+                {url.cartEle.map((e)=>
+                    <div className='mainAppend'>
+                        <div className='append'>
+                            <div className='imageDiv'>
+                                <img src={e.image[0]} alt="" />
                             </div>
-                            <div className='size-qty'>
-                                <p>Size : M</p>
-                                <select name="" id="">
-                                    <option value="">Qty: 1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
+                            <div className='right-details'>
+                                <div className='Details'>
+                                    <p>{`${e.brand}`}</p>
+                                    <p>{`${e.description}`}</p>
+                                    <p>{`Sold by : ${e.brand} Apparels`}</p>
+                                </div>
+                                <div className='size-qty'>
+                                    <p>Size : M</p>
+                                    <select name="" id="">
+                                        <option value="">Qty: 1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                )}
             </div>
             
 
@@ -81,31 +83,54 @@ export default function Cart() {
                 <p className='see'><span className='login'>Login</span> to see best coupons for you </p>
                 <hr />
                 <div className='final-details'>
-                    <p>PRICE DETAILS</p>
-                    <div className='flex'>
+                    <p className='price-1-details'>PRICE DETAILS</p>
+                    <div className='flex1'>
                         <p>Total MRP</p>
-                        <p>{`Rs. ${url.url.price}`}</p>
+                        <p>{`Rs. ${url.actualPrice}`}</p>
                     </div>
-                    <div className='flex'>
+                    <div className='flex2'>
                         <p>Discount on MRP</p>
-                        <p>{`Rs. ${url.url.strikeOff_price}`}</p>
+                        <p>{`Rs. ${url.discount}`}</p>
                     </div>
-                    <div className='flex'>
+                    <div className='flex3'>
                         <p>Coupon Discoung</p>
                         <p>Apply Coupon</p>
                     </div>
-                    <div className='flex'>
+                    <div className='flex4'>
                         <p>Convenience fee <span>Know more</span></p>
-                        <p><span> Rs.49 </span>FREE</p>
+                        <p><span> Rs.99 </span> FREE</p>
                     </div>
-                    <div className='flex'>
+                    <div className='flex5'>
                         <p>Total Amount</p>
-                        <p>{`${url.url.strikeOff_price}-${url.url.price}`}</p>
+                        <p>{`Rs. ${url.finalPrice}`}</p>
                     </div>
                 </div>
-                <button>PLACE ORDER</button>
+                <button className='placeOrder-btn'>PLACE ORDER</button>
             </div>
         </div>
     </div>
   )
 }
+
+
+{/* <div className='append'>
+                        <div className='imageDiv'>
+                            <img src={url.item.image[0]} alt="" />
+                        </div>
+                        <div className='right-details'>
+                            <div className='Details'>
+                                <p>{`${url.item.brand}`}</p>
+                                <p>{`${url.item.description}`}</p>
+                                <p>{`Sold by : ${url.item.brand} Apparels`}</p>
+                            </div>
+                            <div className='size-qty'>
+                                <p>Size : M</p>
+                                <select name="" id="">
+                                    <option value="">Qty: 1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> */}
