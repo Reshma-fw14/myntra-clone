@@ -1,5 +1,5 @@
 {
-    "flats_heels":[
+    "accessories":[
         {
             "id":1,
             "image":[
@@ -12,7 +12,8 @@
             "description":"Women Pink Mules with Laser Cuts Flats",
             "price":"599",
             "strikeOff-price":"1,199",
-            "offer":"48"
+            "offer":"48",
+            "type":"Flats-Heels"
         },
         {
             "id":2,
@@ -26,7 +27,8 @@
             "description":"Women Black Woven Design Platforms",
             "price":"550",
             "strikeOff-price":"1,299",
-            "offer":"55"
+            "offer":"55",
+            "type":"Flats-Heels"
         },
         {
             "id":3,
@@ -40,7 +42,8 @@
             "description":"Women Brown & Rose Gold-Toned Colourblocked Flats",
             "price":"500",
             "strikeOff-price":"1,099",
-            "offer":"45"
+            "offer":"45",
+            "type":"Flats-Heels"
         },
         {
             "id":4,
@@ -54,7 +57,8 @@
             "description":"Women Brown & Rose Gold-Toned Colourblocked Flats",
             "price":"500",
             "strikeOff-price":"1,099",
-            "offer":"45"
+            "offer":"45",
+            "type":"Flats-Heels"
         },
         {
             "id":5,
@@ -68,7 +72,8 @@
             "description":"Black Velvet Block Gladiators",
             "price":"800",
             "strikeOff-price":"2,099",
-            "offer":"65"
+            "offer":"65",
+            "type":"Flats-Heels"
         },
         {
             "id":6,
@@ -82,7 +87,8 @@
             "description":"Women Gold-Toned Embellished Wedges",
             "price":"900",
             "strikeOff-price":"2,999",
-            "offer":"85"
+            "offer":"85",
+            "type":"Flats-Heels"
         },
         {
             "id":7,
@@ -96,7 +102,8 @@
             "description":"Women Embellished Wedges",
             "price":"600",
             "strikeOff-price":"2,099",
-            "offer":"55"
+            "offer":"55",
+            "type":"Flats-Heels"
         },
         {
             "id":8,
@@ -110,7 +117,8 @@
             "description":"Rose-Gold Toned Shimmer Block Heels",
             "price":"850",
             "strikeOff-price":"2,900",
-            "offer":"95"
+            "offer":"95",
+            "type":"Flats-Heels"
         },
         {
             "id":9,
@@ -124,7 +132,8 @@
             "description":"Women Black & Beige Animal Printed Ballerinas",
             "price":"890",
             "strikeOff-price":"2,500",
-            "offer":"75"
+            "offer":"75",
+            "type":"Flats-Heels"
         },
         {
             "id":10,
@@ -138,7 +147,8 @@
             "description":"Women Black Embellished Open Toe Flats",
             "price":"560",
             "strikeOff-price":"2,000",
-            "offer":"58"
+            "offer":"58",
+            "type":"Flats-Heels"
         },
         {
             "id":11,
@@ -152,7 +162,8 @@
             "description":"Women Pink Solid Pumps",
             "price":"600",
             "strikeOff-price":"2,500",
-            "offer":"68"
+            "offer":"68",
+            "type":"Flats-Heels"
         },
         {
             "id":12,
@@ -166,7 +177,8 @@
             "description":"Women Cream-Coloured Open Toe Flats",
             "price":"250",
             "strikeOff-price":"1,000",
-            "offer":"58"
+            "offer":"58",
+            "type":"Flats-Heels"
         },
         {
             "id":13,
@@ -180,7 +192,8 @@
             "description":"Women Maroon Solid Block Heels",
             "price":"380",
             "strikeOff-price":"1,000",
-            "offer":"59"
+            "offer":"59",
+            "type":"Flats-Heels"
         },
         {
             "id":14,
@@ -194,7 +207,8 @@
             "description":"Women Maroon Solid Block Heels",
             "price":"380",
             "strikeOff-price":"1,000",
-            "offer":"59"
+            "offer":"59",
+            "type":"Flats-Heels"
         },
         {
             "id":15,
@@ -208,14 +222,11 @@
             "description":"Women White Braided Open Toe Flats",
             "price":"590",
             "strikeOff-price":"1,200",
-            "offer":"75"
-        }
-    ],
-
-
-    "bags":[
+            "offer":"75",
+            "type":"Flats-Heels"
+        },
         {
-            "id":1,
+            "id":16,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/524f2c8e-f505-409c-b429-e4b17436c90d1651566650591Strawshoulderbag1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/29f6a2a6-4095-4011-a825-bc51b827f6e21651566650574Strawshoulderbag2.jpg",
@@ -226,10 +237,11 @@
             "description":"Women Black Straw Shoulder Bag",
             "price":"900",
             "strikeOff-price":"1,800",
-            "offer":"65"
+            "offer":"65",
+            "type":"Bags"
         },
         {
-            "id":2,
+            "id":17,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/453d8bde-763f-48b4-bc9c-befa474a31521651838237330-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/b4a7d1f1-5cad-45ef-b5ed-8336bc71862d1651838237303-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-2.jpg",
@@ -240,10 +252,11 @@
             "description":"Off-White Quilted Handheld Bag",
             "price":"1000",
             "strikeOff-price":"1,900",
-            "offer":"56"
+            "offer":"56",
+            "type":"Bags"
         },
         {
-            "id":3,
+            "id":18,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/dc7ed173-ad8c-462c-ad58-6f4686842f471650973430811DressBerryPinkSatchel1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/f0185906-4fc0-408f-a40b-482eaa7199b21650973430822DressBerryPinkSatchel2.jpg",
@@ -254,10 +267,11 @@
             "description":"Pink Satchel",
             "price":"800",
             "strikeOff-price":"1,500",
-            "offer":"66"
+            "offer":"66",
+            "type":"Bags"
         },
         {
-            "id":4,
+            "id":19,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880418-DressBerry-Women-Handbags-7981517381880277-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880394-DressBerry-Women-Handbags-7981517381880277-2.jpg",
@@ -268,10 +282,11 @@
             "description":"Blue Solid Shoulder Bag",
             "price":"1200",
             "strikeOff-price":"1,900",
-            "offer":"46"
+            "offer":"46",
+            "type":"Bags"
         },
         {
-            "id":5,
+            "id":20,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/e9ab12ee-a3bc-485b-b5fc-d609670f3cc31639170681118-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/74fa3164-c128-49e0-a041-79dc6f4064851639170681075-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-3.jpg",
@@ -282,10 +297,11 @@
             "description":"Off-White Embellished Sling Bag",
             "price":"1900",
             "strikeOff-price":"2,900",
-            "offer":"59"
+            "offer":"59",
+            "type":"Bags"
         },
         {
-            "id":6,
+            "id":21,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/93865b6c-4163-461f-a3a5-4ba39a53fdb11650626281059-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/3b0345e9-6d4c-46c7-9213-a8c4a81d5dae1650626281050-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-2.jpg",
@@ -296,10 +312,11 @@
             "description":"Blue & Off-White Colourblocked Handheld Bag",
             "price":"1200",
             "strikeOff-price":"1,900",
-            "offer":"69"
+            "offer":"69",
+            "type":"Bags"
         },
         {
-            "id":7,
+            "id":22,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499093-LaFille-Black-Solid-Handheld-Bag-1461510576498890-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499069-LaFille-Black-Solid-Handheld-Bag-1461510576498890-2.jpg",
@@ -310,10 +327,11 @@
             "description":"Black Solid Handheld Bag",
             "price":"800",
             "strikeOff-price":"1,900",
-            "offer":"69"
+            "offer":"69",
+            "type":"Bags"
         },
         {
-            "id":8,
+            "id":23,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/77d71658-8d5c-46bd-8e12-f0631de2fc351650625076062AllenSollyNavyBlueSolidHandheldBag1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/60181bd7-cce4-4659-9bc8-020450835fdf1650625076124AllenSollyNavyBlueSolidHandheldBag2.jpg",
@@ -324,10 +342,11 @@
             "description":"Navy Blue Solid Handheld Bag",
             "price":"900",
             "strikeOff-price":"2,900",
-            "offer":"56"
+            "offer":"56",
+            "type":"Bags"
         },
         {
-            "id":9,
+            "id":24,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/29589c38-3e04-48b1-b0db-37710bec8d1e1627279693950-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/28e6eebd-daf5-4561-8c25-616accc6bcd41627279693929-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-2.jpg",
@@ -338,10 +357,11 @@
             "description":"Pack of 4 Navy Blue Solid Handbags",
             "price":"1200",
             "strikeOff-price":"2,900",
-            "offer":"66"
+            "offer":"66",
+            "type":"Bags"
         },
         {
-            "id":10,
+            "id":25,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/399560df-5d85-4e6c-9a02-2afc5aac92dc1650625054386BaggitBrownPrintedShoulderBag1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/4e13a0e3-0f68-42f0-a5e1-c5906406515f1650625054425BaggitBrownPrintedShoulderBag2.jpg",
@@ -352,10 +372,11 @@
             "description":"Brown Printed Shoulder Bag",
             "price":"1000",
             "strikeOff-price":"1,900",
-            "offer":"56"
+            "offer":"56",
+            "type":"Bags"
         },
         {
-            "id":11,
+            "id":26,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/41596239-b3d5-4ae3-b1a3-76be74d509451649415598648MANGOBlackSolidLeatherOversizedShopperToteBag1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/27431079-e08b-4b6f-b89a-eef50cd354961649415598657MANGOBlackSolidLeatherOversizedShopperToteBag2.jpg",
@@ -366,10 +387,11 @@
             "description":"Black Solid Leather Oversized Shopper Tote Bag",
             "price":"1200",
             "strikeOff-price":"2,900",
-            "offer":"46"
+            "offer":"46",
+            "type":"Bags"
         },
         {
-            "id":12,
+            "id":27,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/7298750d-6669-45d4-b390-653f9d0be6f51624428653982LapisOLupoTurquoiseBlueSolidHandheldBag1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/8660cedc-ad15-4f62-8026-7866d34daf221624428654169LapisOLupoTurquoiseBlueSolidHandheldBag2.jpg",
@@ -380,10 +402,11 @@
             "description":"Turquoise Blue Solid Handheld Bag",
             "price":"1100",
             "strikeOff-price":"1,800",
-            "offer":"36"
+            "offer":"36",
+            "type":"Bags"
         },
         {
-            "id":13,
+            "id":28,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/36c014e5-2ad0-4e6c-bebb-7ea54810034c1546429718791-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/9f9f7a5d-cb77-4b04-a50d-307f03d1eab01546429718766-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-2.jpg",
@@ -394,10 +417,11 @@
             "description":"Black Solid Shoulder Bag",
             "price":"900",
             "strikeOff-price":"1,800",
-            "offer":"56"
+            "offer":"56",
+            "type":"Bags"
         },
         {
-            "id":14,
+            "id":29,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/a90e66d4-f963-440d-82af-171ed4e3ef981647842861102AnekaantPinkGeometricHalfMoonSlingBagwithTasselled2.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/bd1c4117-a4b9-4db5-955d-4d27e01685c01647842861048AnekaantPinkGeometricHalfMoonSlingBagwithTasselled3.jpg",
@@ -408,10 +432,11 @@
             "description":"Women Pink Embellished Structured Sling Bag with Tasselled",
             "price":"1200",
             "strikeOff-price":"1,900",
-            "offer":"46"
+            "offer":"46",
+            "type":"Bags"
         },
         {
-            "id":15,
+            "id":30,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/6fd611fd-b3b1-4823-a4b9-c39ee9cd472b1584660441102-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/c3633ef8-1c35-4038-8bdf-cc966bb3b3d91584660441156-2.jpg",
@@ -422,10 +447,11 @@
             "description":"Burgundy Solid Handheld Bag",
             "price":"1260",
             "strikeOff-price":"1,800",
-            "offer":"36"
+            "offer":"36",
+            "type":"Bags"
         },
         {
-            "id":16,
+            "id":31,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/0c56d91d-e72c-40ee-bf12-7c6ec91c69df1609569855920-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/7efc0e22-2483-497a-87b0-0d2d2ef2a3cf1609569855966-2.jpg",
@@ -436,14 +462,11 @@
             "description":"Black & White Textured Bucket Sling Bag",
             "price":"1600",
             "strikeOff-price":"2,800",
-            "offer":"56"
-        }
-    ],
-
-
-    "sarees":[
+            "offer":"56",
+            "type":"Bags"
+        },
         {
-            "id":1,
+            "id":32,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/47a50121-df1f-4802-a580-9ef1bb41d0b51647667465576-VASTRANAND-Women-Sarees-151647667464974-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/edaca6fe-1d51-4fa3-b825-189b816a931c1647667465565-VASTRANAND-Women-Sarees-151647667464974-2.jpg",
@@ -454,10 +477,11 @@
             "description":"Pink & Navy Blue Striped Sequinned Floral Applique Saree",
             "price":"899",
             "strikeOff-price":"1,890",
-            "offer":"58"
+            "offer":"58",
+            "type":"Saree"
         },
         {
-            "id":2,
+            "id":33,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/4a457af8-a806-4ab2-9f4f-1f15835599ed1617603803561-Banarasi-border-301617603802640-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/ea3a8350-38cd-4ffc-8aeb-7a906685c3641617603803542-Banarasi-border-301617603802640-2.jpg",
@@ -468,10 +492,11 @@
             "description":"Purple Cotton Blend Solid Banarasi Saree",
             "price":"1099",
             "strikeOff-price":"2,890",
-            "offer":"68"
+            "offer":"68",
+            "type":"Saree"
         },
         {
-            "id":3,
+            "id":34,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/ccd86e66-157e-4355-bebf-8d3eeb24371a1649240536408VAIRAGEEWomenPinkSarees1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/cc63cdc3-73ae-4e91-a81c-f42b1dbd9cf51649240536440VAIRAGEEWomenPinkSarees2.jpg",
@@ -482,10 +507,11 @@
             "description":"Pink Floral Embroidered Net Saree",
             "price":"1199",
             "strikeOff-price":"2,190",
-            "offer":"48"
+            "offer":"48",
+            "type":"Saree"
         },
         {
-            "id":4,
+            "id":35,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/50ca9acb-25f6-4046-b6e4-0075b3f0d79c1650886135846-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/0bbcc623-0a0f-4806-9b49-750fe846270c1650886135838-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-2.jpg",
@@ -496,10 +522,11 @@
             "description":"Peach-Coloured & Gold-Toned Floral Embroidered Tissue Saree",
             "price":"1590",
             "strikeOff-price":"2,250",
-            "offer":"58"
+            "offer":"58",
+            "type":"Saree"
         },
         {
-            "id":5,
+            "id":36,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/5061cea0-2ccc-46df-97c1-9c2625383d831625822806651-Saree-mall-Women-Sarees-5611625822806335-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/025edf0d-4716-4036-bd33-5b27535e08a81625822806632-Saree-mall-Women-Sarees-5611625822806335-2.jpg",
@@ -510,10 +537,11 @@
             "description":"Pink & Blue Floral Dyed Banarasi Sarees",
             "price":"1090",
             "strikeOff-price":"2,050",
-            "offer":"48"
+            "offer":"48",
+            "type":"Saree"
         },
         {
-            "id":6,
+            "id":37,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/a2c32671-3cb9-46cc-81c1-a722ddbf4c1e1621929685104-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/9cf75042-db6b-4021-aec6-ccff8d49b8651621929685125-2.jpg",
@@ -524,10 +552,11 @@
             "description":"Navy Blue Solid Saree",
             "price":"1500",
             "strikeOff-price":"3,050",
-            "offer":"68"
+            "offer":"68",
+            "type":"Saree"
         },
         {
-            "id":7,
+            "id":38,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/3ba56466-68a8-44b0-b044-374d9cb0346c1625803181837-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/010a6043-a897-4308-b667-ce466ae862b21625803181817-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-2.jpg",
@@ -538,10 +567,11 @@
             "description":"Trendy Mauve Sleek Poly Crepe Saree with Embellished Border & Cape",
             "price":"1700",
             "strikeOff-price":"2,050",
-            "offer":"38"
+            "offer":"38",
+            "type":"Saree"
         },
         {
-            "id":8,
+            "id":39,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/9c4613b6-8230-4485-bf01-725808fe5bf21646301812362-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/ae6e85f8-4d0d-40ee-b98e-27bd2970b0951646301812341-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-2.jpg",
@@ -552,10 +582,11 @@
             "description":"Coffee Brown & Golden Silk Blend Saree",
             "price":"1650",
             "strikeOff-price":"3,050",
-            "offer":"88"
+            "offer":"88",
+            "type":"Saree"
         },
         {
-            "id":9,
+            "id":40,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/c177b0a1-c65a-4de4-bc27-413b142c04ca1642576714005-VASTRANAND-Women-Sarees-9621642576713352-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/019a943a-853b-4795-9082-9e41eac5d5611642576713995-VASTRANAND-Women-Sarees-9621642576713352-2.jpg",
@@ -566,10 +597,11 @@
             "description":"Peach-Coloured Ethnic Motifs Embroidered Saree",
             "price":"2650",
             "strikeOff-price":"4,050",
-            "offer":"68"
+            "offer":"68",
+            "type":"Saree"
         },
         {
-            "id":10,
+            "id":41,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/591ce221-67ec-4d51-a3ef-b0e88dfa3b531649158789557-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/c4dd3010-085d-465e-9c90-867719fdfc631649158789546-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-2.jpg",
@@ -580,14 +612,11 @@
             "description":"Purple Woven Design Silk Blend Saree",
             "price":"650",
             "strikeOff-price":"1,050",
-            "offer":"38"
-        }
-    ],
-
-
-    "jewellery":[
+            "offer":"38",
+            "type":"Saree"
+        },
         {
-            "id":1,
+            "id":42,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/608a2d2d-b074-437a-883a-0a7bd087802a1575637859763-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/acbe9805-49e0-486c-94a4-d469699e65e11575637859727-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-2.jpg",
@@ -598,10 +627,11 @@
             "description":"Rose Gold-Plated CZ & American Diamond Studded Handcrafted Jewellery Set",
             "price":"1650",
             "strikeOff-price":"2,050",
-            "offer":"28"
+            "offer":"28",
+            "type":"Jewellery"
         },
         {
-            "id":2,
+            "id":43,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/adbc4f44-e454-46a9-8d0d-709b4ee9aa4f1632488694020AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/ce7828eb-08d0-48e0-96e4-cd6fb32203e11632488694399AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis2.jpg",
@@ -612,10 +642,11 @@
             "description":"Women Rose Gold Brass Cubic Zirconia Rose Gold-Plated Wraparound Bracelet",
             "price":"650",
             "strikeOff-price":"1,050",
-            "offer":"35"
+            "offer":"35",
+            "type":"Jewellery"
         },
         {
-            "id":3,
+            "id":44,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/0ed8032d-3434-4fb2-97df-1395e33bb3601627102684650RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/e4dafdf9-0a62-4610-8f95-9c85b06d88f21627102684341RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit3.jpg",
@@ -626,10 +657,11 @@
             "description":"Rose Gold-Plated White AD-Studded Handcrafted Jewellery Set",
             "price":"1550",
             "strikeOff-price":"2,550",
-            "offer":"56"
+            "offer":"56",
+            "type":"Jewellery"
         },
         {
-            "id":4,
+            "id":45,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/12/23/b26dfaf8-cbaa-47ab-87a7-328380961aea1640239937665-Rubans-White--Rose-Gold-Plated-Handcrafted-Zirconia-Stone-Je-11.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/9/18/c452a6ad-6ea3-45f9-90d5-8f5093c7a1fb1631969514513RubansGoldPlatedHandcraftedZirconStoneNecklaceSet1.jpg",
@@ -640,10 +672,11 @@
             "description":"White & Rose Gold Plated Handcrafted Zirconia Stone Jewellery Set",
             "price":"1250",
             "strikeOff-price":"2,050",
-            "offer":"45"
+            "offer":"45",
+            "type":"Jewellery"
         },
         {
-            "id":5,
+            "id":46,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/614a9c82-5256-4392-9435-72385b5c6b9e1630480580890AMIRoseGoldContemporaryDropEarrings1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/509e1a18-ddc6-4064-b089-049560618add1630480581085AMIRoseGoldContemporaryDropEarrings2.jpg",
@@ -654,10 +687,11 @@
             "description":"Rose Gold Contemporary Drop Earrings",
             "price":"950",
             "strikeOff-price":"2,250",
-            "offer":"35"
+            "offer":"35",
+            "type":"Jewellery"
         },
         {
-            "id":6,
+            "id":47,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/97a7aead-7b5d-4f88-92d3-cc3cdf94e8161622211392355-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/1d0fe737-50e4-42ab-9499-86879d8ded7b1622211392368-2.jpg",
@@ -668,10 +702,11 @@
             "description":"White & Rose Gold-Plated AD Feather Shaped Drop Earrings",
             "price":"1800",
             "strikeOff-price":"3,250",
-            "offer":"42"
+            "offer":"42",
+            "type":"Jewellery"
         },
         {
-            "id":7,
+            "id":48,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/1c78ad82-61df-4e2d-82eb-1ec62022be831638507696049GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/98ded6d0-4cc2-4bf7-a7fe-01c2da31d93b1638507696578GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet2.jpg",
@@ -682,10 +717,11 @@
             "description":"Rose Gold-Plated AD & CZ-Studded Jewellery Set",
             "price":"1900",
             "strikeOff-price":"3,550",
-            "offer":"32"
+            "offer":"32",
+            "type":"Jewellery"
         },
         {
-            "id":8,
+            "id":49,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/9c5b1b41-3dfe-43e7-b23c-2cfc8c0e10521616587405415-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/369698cc-19ab-4ecd-9314-0aa2068042ae1616587405460-3.jpg",
@@ -696,10 +732,11 @@
             "description":"Pink Contemporary Drop Earrings",
             "price":"1500",
             "strikeOff-price":"3,150",
-            "offer":"38"
+            "offer":"38",
+            "type":"Jewellery"
         },
         {
-            "id":9,
+            "id":50,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/ea7f876c-02cc-459f-bec8-fe46efa5e0351609936934662-4.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/1062faa4-8499-4a69-8a65-10ec0824036a1609936934567-2.jpg",
@@ -710,10 +747,11 @@
             "description":"Rose Gold-Plated Pink & White CZ-Studded Handcrafted Jewellery Set",
             "price":"1300",
             "strikeOff-price":"2,150",
-            "offer":"58"
+            "offer":"58",
+            "type":"Jewellery"
         },
         {
-            "id":10,
+            "id":51,
             "image":[
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/ef2b93b8-f87d-49e7-b32b-a2199d506eaa1625474424394-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/53856fce-4bfb-46f1-8a52-2af766dc7ca31625474424403-2.jpg",
@@ -724,8 +762,8 @@
             "description":"Rose Gold Contemporary Drop Earrings",
             "price":"1414",
             "strikeOff-price":"2,260",
-            "offer":"68"
+            "offer":"68",
+            "type":"Jewellery"
         }
     ]
-
 }

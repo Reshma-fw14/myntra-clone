@@ -1,5 +1,5 @@
 {
-    "kurta_sets":[
+    "fashion":[
         {
             "id":1,
             "image":[
@@ -11,8 +11,11 @@
             "brand":"Libas",
             "description":"Women Beige Ethnic Print Straight Kurta Set With Side Pockets",
             "price":"911",
-            "strikeOff-price":"2,199",
-            "offer":"48"
+            "strikeOff_price":"2,199",
+            "offer":"48",
+            "gender":"Women",
+            "type":"Kurta-Sets"
+            
         },
         {
             "id":2,
@@ -25,8 +28,10 @@
             "brand":"Libas",
             "description":"Women Beige & Mustard Yellow Zari Woven Design Straight Kurta Trousers Dupatta",
             "price":"3500",
-            "strikeOff-price":"4,199",
-            "offer":"38"
+            "strikeOff_price":"4,199",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":3,
@@ -39,8 +44,10 @@
             "brand":"Libas",
             "description":"Women Green Pure Cotton Kurta with Palazzos & With Dupatta",
             "price":"2500",
-            "strikeOff-price":"3,199",
-            "offer":"28"
+            "strikeOff_price":"3,199",
+            "offer":"28",
+            "gender":"Women",
+            "type":"Kurta-Sets"
         },
         {
             "id":4,
@@ -53,8 +60,10 @@
             "brand":"Libas",
             "description":"Women Pink & Silver Printed Kurta with Palazzos & Dupatta",
             "price":"1500",
-            "strikeOff-price":"2,199",
-            "offer":"42"
+            "strikeOff_price":"2,199",
+            "offer":"42",
+            "gender":"Women",
+            "type":"Kurta-Sets"
         },
         {
             "id":5,
@@ -67,8 +76,10 @@
             "brand":"Libas",
             "description":"Women Navy Blue & Beige Printed Anarkali Kurta",
             "price":"1200",
-            "strikeOff-price":"2,000",
-            "offer":"38"
+            "strikeOff_price":"2,000",
+            "offer":"38",
+            "gender":"Women",
+            "type":"Kurta-Sets"
         },
         {
             "id":6,
@@ -81,8 +92,10 @@
             "brand":"Libas",
             "description":"Thread Work Detailed Straight Kurta in Mustard Yellow",
             "price":"1580",
-            "strikeOff-price":"2,090",
-            "offer":"29"
+            "strikeOff_price":"2,090",
+            "offer":"29",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":7,
@@ -95,8 +108,10 @@
             "brand":"Libas",
             "description":"Women Pleated Purple Dress",
             "price":"459",
-            "strikeOff-price":"2,330",
-            "offer":"80"
+            "strikeOff_price":"2,330",
+            "offer":"80",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":8,
@@ -109,8 +124,10 @@
             "brand":"Libas ",
             "description":"Women Asymmetric Purple Dress",
             "price":"559",
-            "strikeOff-price":"2,130",
-            "offer":"70"
+            "strikeOff_price":"2,130",
+            "offer":"70",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":9,
@@ -123,8 +140,10 @@
             "brand":"Libas",
             "description":"Women Maxi Red Dress With Mask",
             "price":"659",
-            "strikeOff-price":"2,530",
-            "offer":"90"
+            "strikeOff_price":"2,530",
+            "offer":"90",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":10,
@@ -137,11 +156,11 @@
             "brand":"Libas",
             "description":"Women Wrap Pink Dress",
             "price":"1239",
-            "strikeOff-price":"2,580",
-            "offer":"80"
+            "strikeOff_price":"2,580",
+            "offer":"80",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
-
-
         {
             "id":11,
             "image":[
@@ -153,8 +172,10 @@
             "brand":"Biba",
             "description":"Women Green Printed Kurta with Trousers",
             "price":"1500",
-            "strikeOff-price":"2,090",
-            "offer":"38"
+            "strikeOff_price":"2,090",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":12,
@@ -167,8 +188,10 @@
             "brand":"Biba",
             "description":"Women Bodycon Multicolor Dress",
             "price":"570",
-            "strikeOff-price":"1,550",
-            "offer":"55"
+            "strikeOff_price":"1,550",
+            "offer":"55",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":13,
@@ -181,8 +204,10 @@
             "brand":"Biba",
             "description":"Women Pink Pure Cotton Ethnic Motifs Printed V-Neck Sleeveless Kurta",
             "price":"1700",
-            "strikeOff-price":"2,300",
-            "offer":"45"
+            "strikeOff_price":"2,300",
+            "offer":"45",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":14,
@@ -195,8 +220,10 @@
             "brand":"Biba",
             "description":"Women Navy Blue & Navy Blue Printed Kurta",
             "price":"1799",
-            "strikeOff-price":"2,450",
-            "offer":"26"
+            "strikeOff_price":"2,450",
+            "offer":"26",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":15,
@@ -209,8 +236,10 @@
             "brand":"Biba",
             "description":"Blue & Off White Floral Halter Neck Midi Dress",
             "price":"1255",
-            "strikeOff-price":"2,050",
-            "offer":"56"
+            "strikeOff_price":"2,050",
+            "offer":"56",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":16,
@@ -223,8 +252,10 @@
             "brand":"Biba",
             "description":"Women Off-White & Black Printed Kurta with Palazzos & Dupatta",
             "price":"1690",
-            "strikeOff-price":"2,300",
-            "offer":"43"
+            "strikeOff_price":"2,300",
+            "offer":"43",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":17,
@@ -237,8 +268,10 @@
             "brand":"Biba",
             "description":"Women Navy Blue & Beige Printed Anarkali Kurta",
             "price":"1200",
-            "strikeOff-price":"2,000",
-            "offer":"38"
+            "strikeOff_price":"2,000",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":18,
@@ -251,8 +284,10 @@
             "brand":"Biba",
             "description":"Thread Work Detailed Straight Kurta in Mustard Yellow",
             "price":"1580",
-            "strikeOff-price":"2,090",
-            "offer":"29"
+            "strikeOff_price":"2,090",
+            "offer":"29",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":19,
@@ -265,8 +300,10 @@
             "brand":"Biba",
             "description":"Women Maxi Dark Blue Dress",
             "price":"699",
-            "strikeOff-price":"1,280",
-            "offer":"30"
+            "strikeOff_price":"1,280",
+            "offer":"30",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":20,
@@ -279,8 +316,10 @@
             "brand":"Biba",
             "description":"Red & Gold-Toned Ethnic Motifs Maxi Dress",
             "price":"1260",
-            "strikeOff-price":"2,200",
-            "offer":"39"
+            "strikeOff_price":"2,200",
+            "offer":"39",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":21,
@@ -293,8 +332,10 @@
             "brand":"W",
             "description":"Women Lime Green & White Sequinned Ethnic Printed Straight Kurta",
             "price":"1150",
-            "strikeOff-price":"2,050",
-            "offer":"28"
+            "strikeOff_price":"2,050",
+            "offer":"28",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":22,
@@ -307,8 +348,10 @@
             "brand":"W",
             "description":"Women Peach-Coloured & Off-White Solid Straight Kurta",
             "price":"1250",
-            "strikeOff-price":"2,300",
-            "offer":"38"
+            "strikeOff_price":"2,300",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":23,
@@ -321,8 +364,10 @@
             "brand":"W",
             "description":"Women Mustard Yellow & Golden Zari Work Layered Straight Kurta",
             "price":"1350",
-            "strikeOff-price":"2,450",
-            "offer":"51"
+            "strikeOff_price":"2,450",
+            "offer":"51",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":24,
@@ -335,8 +380,10 @@
             "brand":"W",
             "description":"Women Yellow Solid Kurta",
             "price":"999",
-            "strikeOff-price":"2,100",
-            "offer":"48"
+            "strikeOff_price":"2,100",
+            "offer":"48",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":25,
@@ -349,8 +396,10 @@
             "brand":"W",
             "description":"Women Green & Off-White Striped Straight Kurta",
             "price":"1299",
-            "strikeOff-price":"2,900",
-            "offer":"58"
+            "strikeOff_price":"2,900",
+            "offer":"58",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":26,
@@ -363,8 +412,10 @@
             "brand":"W",
             "description":"Women Off-White & Charcoal Grey Self-Checked Layered A-Line Kurta",
             "price":"1160",
-            "strikeOff-price":"2,650",
-            "offer":"38"
+            "strikeOff_price":"2,650",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":27,
@@ -377,8 +428,10 @@
             "brand":"W",
             "description":"Women Pink & Off White Dyed Thread Work Pastels Kurta",
             "price":"1200",
-            "strikeOff-price":"2,450",
-            "offer":"38"
+            "strikeOff_price":"2,450",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":28,
@@ -391,8 +444,10 @@
             "brand":"W",
             "description":"Women Black & Pink Geometric Yoke Design Straight Kurta",
             "price":"1100",
-            "strikeOff-price":"2,200",
-            "offer":"56"
+            "strikeOff_price":"2,200",
+            "offer":"56",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":29,
@@ -405,8 +460,10 @@
             "brand":"W",
             "description":"Women Orange & Black Colourblocked Scarf",
             "price":"1300",
-            "strikeOff-price":"2,800",
-            "offer":"59"
+            "strikeOff_price":"2,800",
+            "offer":"59",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":30,
@@ -419,8 +476,10 @@
             "brand":"W",
             "description":"Women Mustard Yellow & White Printed A-Line Kurta",
             "price":"1560",
-            "strikeOff-price":"2,900",
-            "offer":"69"
+            "strikeOff_price":"2,900",
+            "offer":"69",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
 
         {
@@ -434,8 +493,10 @@
             "brand":"ONLY",
             "description":"Maroon Schiffli Embroidered Shirt Style Top with Gathers",
             "price":"999",
-            "strikeOff-price":"2,050",
-            "offer":"58"
+            "strikeOff_price":"2,050",
+            "offer":"58",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":32,
@@ -448,8 +509,10 @@
             "brand":"ONLY",
             "description":"Women Mustard Yellow & Red Floral Printed A-Line Dress",
             "price":"1230",
-            "strikeOff-price":"2,590",
-            "offer":"29"
+            "strikeOff_price":"2,590",
+            "offer":"29",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":33,
@@ -462,8 +525,10 @@
             "brand":"ONLY",
             "description":"Women Pink Solid T-shirt",
             "price":"519",
-            "strikeOff-price":"1,590",
-            "offer":"69"
+            "strikeOff_price":"1,590",
+            "offer":"69",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":34,
@@ -476,8 +541,10 @@
             "brand":"ONLY",
             "description":"Navy Blue Basic Jumpsuit",
             "price":"1749",
-            "strikeOff-price":"1,990",
-            "offer":"18"
+            "strikeOff_price":"1,990",
+            "offer":"18",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":35,
@@ -490,8 +557,10 @@
             "brand":"ONLY",
             "description":"Women Pink & White Striped T-shirt",
             "price":"1189",
-            "strikeOff-price":"2,990",
-            "offer":"85"
+            "strikeOff_price":"2,990",
+            "offer":"85",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":36,
@@ -504,8 +573,10 @@
             "brand":"ONLY",
             "description":"Women Beige & White Checked Basic Jumpsuit",
             "price":"1359",
-            "strikeOff-price":"2,560",
-            "offer":"59"
+            "strikeOff_price":"2,560",
+            "offer":"59",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":37,
@@ -518,8 +589,10 @@
             "brand":"ONLY",
             "description":"Violet Checked Blazer",
             "price":"1650",
-            "strikeOff-price":"2,999",
-            "offer":"38"
+            "strikeOff_price":"2,999",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":38,
@@ -532,8 +605,10 @@
             "brand":"ONLY",
             "description":"Women Silver-Toned Self Design Playsuit",
             "price":"1230",
-            "strikeOff-price":"2,690",
-            "offer":"28"
+            "strikeOff_price":"2,690",
+            "offer":"28",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":39,
@@ -546,8 +621,10 @@
             "brand":"ONLY",
             "description":"Women Pink Solid Basic Jumpsuit",
             "price":"1530",
-            "strikeOff-price":"2,890",
-            "offer":"38"
+            "strikeOff_price":"2,890",
+            "offer":"38",
+            "type":"Kurta-Sets",
+            "gender":"Women"
         },
         {
             "id":40,
@@ -560,8 +637,2267 @@
             "brand":"ONLY",
             "description":"Women Rust Red Solid Gathered Peplum Top with Tie-Up Neck",
             "price":"799",
-            "strikeOff-price":"1,890",
-            "offer":"58"
+            "strikeOff_price":"1,890",
+            "offer":"58", 
+            "type":"Kurta-Sets",
+             "gender":"Women"
+        },
+        {
+            "id":41,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/t/g/w/m-ut-3006-aask-original-imag7xssme44aynm.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/j/h/n/m-ut-3006-aask-original-imag7xssq8f9dzx4.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/y/4/2/m-ut-3006-aask-original-imag7xssnsx4fk5z.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/q/m/p/m-ut-3006-aask-original-imag7xsszxz6zade.jpeg?q=70"
+            ],
+            "brand":"AASK",
+            "description":"Women Pleated Purple Dress",
+            "price":"459",
+            "strikeOff_price":"2,330",
+           "type":"Kurti",
+            "offer":"80",
+            "gender":"Women"
+        },
+        {
+            "id":42,
+            "image":[
+                "https://rukminim2.flixcart.com/image/128/128/krtjgcw0/dress/7/h/m/xxl-ruby-26-purvaja-original-imag5jykzsyyf6me.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/4/b/f/xxl-ruby-26-purvaja-original-imag5jykyaacbcp6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/z/u/f/xxl-ruby-26-purvaja-original-imag5jykmapbpw3k.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/4/d/p/xxl-ruby-26-purvaja-original-imag5jyk9mhrnszg.jpeg?q=70"
+            ],
+            "brand":"PURVAJA ",
+            "description":"Women Asymmetric Purple Dress",
+            "price":"559",
+            "strikeOff_price":"2,130",
+           "type":"Kurti",
+            "offer":"70",
+            "gender":"Women"
+        },
+        
+        {
+            "id":43,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/7/f/c/xs-a1204-sheetal-associates-original-imag9xt9czmjmzrz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/q/a/h/xs-a1204-sheetal-associates-original-imag9xt9srdfruty.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/y/g/1/xs-a1204-sheetal-associates-original-imag9xt9yyvkvpum.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/b/h/c/xs-a1204-sheetal-associates-original-imag9xt9rczejudx.jpeg?q=70"
+            ],
+            "brand":"Sheetal Associates",
+            "description":"Women Wrap Pink Dress",
+            "price":"1239",
+            "strikeOff_price":"2,580",
+           "type":"Kurti",
+            "offer":"80",
+            "gender":"Women"
+        },
+        {
+            "id":44,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/b/b/p/xl-6623-lbl-metronaut-original-imagbvzdbzeqkzd7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/j/b/e/xl-6623-lbl-metronaut-original-imagbvzdwzadufsd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/o/1/p/xl-6623-lbl-metronaut-original-imagbvzdgz6eqfx7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/z/0/u/xl-6623-lbl-metronaut-original-imagbvzd7hvtnnmf.jpeg?q=70"
+            ],
+            "brand":"METRONAUT",
+            "description":"Women Pinafore Light Blue Dress",
+            "price":"499",
+            "strikeOff_price":"1,580",
+           "type":"Kurti",
+            "offer":"60",
+            "gender":"Women"
+        },
+        {
+            "id":45,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4ydbzg3g8.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g5hccgeazj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4qp3u2kc6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4rcfz6r9c.jpeg?q=70"
+            ],
+            "brand":"Miss Chase",
+            "description":"Women Maxi Dark Blue Dress",
+            "price":"699",
+            "strikeOff_price":"1,280",
+           "type":"Kurti",
+            "offer":"30",
+            "gender":"Women"
+        },
+        {
+            "id":46,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/b/e/s/xl-276tk7025-selvia-original-imagac3y4bfdggvr.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/k/a/o/xl-276tk7025-selvia-original-imagac3yuu2rrnzj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/1/7/k/s-276tk7025-selvia-original-imagac3yeghqpbfy.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/k/d/e/xl-276tk7025-selvia-original-imagac3yc62czzh3.jpeg?q=70"
+            ],
+            "brand":"Selvia",
+            "description":"Women Sheath Black Dress",
+            "price":"599",
+            "strikeOff_price":"1,150",
+           "type":"Kurti",
+            "offer":"40",
+            "gender":"Women"
+        },
+        {
+            "id":47,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kcc9q4w0/dress/z/c/h/m-rddr-015-rudraaksha-original-imafthtx7zbpzzqv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/xxl-rddr-015-rudraaksha-original-imafhnm3bpjz5yyv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/xl-rddr-015-rudraaksha-original-imafhnm3gzuchuyq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/s-rddr-015-rudraaksha-original-imafhnm38zrhzggs.jpeg?q=70"
+            ],
+            "brand":"Rudraaksha",
+            "description":"Women Maxi Pink Dress With Mask",
+            "price":"450",
+            "strikeOff_price":"1,050",
+           "type":"Kurti",
+            "offer":"63",
+            "gender":"Women"
+        },
+        {
+            "id":48,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kflftzk0/dress/w/9/y/s-mcss17d07-87-139-miss-chase-original-imafwysdv7rgccub.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhzft6bnrz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhmenpyzd7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhhfwhb7bh.jpeg?q=70"
+            ],
+            "brand":"Miss Chase",
+            "description":"Women Bodycon Multicolor Dress",
+            "price":"570",
+            "strikeOff_price":"1,550",
+           "type":"Kurti",
+            "offer":"55",
+            "gender":"Women"
+        },
+        {
+            "id":49,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/m-7989993-here-now-original-imafgbbq5gm5vnue.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/xl-7989993-here-now-original-imafgbbqhgut53qj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/s-7989993-here-now-original-imafgbbs8yggehhm.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/xl-7989993-here-now-original-imafgbbrwb5ejyvx.jpeg?q=70"
+            ],
+            "brand":"HERE&NOW",
+            "description":"Women Gathered Maroon Dress",
+            "price":"970",
+            "strikeOff_price":"1,980",
+           "type":"Kurti",
+            "offer":"62",
+            "gender":"Women"
+        },
+        {
+            "id":50,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xxl-dress-222-daevish-original-imafvdszjyqswqjq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xl-dress-222-daevish-original-imafvdszkvgrh86j.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xxl-dress-222-daevish-original-imafvdszuueqyrde.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xl-dress-222-daevish-original-imafvdsz4rpvya48.jpeg?q=70"
+            ],
+            "brand":"Purshottam Wala",
+            "description":"Women Fit and Flare Black Dress",
+            "price":"760",
+            "strikeOff_price":"1,150",
+           "type":"Kurti",
+            "offer":"42",
+            "gender":"Women"
+        },
+        {
+            "id":51,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/i/h/b/m-wrap-dress-dazeel-original-imag43spcsazukzv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/o/b/n/m-wrap-dress-dazeel-original-imag43spgunmw8p4.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/f/c/x/m-wrap-dress-dazeel-original-imag43spgfun2bae.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/j/m/z/m-wrap-dress-dazeel-original-imag43sphfhvdubq.jpeg?q=70"
+            ],
+            "brand":"Dazeel",
+            "description":"Women Wrap Maroon Dress",
+            "price":"860",
+            "strikeOff_price":"1,350",
+           "type":"Kurti",
+            "offer":"62",
+            "gender":"Women"
+        },
+        {
+            "id":52,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/w/g/c/m-bcl-001-brucella-original-imafx82k5ssbyxg3.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/q/u/s/m-bcl-001-brucella-original-imafx82kygtjn4uz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/y/0/s/m-bcl-001-brucella-original-imafx82kh9h4hgrh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/i/k/5/m-bcl-001-brucella-original-imafx82kqxgzyygy.jpeg?q=70"
+            ],
+            "brand":"Brucella",
+            "description":"Women Skater Light Blue Dress",
+            "price":"860",
+            "strikeOff_price":"1,750",
+           "type":"Kurti",
+            "offer":"49",
+            "gender":"Women"
+        },
+        {
+            "id":53,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/m-sfdrss1921-sassafras-original-imafvb8mnpjcfegq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/l-sfdrss1921-sassafras-original-imafvb8ms4udgqve.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/xs-sfdrss1921-sassafras-original-imafvb8mn9yykczf.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/xs-sfdrss1921-sassafras-original-imafvb8mckggeawf.jpeg?q=70"
+            ],
+            "brand":"SASSAFRAS",
+            "description":"Women Skater Orange Dress",
+            "price":"650",
+            "strikeOff_price":"1,230",
+           "type":"Kurti",
+            "offer":"39",
+            "gender":"Women"
+        },
+        {
+            "id":54,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/t/g/w/m-ut-3006-aask-original-imag7xssme44aynm.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/j/h/n/m-ut-3006-aask-original-imag7xssq8f9dzx4.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/y/4/2/m-ut-3006-aask-original-imag7xssnsx4fk5z.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kuwzssw0/dress/q/m/p/m-ut-3006-aask-original-imag7xsszxz6zade.jpeg?q=70"
+            ],
+            "brand":"AASK",
+            "description":"Women Pleated Purple Dress",
+            "price":"459",
+            "strikeOff_price":"2,330",
+           "type":"Kurti",
+            "offer":"80",
+            "gender":"Women"
+        },
+        {
+            "id":55,
+            "image":[
+                "https://rukminim2.flixcart.com/image/128/128/krtjgcw0/dress/7/h/m/xxl-ruby-26-purvaja-original-imag5jykzsyyf6me.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/4/b/f/xxl-ruby-26-purvaja-original-imag5jykyaacbcp6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/z/u/f/xxl-ruby-26-purvaja-original-imag5jykmapbpw3k.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/krtjgcw0/dress/4/d/p/xxl-ruby-26-purvaja-original-imag5jyk9mhrnszg.jpeg?q=70"
+            ],
+            "brand":"PURVAJA ",
+            "description":"Women Asymmetric Purple Dress",
+            "price":"559",
+            "strikeOff_price":"2,130",
+           "type":"Kurti",
+            "offer":"70",
+            "gender":"Women"
+        },
+        {
+            "id":56,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kc3p30w0/dress/q/c/w/xl-lsdr4589-lady-stark-original-imaftaznddzhh53n.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksgehzk0/dress/7/h/d/m-lsdr4589-lady-stark-original-imag6ygyzw7d3mfb.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksgehzk0/dress/x/z/9/m-lsdr4589-lady-stark-original-imag6ygyzyc8fzhg.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksgehzk0/dress/j/3/g/m-lsdr4589-lady-stark-original-imag6ygyqsu26tza.jpeg?q=70"
+            ],
+            "brand":"Lady Stark",
+            "description":"Women Maxi Red Dress With Mask",
+            "price":"659",
+            "strikeOff_price":"2,530",
+           "type":"Kurti",
+            "offer":"90",
+            "gender":"Women"
+        },
+        {
+            "id":57,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/7/f/c/xs-a1204-sheetal-associates-original-imag9xt9czmjmzrz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/q/a/h/xs-a1204-sheetal-associates-original-imag9xt9srdfruty.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/y/g/1/xs-a1204-sheetal-associates-original-imag9xt9yyvkvpum.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxhvf680/dress/b/h/c/xs-a1204-sheetal-associates-original-imag9xt9rczejudx.jpeg?q=70"
+            ],
+            "brand":"Sheetal Associates",
+            "description":"Women Wrap Pink Dress",
+            "price":"1239",
+            "strikeOff_price":"2,580",
+           "type":"Kurti",
+            "offer":"80",
+            "gender":"Women"
+        },
+        {
+            "id":58,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/b/b/p/xl-6623-lbl-metronaut-original-imagbvzdbzeqkzd7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/j/b/e/xl-6623-lbl-metronaut-original-imagbvzdwzadufsd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/o/1/p/xl-6623-lbl-metronaut-original-imagbvzdgz6eqfx7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kzzw5u80/dress/z/0/u/xl-6623-lbl-metronaut-original-imagbvzd7hvtnnmf.jpeg?q=70"
+            ],
+            "brand":"METRONAUT",
+            "description":"Women Pinafore Light Blue Dress",
+            "price":"499",
+            "strikeOff_price":"1,580",
+           "type":"Kurti",
+            "offer":"60",
+            "gender":"Women"
+        },
+        {
+            "id":59,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4ydbzg3g8.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g5hccgeazj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4qp3u2kc6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kfvfwy80/dress/d/z/r/m-mcaw17d10-37-71-miss-chase-original-imafw8g4rcfz6r9c.jpeg?q=70"
+            ],
+            "brand":"Miss Chase",
+            "description":"Women Maxi Dark Blue Dress",
+            "price":"699",
+            "strikeOff_price":"1,280",
+           "type":"Kurti",
+            "offer":"30",
+            "gender":"Women"
+        },
+        {
+            "id":60,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/b/e/s/xl-276tk7025-selvia-original-imagac3y4bfdggvr.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/k/a/o/xl-276tk7025-selvia-original-imagac3yuu2rrnzj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/1/7/k/s-276tk7025-selvia-original-imagac3yeghqpbfy.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ky0g58w0/dress/k/d/e/xl-276tk7025-selvia-original-imagac3yc62czzh3.jpeg?q=70"
+            ],
+            "brand":"Selvia",
+            "description":"Women Sheath Black Dress",
+            "price":"599",
+            "strikeOff_price":"1,150",
+           "type":"Kurti",
+            "offer":"40",
+            "gender":"Women"
+        },
+        {
+            "id":61,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kcc9q4w0/dress/z/c/h/m-rddr-015-rudraaksha-original-imafthtx7zbpzzqv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/xxl-rddr-015-rudraaksha-original-imafhnm3bpjz5yyv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/xl-rddr-015-rudraaksha-original-imafhnm3gzuchuyq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/k29bvrk0/dress/z/c/h/s-rddr-015-rudraaksha-original-imafhnm38zrhzggs.jpeg?q=70"
+            ],
+            "brand":"Rudraaksha",
+            "description":"Women Maxi Pink Dress With Mask",
+            "price":"450",
+            "strikeOff_price":"1,050",
+           "type":"Kurti",
+            "offer":"63",
+            "gender":"Women"
+        },
+        {
+            "id":62,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kflftzk0/dress/w/9/y/s-mcss17d07-87-139-miss-chase-original-imafwysdv7rgccub.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhzft6bnrz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhmenpyzd7.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jxf05u80/dress/w/9/y/l-mcss17d07-87-139-miss-chase-original-imafhvzhhfwhb7bh.jpeg?q=70"
+            ],
+            "brand":"Miss Chase",
+            "description":"Women Bodycon Multicolor Dress",
+            "price":"570",
+            "strikeOff_price":"1,550",
+           "type":"Kurti",
+            "offer":"55",
+            "gender":"Women"
+        },
+        {
+            "id":63,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/m-7989993-here-now-original-imafgbbq5gm5vnue.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/xl-7989993-here-now-original-imafgbbqhgut53qj.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/s-7989993-here-now-original-imafgbbs8yggehhm.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/jve4pe80/dress/w/u/e/xl-7989993-here-now-original-imafgbbrwb5ejyvx.jpeg?q=70"
+            ],
+            "brand":"HERE&NOW",
+            "description":"Women Gathered Maroon Dress",
+            "price":"970",
+            "strikeOff_price":"1,980",
+           "type":"Kurti",
+            "offer":"62",
+            "gender":"Women"
+        },
+        {
+            "id":64,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xxl-dress-222-daevish-original-imafvdszjyqswqjq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xl-dress-222-daevish-original-imafvdszkvgrh86j.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xxl-dress-222-daevish-original-imafvdszuueqyrde.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kesv0y80/dress/v/n/7/xl-dress-222-daevish-original-imafvdsz4rpvya48.jpeg?q=70"
+            ],
+            "brand":"Purshottam Wala",
+            "description":"Women Fit and Flare Black Dress",
+            "price":"760",
+            "strikeOff_price":"1,150",
+           "type":"Kurti",
+            "offer":"42",
+            "gender":"Women"
+        },
+        {
+            "id":65,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/i/h/b/m-wrap-dress-dazeel-original-imag43spcsazukzv.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/o/b/n/m-wrap-dress-dazeel-original-imag43spgunmw8p4.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/f/c/x/m-wrap-dress-dazeel-original-imag43spgfun2bae.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kpzt7680/dress/j/m/z/m-wrap-dress-dazeel-original-imag43sphfhvdubq.jpeg?q=70"
+            ],
+            "brand":"Dazeel",
+            "description":"Women Wrap Maroon Dress",
+            "price":"860",
+            "strikeOff_price":"1,350",
+           "type":"Kurti",
+            "offer":"62",
+            "gender":"Women"
+        },
+        {
+            "id":66,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/w/g/c/m-bcl-001-brucella-original-imafx82k5ssbyxg3.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/q/u/s/m-bcl-001-brucella-original-imafx82kygtjn4uz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/y/0/s/m-bcl-001-brucella-original-imafx82kh9h4hgrh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/dress/i/k/5/m-bcl-001-brucella-original-imafx82kqxgzyygy.jpeg?q=70"
+            ],
+            "brand":"Brucella",
+            "description":"Women Skater Light Blue Dress",
+            "price":"860",
+            "strikeOff_price":"1,750",
+           "type":"Kurti",
+            "offer":"49",
+            "gender":"Women"
+        },
+        {
+            "id":67,
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/m-sfdrss1921-sassafras-original-imafvb8mnpjcfegq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/l-sfdrss1921-sassafras-original-imafvb8ms4udgqve.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/xs-sfdrss1921-sassafras-original-imafvb8mn9yykczf.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/keokpe80/dress/9/y/z/xs-sfdrss1921-sassafras-original-imafvb8mckggeawf.jpeg?q=70"
+            ],
+            "brand":"SASSAFRAS",
+            "description":"Women Skater Orange Dress",
+            "price":"650",
+            "strikeOff_price":"1,230",
+           "type":"Kurti",
+            "offer":"39",
+            "gender":"Women"
+        },
+        {
+            "id":68,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2440697/2018/2/6/11517899041512-Libas-Women-Kurtas-7161517899041331-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2440697/2018/2/6/11517899041497-Libas-Women-Kurtas-7161517899041331-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2440697/2018/2/6/11517899041478-Libas-Women-Kurtas-7161517899041331-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2440697/2018/2/6/11517899041453-Libas-Women-Kurtas-7161517899041331-4.jpg"
+            ],
+            "brand":"Libas",
+            "description":"Women Navy Blue & Beige Printed Anarkali Kurta",
+            "price":"1200",
+            "strikeOff_price":"2,000",
+           "type":"Kurti",
+            "offer":"38",
+            "gender":"Women"
+        },
+        {
+            "id":69,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14844992/2021/9/16/a675e539-0315-4bb1-aa53-e764f601c2801631770600362-Biba-Women-Dresses-4471631770599638-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14844992/2021/9/16/54c93531-4be1-433c-bbb3-c66bc7521fe41631770600325-Biba-Women-Dresses-4471631770599638-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14844992/2021/9/16/06456d4b-e9d0-4c48-a725-4ac29aadd7941631770600308-Biba-Women-Dresses-4471631770599638-4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14844992/2021/9/16/515d28ac-9317-4471-b8e3-85975801b3501631770600290-Biba-Women-Dresses-4471631770599638-5.jpg"
+            ],
+            "brand":"Biba",
+            "description":"Red & Gold-Toned Ethnic Motifs Maxi Dress",
+            "price":"1260",
+            "strikeOff_price":"2,200",
+           "type":"Kurti",
+            "offer":"39",
+            "gender":"Women"        
+        },
+        {
+            "id":71,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14869306/2021/10/18/9bb7a675-8eb9-4278-b804-40fc7bc8b1641634557865427DEASWomenPinkMuleswithLaserCutsFlats1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14869306/2021/10/18/06f4bbfe-5929-432a-93ce-de3329c9b4b61634557865643DEASWomenPinkMuleswithLaserCutsFlats2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14869306/2021/10/18/9f27d937-d0b0-4d10-a8ce-558ef995a2a91634557865758DEASWomenPinkMuleswithLaserCutsFlats3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14869306/2021/10/18/3181eb24-657c-4590-a8dd-7b37ce0ba9b01634557866019DEASWomenPinkMuleswithLaserCutsFlats5.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Women Pink Mules with Laser Cuts Flats",
+            "price":"599",
+            "strikeOff_price":"1,199",
+            "offer":"48",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":72,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7410339/2021/10/27/d3866cb6-c1fa-4503-9f36-7a10a33ffe821635331360392CatwalkWomenBlackWovenDesignPlatforms1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7410339/2021/10/27/1550893c-954d-4c4e-b92c-66b244afcb3c1635331360403CatwalkWomenBlackWovenDesignPlatforms2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7410339/2021/10/27/13d9880c-3476-4b54-a4a4-2ae9d33b4c891635331360414CatwalkWomenBlackWovenDesignPlatforms3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7410339/2021/10/27/20d07448-9a78-4a9e-9bad-7243698298f81635331360424CatwalkWomenBlackWovenDesignPlatforms4.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Women Black Woven Design Platforms",
+            "price":"550",
+            "strikeOff_price":"1,299",
+            "offer":"55",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":73,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949098-DressBerry-Women-Flats-1871495431948831-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949074-DressBerry-Women-Flats-1871495431948831-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949055-DressBerry-Women-Flats-1871495431948831-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949043-DressBerry-Women-Flats-1871495431948831-4.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Women Brown & Rose Gold-Toned Colourblocked Flats",
+            "price":"500",
+            "strikeOff_price":"1,099",
+            "offer":"45",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":74,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949098-DressBerry-Women-Flats-1871495431948831-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949074-DressBerry-Women-Flats-1871495431948831-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949055-DressBerry-Women-Flats-1871495431948831-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1800816/2017/5/22/11495431949043-DressBerry-Women-Flats-1871495431948831-4.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Women Brown & Rose Gold-Toned Colourblocked Flats",
+            "price":"500",
+            "strikeOff_price":"1,099",
+            "offer":"45",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":75,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17579034/2022/3/19/9c93140e-609b-434e-9f05-28b53dd1332e1647687295765RINDASBlackVelvetBlockPumpswithBows1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17579034/2022/3/19/b55e8c55-05dc-4392-8ccd-5d9e3001e4331647687295754RINDASBlackVelvetBlockPumpswithBows2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17579034/2022/3/19/289d26b8-e683-42bb-bcd5-59fe1fa00fb11647687295788RINDASBlackVelvetBlockPumpswithBows5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17579034/2022/3/19/a7f8df71-e584-40db-ab6a-eae6629d70681647687295777RINDASBlackVelvetBlockPumpswithBows6.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Black Velvet Block Gladiators",
+            "price":"800",
+            "strikeOff_price":"2,099",
+            "offer":"65",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":76,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12779608/2022/3/15/8038b4bb-1717-42e7-92d9-f327580c7e2a1647343112983CatwalkWomenGold-TonedEmbellishedWedges1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12779608/2022/3/15/4904c6d5-1b9c-46f2-9f93-4f097b2686b01647343112991CatwalkWomenGold-TonedEmbellishedWedges2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12779608/2022/3/15/0ac72276-e480-43ec-925b-1490f7c89c9e1647343113000CatwalkWomenGold-TonedEmbellishedWedges3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12779608/2022/3/15/55acd0ff-aea3-4c48-892e-58de960c96501647343113008CatwalkWomenGold-TonedEmbellishedWedges4.jpg"
+            ],
+            "brand":"DEAS",
+            "description":"Women Gold-Toned Embellished Wedges",
+            "price":"900",
+            "strikeOff_price":"2,999",
+            "offer":"85",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":77,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17752124/2022/4/5/e6aee6b5-3c69-44ef-9469-4abc970d9f991649134119746LondonRagBurgundyEmbellishedPartyBlockPumps1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17752124/2022/4/5/895f2e5c-7af4-4f66-8572-cd9aef593b991649134119735LondonRagBurgundyEmbellishedPartyBlockPumps2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17752124/2022/4/5/90afe670-b264-4052-bf77-e6cb374c9f1d1649134119714LondonRagBurgundyEmbellishedPartyBlockPumps3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17752124/2022/4/5/19b419ed-ac71-4087-8ae3-cf4615fcdc521649134119699LondonRagBurgundyEmbellishedPartyBlockPumps4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Embellished Wedges",
+            "price":"600",
+            "strikeOff_price":"2,099",
+            "offer":"55",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":78,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17294694/2022/3/17/729331f9-8178-4305-bc58-dcf6263792e91647500295470-ELLE-Rose-Block-Sandals-7611647500295078-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17294694/2022/3/17/970e4cb2-f283-49a6-ac95-49128bd63c431647500295456-ELLE-Rose-Block-Sandals-7611647500295078-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17294694/2022/3/17/adb29ea8-0d31-4ffd-8f9d-ae53bb5efba41647500295413-ELLE-Rose-Block-Sandals-7611647500295078-5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17294694/2022/3/17/34bcb6f7-b84d-431e-83bd-f326c76cb9e21647500295429-ELLE-Rose-Block-Sandals-7611647500295078-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Rose-Gold Toned Shimmer Block Heels",
+            "price":"850",
+            "strikeOff_price":"2,900",
+            "offer":"95",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":79,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12721072/2021/2/17/a80cd1c7-fba1-4423-a0ac-bdc70aed99e51613544312960-Shezone-Women-Black--Beige-Animal-Printed-Ballerinas-6161613-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12721072/2021/2/17/e9e2efda-8c9c-475b-9ff3-b388f29e8f081613544312942-Shezone-Women-Black--Beige-Animal-Printed-Ballerinas-6161613-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12721072/2021/2/17/d0ab4f69-27db-4e1d-bc2c-f776d156b6fa1613544312924-Shezone-Women-Black--Beige-Animal-Printed-Ballerinas-6161613-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12721072/2021/2/17/6ee8a6de-7bd5-4ffe-9a95-70794404f72b1613544312878-Shezone-Women-Black--Beige-Animal-Printed-Ballerinas-6161613-5.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Black & Beige Animal Printed Ballerinas",
+            "price":"890",
+            "strikeOff_price":"2,500",
+            "offer":"75",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":80,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13158302/2021/2/17/d228abce-eb80-4b8a-a3de-3abb8ff0635f1613525161007VishudhWomenBlackEmbellishedOpenToeFlats1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13158302/2021/2/17/58ac349d-c23b-4cec-b547-50a6eeee21f51613525161043VishudhWomenBlackEmbellishedOpenToeFlats2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13158302/2021/2/17/444babac-0929-4233-97e8-6785edbf1bbb1613525161071VishudhWomenBlackEmbellishedOpenToeFlats3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13158302/2021/2/17/9c17e9f0-5dea-46ec-b34c-51221eb149fe1613525161144VishudhWomenBlackEmbellishedOpenToeFlats6.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Black Embellished Open Toe Flats",
+            "price":"560",
+            "strikeOff_price":"2,000",
+            "offer":"58",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":81,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488852/2019/4/4/062aaae5-a5db-4ff4-9e29-edbda02b83f01554355431580-CORSICA-Women-Pink-Solid-Pumps-2921554355430259-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488852/2019/4/4/8f88682b-1715-4508-86d1-7f981bd1dd311554355431564-CORSICA-Women-Pink-Solid-Pumps-2921554355430259-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488852/2019/4/4/d53abd1a-8efd-4181-9f02-0e3d93bd75e91554355431549-CORSICA-Women-Pink-Solid-Pumps-2921554355430259-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488852/2019/4/4/f5c2183e-332b-4728-a69b-b46d1ebadf4e1554355431534-CORSICA-Women-Pink-Solid-Pumps-2921554355430259-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Pink Solid Pumps",
+            "price":"600",
+            "strikeOff_price":"2,500",
+            "offer":"68",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":82,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14934330/2021/8/5/5f51d5c6-769a-43a4-8751-90e2a40df2171628158320613-Shezone-Women-Cream-Coloured-Open-Toe-Flats-5391628158320519-11.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14934330/2021/7/26/80bec6dd-47b0-4092-bdb1-d6582991e2781627290823955ShezoneWomenCream-ColouredOpenToeFlatswithBuckles1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14934330/2021/7/26/3adcf9be-868c-4137-ad98-236fdde74a631627290823872ShezoneWomenCream-ColouredOpenToeFlatswithBuckles3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14934330/2021/7/26/f5615779-5d8b-4448-b5c1-dcecc212f1e51627290823828ShezoneWomenCream-ColouredOpenToeFlatswithBuckles2.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Cream-Coloured Open Toe Flats",
+            "price":"250",
+            "strikeOff_price":"1,000",
+            "offer":"58",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":83,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/5/60c4b8e3-e584-401c-bbb3-d4db1d9738ae1617594900594-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/5/88f65195-dae9-4664-94d5-71b650410fab1617594900611-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/5/4a7c60b9-bd56-4db9-9c68-3b389c2359a91617594900632-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/5/46309b75-6694-436f-89ac-0a76218cdbf81617594900652-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Maroon Solid Block Heels",
+            "price":"380",
+            "strikeOff_price":"1,000",
+            "offer":"59",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":84,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16892644/2022/3/21/63c2b43d-1e77-42f3-886b-491dcd6e058d1647834847670-MANGO-Women-Heels-5831647834847383-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16892644/2022/3/21/841effa8-44ad-43b8-a29c-23c597fe91fb1647834847663-MANGO-Women-Heels-5831647834847383-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16892644/2022/3/21/e1f6df39-f402-47f7-9734-297854c922311647834847653-MANGO-Women-Heels-5831647834847383-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16892644/2022/3/21/a0ab0e60-8fe0-4967-ab06-f808a075ebc71647834847642-MANGO-Women-Heels-5831647834847383-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women Maroon Solid Block Heels",
+            "price":"380",
+            "strikeOff_price":"1,000",
+            "offer":"59",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":85,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17213324/2022/2/19/ed67fa38-4b13-45f6-b867-214939b342801645258507112ShoetopiaWomenWhitePrintedOpenToeFlatswithBows1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17213324/2022/2/19/9b93730f-d758-47bd-bce4-c59134940f0f1645258506477ShoetopiaWomenWhitePrintedOpenToeFlatswithBows2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17213324/2022/2/19/671b6c2e-475e-4127-9004-501c0ccc0d011645258507008ShoetopiaWomenWhitePrintedOpenToeFlatswithBows3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17213324/2022/2/19/42afcd62-3c22-4023-aa23-a181febb50bd1645258506885ShoetopiaWomenWhitePrintedOpenToeFlatswithBows4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Women White Braided Open Toe Flats",
+            "price":"590",
+            "strikeOff_price":"1,200",
+            "offer":"75",
+            "gender":"Women",
+            "type":"Flats-Heels"
+        },
+        {
+            "id":86,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/524f2c8e-f505-409c-b429-e4b17436c90d1651566650591Strawshoulderbag1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/29f6a2a6-4095-4011-a825-bc51b827f6e21651566650574Strawshoulderbag2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/fdeb4b76-1469-4701-8c91-8013099ae2b41651566650583Strawshoulderbag3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/18131730/2022/5/3/524f2c8e-f505-409c-b429-e4b17436c90d1651566650591Strawshoulderbag1.jpg"
+            ],
+            "brand":"H&M",
+            "description":"Women Black Straw Shoulder Bag",
+            "price":"900",
+            "strikeOff_price":"1,800",
+            "offer":"65",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":87,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/453d8bde-763f-48b4-bc9c-befa474a31521651838237330-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/b4a7d1f1-5cad-45ef-b5ed-8336bc71862d1651838237303-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/3f75492e-99ce-4c1b-8d8e-8d8d69dd7bed1651838237278-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8376999/2022/5/6/b24862ad-42f4-47aa-928e-0e8fc19778cd1651838237227-Lino-Perros-Off-White-Quilted-Handheld-Bag-9171651838236676-5.jpg"
+            ],
+            "brand":"H&M",
+            "description":"Off-White Quilted Handheld Bag",
+            "price":"1000",
+            "strikeOff_price":"1,900",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":88,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/dc7ed173-ad8c-462c-ad58-6f4686842f471650973430811DressBerryPinkSatchel1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/f0185906-4fc0-408f-a40b-482eaa7199b21650973430822DressBerryPinkSatchel2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/c969f478-807f-4b83-b05b-b42604de0b221650973430831DressBerryPinkSatchel3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2022/4/26/2809fa11-1191-4e74-bbc7-6a072e26ab9b1650973430840DressBerryPinkSatchel4.jpg"
+            ],
+            "brand":"H&M",
+            "description":"Pink Satchel",
+            "price":"800",
+            "strikeOff_price":"1,500",
+            "offer":"66",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":89,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880418-DressBerry-Women-Handbags-7981517381880277-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880394-DressBerry-Women-Handbags-7981517381880277-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880372-DressBerry-Women-Handbags-7981517381880277-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2237166/2018/1/31/11517381880350-DressBerry-Women-Handbags-7981517381880277-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Blue Solid Shoulder Bag",
+            "price":"1200",
+            "strikeOff_price":"1,900",
+            "offer":"46",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":90,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/e9ab12ee-a3bc-485b-b5fc-d609670f3cc31639170681118-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/74fa3164-c128-49e0-a041-79dc6f4064851639170681075-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/b8babd42-1ffc-40e5-90c4-19b23ac8ff7b1639170680927-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-11.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14167578/2021/12/11/bad54757-8ff3-4489-a941-ae62ce468c501639170681009-Anekaant-Off-White-Embellished-Sling-Bag-311639170680407-6.jpg"
+            ],
+            "brand":"Anekaant",
+            "description":"Off-White Embellished Sling Bag",
+            "price":"1900",
+            "strikeOff_price":"2,900",
+            "offer":"59",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":91,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/93865b6c-4163-461f-a3a5-4ba39a53fdb11650626281059-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/3b0345e9-6d4c-46c7-9213-a8c4a81d5dae1650626281050-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/9a8cebb7-5f8c-4e0f-adfc-71acbd0a49f61650626281041-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8920495/2022/4/22/a538e681-d55f-491b-a5a3-40038c706ea21650626281032-Lino-Perros-Blue--Off-White-Colourblocked-Handheld-Bag-54165-4.jpg"
+            ],
+            "brand":"Lino Perros",
+            "description":"Blue & Off-White Colourblocked Handheld Bag",
+            "price":"1200",
+            "strikeOff_price":"1,900",
+            "offer":"69",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":92,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499093-LaFille-Black-Solid-Handheld-Bag-1461510576498890-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499069-LaFille-Black-Solid-Handheld-Bag-1461510576498890-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499036-LaFille-Black-Solid-Handheld-Bag-1461510576498890-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499007-LaFille-Black-Solid-Handheld-Bag-1461510576498890-4.jpg"
+            ],
+            "brand":"LaFille",
+            "description":"Black Solid Handheld Bag",
+            "price":"800",
+            "strikeOff_price":"1,900",
+            "offer":"69",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":93,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/77d71658-8d5c-46bd-8e12-f0631de2fc351650625076062AllenSollyNavyBlueSolidHandheldBag1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/60181bd7-cce4-4659-9bc8-020450835fdf1650625076124AllenSollyNavyBlueSolidHandheldBag2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/222e04ef-50b2-4cb5-9101-9fe2f5e5b6c81650625076133AllenSollyNavyBlueSolidHandheldBag3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16204050/2022/4/22/bac84642-0153-4f76-ae03-43176fee95401650625076142AllenSollyNavyBlueSolidHandheldBag4.jpg"
+            ],
+            "brand":"Allen Solly",
+            "description":"Navy Blue Solid Handheld Bag",
+            "price":"900",
+            "strikeOff_price":"2,900",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":94,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/29589c38-3e04-48b1-b0db-37710bec8d1e1627279693950-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/28e6eebd-daf5-4561-8c25-616accc6bcd41627279693929-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/29f11d20-0128-46bb-9bb6-a898c64ff4691627279693904-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8072159/2021/7/26/80867997-aa4d-4c41-8e4c-bee94fb334671627279693894-LaFille-Pack-of-4-Navy-Blue-Solid-Handbags-3381627279693479-4.jpg"
+            ],
+            "brand":"LaFille",
+            "description":"Pack of 4 Navy Blue Solid Handbags",
+            "price":"1200",
+            "strikeOff_price":"2,900",
+            "offer":"66",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":95,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/399560df-5d85-4e6c-9a02-2afc5aac92dc1650625054386BaggitBrownPrintedShoulderBag1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/4e13a0e3-0f68-42f0-a5e1-c5906406515f1650625054425BaggitBrownPrintedShoulderBag2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/de2b383f-1509-45f5-8fdd-8e0443c55d5c1650625054435BaggitBrownPrintedShoulderBag3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15979248/2022/4/22/d96c318a-119f-4814-8811-ddfa6d5035ac1650625054444BaggitBrownPrintedShoulderBag4.jpg"
+            ],
+            "brand":"Baggit",
+            "description":"Brown Printed Shoulder Bag",
+            "price":"1000",
+            "strikeOff_price":"1,900",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":96,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/41596239-b3d5-4ae3-b1a3-76be74d509451649415598648MANGOBlackSolidLeatherOversizedShopperToteBag1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/27431079-e08b-4b6f-b89a-eef50cd354961649415598657MANGOBlackSolidLeatherOversizedShopperToteBag2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/33c6dc13-c735-4cf3-942c-77579c20565e1649415598681MANGOBlackSolidLeatherOversizedShopperToteBag3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15315834/2022/4/8/9f049c99-5eb2-41b6-ae6d-481fea2a618d1649415598704MANGOBlackSolidLeatherOversizedShopperToteBag4.jpg"
+            ],
+            "brand":"MANGO",
+            "description":"Black Solid Leather Oversized Shopper Tote Bag",
+            "price":"1200",
+            "strikeOff_price":"2,900",
+            "offer":"46",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":97,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/7298750d-6669-45d4-b390-653f9d0be6f51624428653982LapisOLupoTurquoiseBlueSolidHandheldBag1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/8660cedc-ad15-4f62-8026-7866d34daf221624428654169LapisOLupoTurquoiseBlueSolidHandheldBag2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/3c70cb69-fd9d-4332-98a4-e2ffb3d1cccf1624428654312LapisOLupoTurquoiseBlueSolidHandheldBag3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10248909/2021/6/23/1a66bf8c-dbc5-4a45-a835-6abc9954f0591624428654451LapisOLupoTurquoiseBlueSolidHandheldBag4.jpg"
+            ],
+            "brand":"Lapis O Lupo",
+            "description":"Turquoise Blue Solid Handheld Bag",
+            "price":"1100",
+            "strikeOff_price":"1,800",
+            "offer":"36",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":98,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/36c014e5-2ad0-4e6c-bebb-7ea54810034c1546429718791-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/9f9f7a5d-cb77-4b04-a50d-307f03d1eab01546429718766-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/4d58e6e2-111b-4df3-b8b6-ed45419d3b051546429718738-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2370222/2019/1/2/f1fd6b12-33a4-4506-9905-f269c289c6331546429718720-DressBerry-Black-Solid-Shoulder-Bag-841546429717403-4.jpg"
+            ],
+            "brand":"DressBerry",
+            "description":"Black Solid Shoulder Bag",
+            "price":"900",
+            "strikeOff_price":"1,800",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":99,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/a90e66d4-f963-440d-82af-171ed4e3ef981647842861102AnekaantPinkGeometricHalfMoonSlingBagwithTasselled2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/bd1c4117-a4b9-4db5-955d-4d27e01685c01647842861048AnekaantPinkGeometricHalfMoonSlingBagwithTasselled3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/ced05dbd-6f71-4f57-9dd6-6278ba21868a1647842861089AnekaantPinkGeometricHalfMoonSlingBagwithTasselled5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17586476/2022/3/21/7dad086a-bfb5-46eb-b433-19f8873fb5071647842861079AnekaantPinkGeometricHalfMoonSlingBagwithTasselled1.jpg"
+            ],
+            "brand":"Anekaant",
+            "description":"Women Pink Embellished Structured Sling Bag with Tasselled",
+            "price":"1200",
+            "strikeOff_price":"1,900",
+            "offer":"46",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":100,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/6fd611fd-b3b1-4823-a4b9-c39ee9cd472b1584660441102-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/c3633ef8-1c35-4038-8bdf-cc966bb3b3d91584660441156-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/415fc53c-c3f0-4c62-9afa-dbc78754f0fc1584660441297-5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/20/fb8163c4-e3ed-4239-9fb3-f333d7c4ab181584660441253-4.jpg"
+            ],
+            "brand":"LaFille",
+            "description":"Burgundy Solid Handheld Bag",
+            "price":"1260",
+            "strikeOff_price":"1,800",
+            "offer":"36",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":101,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/0c56d91d-e72c-40ee-bf12-7c6ec91c69df1609569855920-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/7efc0e22-2483-497a-87b0-0d2d2ef2a3cf1609569855966-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/1f741d60-1271-4f4a-ad49-ad34b331324a1609569856092-5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/2/1a12d44c-9b43-4bee-99f9-19d45176e1dc1609569856135-6.jpg"
+            ],
+            "brand":"ASTRID",
+            "description":"Black & White Textured Bucket Sling Bag",
+            "price":"1600",
+            "strikeOff_price":"2,800",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Bags"
+        },
+        {
+            "id":102,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/47a50121-df1f-4802-a580-9ef1bb41d0b51647667465576-VASTRANAND-Women-Sarees-151647667464974-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/edaca6fe-1d51-4fa3-b825-189b816a931c1647667465565-VASTRANAND-Women-Sarees-151647667464974-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/30d250cc-ddca-40c7-ad72-ef086eebabc41647667465556-VASTRANAND-Women-Sarees-151647667464974-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17466042/2022/3/19/4155ef77-8efa-413a-afbc-648da418b46f1647667465528-VASTRANAND-Women-Sarees-151647667464974-6.jpg"
+            ],
+            "brand":"VASTRANAND",
+            "description":"Pink & Navy Blue Striped Sequinned Floral Applique Saree",
+            "price":"899",
+            "strikeOff_price":"1,890",
+            "offer":"58",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":103,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/4a457af8-a806-4ab2-9f4f-1f15835599ed1617603803561-Banarasi-border-301617603802640-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/ea3a8350-38cd-4ffc-8aeb-7a906685c3641617603803542-Banarasi-border-301617603802640-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/1bb1873a-04db-4f99-bd60-661978f8ae771617603803522-Banarasi-border-301617603802640-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13792172/2021/4/5/c9395718-4ff2-409e-b13f-6475bff6b3d01617603803468-Banarasi-border-301617603802640-6.jpg"
+            ],
+            "brand":"Anouk",
+            "description":"Purple Cotton Blend Solid Banarasi Saree",
+            "price":"1099",
+            "strikeOff_price":"2,890",
+            "offer":"68",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":104,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/ccd86e66-157e-4355-bebf-8d3eeb24371a1649240536408VAIRAGEEWomenPinkSarees1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/cc63cdc3-73ae-4e91-a81c-f42b1dbd9cf51649240536440VAIRAGEEWomenPinkSarees2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/8b19df79-4f02-456d-aaa2-3ace8bd1506f1649240536423VAIRAGEEWomenPinkSarees3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17779020/2022/4/6/400abf28-80e3-44e6-8f58-605ed28ae1521649240536416VAIRAGEEWomenPinkSarees4.jpg"
+            ],
+            "brand":"VAIRAGEE",
+            "description":"Pink Floral Embroidered Net Saree",
+            "price":"1199",
+            "strikeOff_price":"2,190",
+            "offer":"48",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":105,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/50ca9acb-25f6-4046-b6e4-0075b3f0d79c1650886135846-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/0bbcc623-0a0f-4806-9b49-750fe846270c1650886135838-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/ae2faa70-c85d-4ea8-a164-e64739bb63001650886135829-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17712472/2022/4/25/338c8b83-94eb-4c1d-89b7-39ee2628b8a31650886135819-BEATITUDE-Peach-Coloured--Gold-Toned-Floral-Embroidered-Tiss-4.jpg"
+            ],
+            "brand":"BEATITUDE",
+            "description":"Peach-Coloured & Gold-Toned Floral Embroidered Tissue Saree",
+            "price":"1590",
+            "strikeOff_price":"2,250",
+            "offer":"58",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":106,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/5061cea0-2ccc-46df-97c1-9c2625383d831625822806651-Saree-mall-Women-Sarees-5611625822806335-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/025edf0d-4716-4036-bd33-5b27535e08a81625822806632-Saree-mall-Women-Sarees-5611625822806335-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/0bae2242-2eb2-4881-b8d8-ca2c5eb638781625822806613-Saree-mall-Women-Sarees-5611625822806335-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14006702/2021/7/9/337cfd5f-e335-4153-a656-b9672a2732801625822806594-Saree-mall-Women-Sarees-5611625822806335-4.jpg"
+            ],
+            "brand":"Saree mall",
+            "description":"Pink & Blue Floral Dyed Banarasi Sarees",
+            "price":"1090",
+            "strikeOff_price":"2,050",
+            "offer":"48",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":107,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/a2c32671-3cb9-46cc-81c1-a722ddbf4c1e1621929685104-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/9cf75042-db6b-4021-aec6-ccff8d49b8651621929685125-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/8ca8ebb5-e884-4d8b-88e3-0228686190051621929685181-5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/42bb005f-41ab-45cf-96a4-a76ea8037e631621929685198-6.jpg"
+            ],
+            "brand":"Sangria",
+            "description":"Navy Blue Solid Saree",
+            "price":"1500",
+            "strikeOff_price":"3,050",
+            "offer":"68",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":108,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/3ba56466-68a8-44b0-b044-374d9cb0346c1625803181837-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/010a6043-a897-4308-b667-ce466ae862b21625803181817-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/2766c701-86c2-4b55-932c-a0ca20af61ab1625803181798-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13919148/2021/7/9/99bb0633-0c35-4c21-b97d-3febc4c73e241625803181778-metallic-pink-satin-saree-with-foil-jacket-1521625803181354-4.jpg"
+            ],
+            "brand":"Tikhi Imli",
+            "description":"Trendy Mauve Sleek Poly Crepe Saree with Embellished Border & Cape",
+            "price":"1700",
+            "strikeOff_price":"2,050",
+            "offer":"38",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":109,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/9c4613b6-8230-4485-bf01-725808fe5bf21646301812362-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/ae6e85f8-4d0d-40ee-b98e-27bd2970b0951646301812341-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/09374051-c6d7-404f-b747-9d0e90ae21031646301812320-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17060230/2022/3/3/c672c65b-3a18-4c8f-8f86-df8c964755061646301812271-all-about-you-Coffee-Brown--Golden-Silk-Blend-Saree-86216463-6.jpg"
+            ],
+            "brand":"all about you",
+            "description":"Coffee Brown & Golden Silk Blend Saree",
+            "price":"1650",
+            "strikeOff_price":"3,050",
+            "offer":"88",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":110,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/c177b0a1-c65a-4de4-bc27-413b142c04ca1642576714005-VASTRANAND-Women-Sarees-9621642576713352-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/019a943a-853b-4795-9082-9e41eac5d5611642576713995-VASTRANAND-Women-Sarees-9621642576713352-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/12e07211-3939-4e69-b748-1a500550fbf51642576713985-VASTRANAND-Women-Sarees-9621642576713352-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16630882/2022/1/19/b45fc945-d620-4763-bb2e-ba2d246c019f1642576713966-VASTRANAND-Women-Sarees-9621642576713352-5.jpg"
+            ],
+            "brand":"VASTRANAND",
+            "description":"Peach-Coloured Ethnic Motifs Embroidered Saree",
+            "price":"2650",
+            "strikeOff_price":"4,050",
+            "offer":"68",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":111,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/591ce221-67ec-4d51-a3ef-b0e88dfa3b531649158789557-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/c4dd3010-085d-465e-9c90-867719fdfc631649158789546-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/b6031b4f-1578-44d0-a883-bd6ff2bbd1501649158789537-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16336056/2022/4/5/d4805b86-029d-4b26-b8d6-32b04627e2c21649158789527-all-about-you-Purple-Woven-Design-Silk-Blend-Saree-573164915-4.jpg"
+            ],
+            "brand":"Tikhi Imli",
+            "description":"Purple Woven Design Silk Blend Saree",
+            "price":"650",
+            "strikeOff_price":"1,050",
+            "offer":"38",
+            "gender":"Women",
+            "type":"Saree"
+        },
+        {
+            "id":112,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/608a2d2d-b074-437a-883a-0a7bd087802a1575637859763-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/acbe9805-49e0-486c-94a4-d469699e65e11575637859727-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/01bebcdb-4e9b-4875-b949-c0cfd72f49a71575637859691-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590658/2019/12/6/06ce8d25-b152-4409-9c8d-3139f3bbd2711575637859607-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-5.jpg"
+            ],
+            "brand":"Priyaasi",
+            "description":"Rose Gold-Plated CZ & American Diamond Studded Handcrafted Jewellery Set",
+            "price":"1650",
+            "strikeOff_price":"2,050",
+            "offer":"28",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":113,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/adbc4f44-e454-46a9-8d0d-709b4ee9aa4f1632488694020AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/ce7828eb-08d0-48e0-96e4-cd6fb32203e11632488694399AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/41788324-0d9e-453f-bfdc-733f6af272d41632488694406AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis5.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15608438/2021/9/24/0a01877a-536d-42c6-8ec8-50b8866589511632488693845AmiRoseGoldContemporaryBaguetteDiamondsPartyBlingBrassTennis3.jpg"
+            ],
+            "brand":"AMI",
+            "description":"Women Rose Gold Brass Cubic Zirconia Rose Gold-Plated Wraparound Bracelet",
+            "price":"650",
+            "strikeOff_price":"1,050",
+            "offer":"35",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":114,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/0ed8032d-3434-4fb2-97df-1395e33bb3601627102684650RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/e4dafdf9-0a62-4610-8f95-9c85b06d88f21627102684341RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/b65af362-11b4-456a-83dd-5b1849417ed41627102684557RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14924460/2021/7/24/40371c0e-fb2d-4f4b-a4d7-3e1417a29de51627102684411RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit5.jpg"
+            ],
+            "brand":"Saraf RS Jewellery",
+            "description":"Rose Gold-Plated White AD-Studded Handcrafted Jewellery Set",
+            "price":"1550",
+            "strikeOff_price":"2,550",
+            "offer":"56",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":115,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/12/23/b26dfaf8-cbaa-47ab-87a7-328380961aea1640239937665-Rubans-White--Rose-Gold-Plated-Handcrafted-Zirconia-Stone-Je-11.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/9/18/c452a6ad-6ea3-45f9-90d5-8f5093c7a1fb1631969514513RubansGoldPlatedHandcraftedZirconStoneNecklaceSet1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/9/18/144e57fe-aa1f-4ebc-9138-2b2b8b04d18b1631969514642RubansGoldPlatedHandcraftedZirconStoneNecklaceSet2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15515638/2021/9/18/c47df611-efa0-4065-ae19-018614bf210b1631969514583RubansGoldPlatedHandcraftedZirconStoneNecklaceSet4.jpg"
+            ],
+            "brand":"Rubans",
+            "description":"White & Rose Gold Plated Handcrafted Zirconia Stone Jewellery Set",
+            "price":"1250",
+            "strikeOff_price":"2,050",
+            "offer":"45",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":116,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/614a9c82-5256-4392-9435-72385b5c6b9e1630480580890AMIRoseGoldContemporaryDropEarrings1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/509e1a18-ddc6-4064-b089-049560618add1630480581085AMIRoseGoldContemporaryDropEarrings2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/bfcb5a23-01b1-4813-bab3-bc7a5b3c3dbf1630480581302AMIRoseGoldContemporaryDropEarrings3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14574634/2021/9/1/bb93e09b-0f10-4506-92f2-70a36ad403231630480581610AMIRoseGoldContemporaryDropEarrings5.jpg"
+            ],
+            "brand":"AMI",
+            "description":"Rose Gold Contemporary Drop Earrings",
+            "price":"950",
+            "strikeOff_price":"2,250",
+            "offer":"35",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":117,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/97a7aead-7b5d-4f88-92d3-cc3cdf94e8161622211392355-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/1d0fe737-50e4-42ab-9499-86879d8ded7b1622211392368-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/59873693-7eac-4029-bab6-d1f163b02b651622211392379-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/61c4682f-c36e-434d-b5e9-2ecff5ef18511622211392389-4.jpg"
+            ],
+            "brand":"Saraf RS Jewellery",
+            "description":"White & Rose Gold-Plated AD Feather Shaped Drop Earrings",
+            "price":"1800",
+            "strikeOff_price":"3,250",
+            "offer":"42",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":118,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/1c78ad82-61df-4e2d-82eb-1ec62022be831638507696049GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/98ded6d0-4cc2-4bf7-a7fe-01c2da31d93b1638507696578GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/bc9bc108-1e10-441e-a4c1-70a2861f2e981638507695914GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16351378/2021/12/3/41393403-427e-4547-8865-66d6cea90a801638507696297GreyAmericanDiamondCubicZirconiaRoseGoldPlatedChokerSet7.jpg"
+            ],
+            "brand":"Priyaasi",
+            "description":"Rose Gold-Plated AD & CZ-Studded Jewellery Set",
+            "price":"1900",
+            "strikeOff_price":"3,550",
+            "offer":"32",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":119,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/9c5b1b41-3dfe-43e7-b23c-2cfc8c0e10521616587405415-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/369698cc-19ab-4ecd-9314-0aa2068042ae1616587405460-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/262eb12d-ad53-4beb-bf24-619432538d871616587405480-4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/24/ee68d542-c14f-4633-b116-a53f748066f51616587405438-2.jpg"
+            ],
+            "brand":"Saraf RS Jewellery",
+            "description":"Pink Contemporary Drop Earrings",
+            "price":"1500",
+            "strikeOff_price":"3,150",
+            "offer":"38",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":200,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/ea7f876c-02cc-459f-bec8-fe46efa5e0351609936934662-4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/1062faa4-8499-4a69-8a65-10ec0824036a1609936934567-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/4e711c85-3e9d-40bf-9f82-ebad08d043cf1609936934503-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/6/805f25fa-ec17-4dab-8de4-bed0170831a31609936934614-3.jpg"
+            ],
+            "brand":"Rubans",
+            "description":"Rose Gold-Plated Pink & White CZ-Studded Handcrafted Jewellery Set",
+            "price":"1300",
+            "strikeOff_price":"2,150",
+            "offer":"58",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":201,
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/ef2b93b8-f87d-49e7-b32b-a2199d506eaa1625474424394-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/53856fce-4bfb-46f1-8a52-2af766dc7ca31625474424403-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/5fc15ecd-ec69-47db-84d5-7edf2ea61c461625474424412-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/7/5/09f5d90f-8241-4975-9352-081f80674ab81625474424419-4.jpg"
+            ],
+            "brand":"Priyaasi",
+            "description":"Rose Gold Contemporary Drop Earrings",
+            "price":"1414",
+            "strikeOff_price":"2,260",
+            "offer":"68",
+            "gender":"Women",
+            "type":"Jewellery"
+        },
+        {
+            "id":631,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/d8b9032f-45f3-46e7-9b0f-c1c52787ca1f1643298972426CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/03faa1cb-ba21-4566-a745-3900848f291a1643298972479CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre5.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Black Embellished Net & Velvet Finish Fit & Flare Dress",
+            "price":"1696",
+            "strikeOff_price":"2,956",
+          "type":"Girl",
+            "offer":"36"
+        },
+        {
+            "id":632,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/0d9dcffa-936e-4129-a098-e184862a1e9d1643958755775pspeachesMagentaFloralA-LineDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/32fe6faa-340d-49bd-86e0-7c9dde9d54ae1643958755634pspeachesMagentaFloralA-LineDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2fee2ce0-1aa1-41c0-8b5d-20ee02f35d741643958755620pspeachesMagentaFloralA-LineDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2526398d-6f35-4cae-8edc-2e04b54b72d91643958755454pspeachesMagentaFloralA-LineDress4.jpg"
+            ],
+            "brand":"pspeaches",
+            "description":"Magenta & White Floral A-Line Cotton Dress with Attached Shrug",
+            "price":"1126",
+            "strikeOff_price":"2,056",
+          "type":"Girl",
+            "offer":"55"
+        },
+        {
+            "id":633,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/21abb9b0-2872-4f45-b61d-83f99245b80d1601971336678-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/ad4b8710-fb92-4f34-a3ea-c6ea018cb03f1601971336623-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/d824750a-5d88-42f5-adb6-0eee99639c4d1601971336570-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/4dc0e3d4-2000-42af-83b5-74bcac6329501601971336436-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Burgundy & White Printed Sheath Dress",
+            "price":"1186",
+            "strikeOff_price":"2,096",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":634,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/d7634f89-2898-4659-9be3-b8b91e8041601607329995412CherryCrumbleGirlsMaroonSolidFitandFlareDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/fcc5a67c-5075-4646-a81a-8169d64f1a9e1607329995465CherryCrumbleGirlsMaroonSolidFitandFlareDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/a1d2728e-e12f-4c79-9dfb-a9db4c9f771a1607329995517CherryCrumbleGirlsMaroonSolidFitandFlareDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/43fa159e-1098-45fe-9ffa-cda38d46e8cd1607329995573CherryCrumbleGirlsMaroonSolidFitandFlareDress4.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Maroon Solid Fit and Flare Dress",
+            "price":"1566",
+            "strikeOff_price":"2,098",
+          "type":"Girl",
+            "offer":"35"
+        },
+        {
+            "id":635,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/7546365f-225a-4778-812a-74bcf4460df51647696387984PinkChickBurgundyNetSheathDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/ab55f633-ffb1-46ea-a6c5-62d95750e4c71647696387976PinkChickBurgundyNetSheathDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/e358c235-f68c-49c8-9385-1e62908172151647696387992PinkChickBurgundyNetSheathDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/5b59f9d1-0b44-4ac7-802c-7c7d3d05957d1647696387960PinkChickBurgundyNetSheathDress4.jpg"
+            ],
+            "brand":"Pink Chick",
+            "description":"Girls Burgundy Fit & Flare Dresss",
+            "price":"1156",
+            "strikeOff_price":"2,235",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":636,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/d8b9032f-45f3-46e7-9b0f-c1c52787ca1f1643298972426CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/03faa1cb-ba21-4566-a745-3900848f291a1643298972479CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre5.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Black Embellished Net & Velvet Finish Fit & Flare Dress",
+            "price":"1696",
+            "strikeOff_price":"2,956",
+          "type":"Girl",
+            "offer":"36"
+        },
+        {
+            "id":637,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/0d9dcffa-936e-4129-a098-e184862a1e9d1643958755775pspeachesMagentaFloralA-LineDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/32fe6faa-340d-49bd-86e0-7c9dde9d54ae1643958755634pspeachesMagentaFloralA-LineDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2fee2ce0-1aa1-41c0-8b5d-20ee02f35d741643958755620pspeachesMagentaFloralA-LineDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2526398d-6f35-4cae-8edc-2e04b54b72d91643958755454pspeachesMagentaFloralA-LineDress4.jpg"
+            ],
+            "brand":"pspeaches",
+            "description":"Magenta & White Floral A-Line Cotton Dress with Attached Shrug",
+            "price":"1126",
+            "strikeOff_price":"2,056",
+          "type":"Girl",
+            "offer":"55"
+        },
+        {
+            "id":638,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/21abb9b0-2872-4f45-b61d-83f99245b80d1601971336678-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/ad4b8710-fb92-4f34-a3ea-c6ea018cb03f1601971336623-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/d824750a-5d88-42f5-adb6-0eee99639c4d1601971336570-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/4dc0e3d4-2000-42af-83b5-74bcac6329501601971336436-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Burgundy & White Printed Sheath Dress",
+            "price":"1186",
+            "strikeOff_price":"2,096",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":639,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/d7634f89-2898-4659-9be3-b8b91e8041601607329995412CherryCrumbleGirlsMaroonSolidFitandFlareDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/fcc5a67c-5075-4646-a81a-8169d64f1a9e1607329995465CherryCrumbleGirlsMaroonSolidFitandFlareDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/a1d2728e-e12f-4c79-9dfb-a9db4c9f771a1607329995517CherryCrumbleGirlsMaroonSolidFitandFlareDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/43fa159e-1098-45fe-9ffa-cda38d46e8cd1607329995573CherryCrumbleGirlsMaroonSolidFitandFlareDress4.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Maroon Solid Fit and Flare Dress",
+            "price":"1566",
+            "strikeOff_price":"2,098",
+          "type":"Girl",
+            "offer":"35"
+        },
+        {
+            "id":640,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/7227ca35-b50b-4119-95b6-fcf86b7d31a41648468298497-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/4b39cb63-b579-4ec9-896c-51d3254895861648468298477-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/28d081c9-c735-4b16-b4d3-f52c7d3dd9fb1648468298456-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/e4f35c03-0233-4303-9b9b-eefadcd64d331648468298436-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-4.jpg"
+            ],
+            "brand":"YK",
+            "description":"Girls Red & White Floral A-Line Dress",
+            "price":"1356",
+            "strikeOff_price":"2,658",
+          "type":"Girl",
+            "offer":"37"
+        },
+        {
+            "id":641,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/bd837dee-0525-4afe-ad8c-3bf59407302a1614696496298-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/8004941c-ee75-41b4-a1a0-9008edeb470f1614696496320-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/6611f394-0894-47cf-a8c7-5b0b5251dbb51614696496342-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/f358f05a-a474-4d3e-941b-5cce89640ac81614696496383-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Blue Cotton Shirt Dress",
+            "price":"999",
+            "strikeOff_price":"2,000",
+          "type":"Girl",
+            "offer":"50"
+        },
+        {
+            "id":642,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/773ad89e-629a-42b8-982f-749bb3e20c511620286773799-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/bb718f75-ed13-4e3c-8288-92f1470248071620286773819-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/5e6b5bc0-2418-4f58-97c1-28dc879cd5b51620286773841-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/4089e38b-278c-4c9b-a544-d00db0d5d89d1620286773885-5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Girls Pink Polka Dots Printed Fit & Flare Dress",
+            "price":"1069",
+            "strikeOff_price":"2,500",
+          "type":"Girl",
+            "offer":"60"
+        },
+        {
+            "id":643,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/8b03e839-a098-4097-80ea-3b344106f4d91645776120683CutiekinsBlackFloralOff-ShoulderCrepeMidiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/1ed910cc-dcb4-47b9-9364-50de7b91d39c1645776120666CutiekinsBlackFloralOff-ShoulderCrepeMidiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/bf6f7b13-7100-4925-a102-926d6855710d1645776120656CutiekinsBlackFloralOff-ShoulderCrepeMidiDress4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/ef94b66b-d7f2-4c37-941b-cd48a654b0281645776120693CutiekinsBlackFloralOff-ShoulderCrepeMidiDress5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Black Floral Off-Shoulder High Low Crepe Dress",
+            "price":"1000",
+            "strikeOff_price":"2,500",
+          "type":"Girl",
+            "offer":"65"
+        },
+        {
+            "id":644,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2898f0cc-401d-48c8-b078-dc154588b9e31649175831291BETTYMustardYellowGeorgetteEthnicMaxiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2757d3c0-45a5-464a-876f-7db95f9d6b6c1649175831339BETTYMustardYellowGeorgetteEthnicMaxiDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/d9dd9f0b-1953-4a66-b6f3-2bbf5524267b1649175831315BETTYMustardYellowGeorgetteEthnicMaxiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/9caed68d-20c0-47e8-a1eb-5433710081771649175831304BETTYMustardYellowGeorgetteEthnicMaxiDress4.jpg"
+            ],
+            "brand":"BETTY",
+            "description":"Mustard Yellow Georgette Ethnic Maxi Dress",
+            "price":"1200",
+            "strikeOff_price":"2,260",
+          "type":"Girl",
+            "offer":"68"
+        },
+        {
+            "id":645,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/7546365f-225a-4778-812a-74bcf4460df51647696387984PinkChickBurgundyNetSheathDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/ab55f633-ffb1-46ea-a6c5-62d95750e4c71647696387976PinkChickBurgundyNetSheathDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/e358c235-f68c-49c8-9385-1e62908172151647696387992PinkChickBurgundyNetSheathDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/5b59f9d1-0b44-4ac7-802c-7c7d3d05957d1647696387960PinkChickBurgundyNetSheathDress4.jpg"
+            ],
+            "brand":"Pink Chick",
+            "description":"Girls Burgundy Fit & Flare Dresss",
+            "price":"1156",
+            "strikeOff_price":"2,235",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":646,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/7227ca35-b50b-4119-95b6-fcf86b7d31a41648468298497-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/4b39cb63-b579-4ec9-896c-51d3254895861648468298477-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/28d081c9-c735-4b16-b4d3-f52c7d3dd9fb1648468298456-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/e4f35c03-0233-4303-9b9b-eefadcd64d331648468298436-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-4.jpg"
+            ],
+            "brand":"YK",
+            "description":"Girls Red & White Floral A-Line Dress",
+            "price":"1356",
+            "strikeOff_price":"2,658",
+          "type":"Girl",
+            "offer":"37"
+        },
+        {
+            "id":647,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/bd837dee-0525-4afe-ad8c-3bf59407302a1614696496298-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/8004941c-ee75-41b4-a1a0-9008edeb470f1614696496320-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/6611f394-0894-47cf-a8c7-5b0b5251dbb51614696496342-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/f358f05a-a474-4d3e-941b-5cce89640ac81614696496383-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Blue Cotton Shirt Dress",
+            "price":"999",
+            "strikeOff_price":"2,000",
+          "type":"Girl",
+            "offer":"50"
+        },
+        {
+            "id":648,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/773ad89e-629a-42b8-982f-749bb3e20c511620286773799-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/bb718f75-ed13-4e3c-8288-92f1470248071620286773819-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/5e6b5bc0-2418-4f58-97c1-28dc879cd5b51620286773841-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/4089e38b-278c-4c9b-a544-d00db0d5d89d1620286773885-5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Girls Pink Polka Dots Printed Fit & Flare Dress",
+            "price":"1069",
+            "strikeOff_price":"2,500",
+          "type":"Girl",
+            "offer":"60"
+        },
+        {
+            "id":649,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/8b03e839-a098-4097-80ea-3b344106f4d91645776120683CutiekinsBlackFloralOff-ShoulderCrepeMidiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/1ed910cc-dcb4-47b9-9364-50de7b91d39c1645776120666CutiekinsBlackFloralOff-ShoulderCrepeMidiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/bf6f7b13-7100-4925-a102-926d6855710d1645776120656CutiekinsBlackFloralOff-ShoulderCrepeMidiDress4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/ef94b66b-d7f2-4c37-941b-cd48a654b0281645776120693CutiekinsBlackFloralOff-ShoulderCrepeMidiDress5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Black Floral Off-Shoulder High Low Crepe Dress",
+            "price":"1000",
+            "strikeOff_price":"2,500",
+          "type":"Girl",
+            "offer":"65"
+        },
+        {
+            "id":650,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2898f0cc-401d-48c8-b078-dc154588b9e31649175831291BETTYMustardYellowGeorgetteEthnicMaxiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2757d3c0-45a5-464a-876f-7db95f9d6b6c1649175831339BETTYMustardYellowGeorgetteEthnicMaxiDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/d9dd9f0b-1953-4a66-b6f3-2bbf5524267b1649175831315BETTYMustardYellowGeorgetteEthnicMaxiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/9caed68d-20c0-47e8-a1eb-5433710081771649175831304BETTYMustardYellowGeorgetteEthnicMaxiDress4.jpg"
+            ],
+            "brand":"BETTY",
+            "description":"Mustard Yellow Georgette Ethnic Maxi Dress",
+            "price":"1200",
+            "strikeOff_price":"2,260",
+          "type":"Girl",
+            "offer":"68"
+        },
+        {
+            "id":651,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/d8b9032f-45f3-46e7-9b0f-c1c52787ca1f1643298972426CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/f7e4730f-68d5-4f25-a03d-7a831b9b38da1643298972449CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14564468/2022/1/27/03faa1cb-ba21-4566-a745-3900848f291a1643298972479CherryCrumbleGirlsBlackEmbellishedNetVelvetFinishFitFlareDre5.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Black Embellished Net & Velvet Finish Fit & Flare Dress",
+            "price":"1696",
+            "strikeOff_price":"2,956",
+          "type":"Girl",
+            "offer":"36"
+        },
+        {
+            "id":652,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/0d9dcffa-936e-4129-a098-e184862a1e9d1643958755775pspeachesMagentaFloralA-LineDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/32fe6faa-340d-49bd-86e0-7c9dde9d54ae1643958755634pspeachesMagentaFloralA-LineDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2fee2ce0-1aa1-41c0-8b5d-20ee02f35d741643958755620pspeachesMagentaFloralA-LineDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17045988/2022/2/4/2526398d-6f35-4cae-8edc-2e04b54b72d91643958755454pspeachesMagentaFloralA-LineDress4.jpg"
+            ],
+            "brand":"pspeaches",
+            "description":"Magenta & White Floral A-Line Cotton Dress with Attached Shrug",
+            "price":"1126",
+            "strikeOff_price":"2,056",
+          "type":"Girl",
+            "offer":"55"
+        },
+        {
+            "id":653,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/21abb9b0-2872-4f45-b61d-83f99245b80d1601971336678-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/ad4b8710-fb92-4f34-a3ea-c6ea018cb03f1601971336623-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/d824750a-5d88-42f5-adb6-0eee99639c4d1601971336570-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12348604/2020/10/6/4dc0e3d4-2000-42af-83b5-74bcac6329501601971336436-CUTECUMBER-Girls-Burgundy--White-Printed-Sheath-Dress-402160-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Burgundy & White Printed Sheath Dress",
+            "price":"1186",
+            "strikeOff_price":"2,096",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":654,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/d7634f89-2898-4659-9be3-b8b91e8041601607329995412CherryCrumbleGirlsMaroonSolidFitandFlareDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/fcc5a67c-5075-4646-a81a-8169d64f1a9e1607329995465CherryCrumbleGirlsMaroonSolidFitandFlareDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/a1d2728e-e12f-4c79-9dfb-a9db4c9f771a1607329995517CherryCrumbleGirlsMaroonSolidFitandFlareDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12933168/2020/12/7/43fa159e-1098-45fe-9ffa-cda38d46e8cd1607329995573CherryCrumbleGirlsMaroonSolidFitandFlareDress4.jpg"
+            ],
+            "brand":"Cherry Crumble",
+            "description":"Girls Maroon Solid Fit and Flare Dress",
+            "price":"1566",
+            "strikeOff_price":"2,098",
+          "type":"Girl",
+            "offer":"35"
+        },
+        {
+            "id":655,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/7546365f-225a-4778-812a-74bcf4460df51647696387984PinkChickBurgundyNetSheathDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/ab55f633-ffb1-46ea-a6c5-62d95750e4c71647696387976PinkChickBurgundyNetSheathDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/e358c235-f68c-49c8-9385-1e62908172151647696387992PinkChickBurgundyNetSheathDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17585456/2022/3/19/5b59f9d1-0b44-4ac7-802c-7c7d3d05957d1647696387960PinkChickBurgundyNetSheathDress4.jpg"
+            ],
+            "brand":"Pink Chick",
+            "description":"Girls Burgundy Fit & Flare Dresss",
+            "price":"1156",
+            "strikeOff_price":"2,235",
+          "type":"Girl",
+            "offer":"45"
+        },
+        {
+            "id":656,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/7227ca35-b50b-4119-95b6-fcf86b7d31a41648468298497-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/4b39cb63-b579-4ec9-896c-51d3254895861648468298477-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/28d081c9-c735-4b16-b4d3-f52c7d3dd9fb1648468298456-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13838558/2022/3/28/e4f35c03-0233-4303-9b9b-eefadcd64d331648468298436-YK-Girls-Red--White-Floral-A-Line-Dress-5081648468298127-4.jpg"
+            ],
+            "brand":"YK",
+            "description":"Girls Red & White Floral A-Line Dress",
+            "price":"1356",
+            "strikeOff_price":"2,658",
+          "type":"Girl",
+            "offer":"37"
+        },
+        {
+            "id":657,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/bd837dee-0525-4afe-ad8c-3bf59407302a1614696496298-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/8004941c-ee75-41b4-a1a0-9008edeb470f1614696496320-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/6611f394-0894-47cf-a8c7-5b0b5251dbb51614696496342-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/2/f358f05a-a474-4d3e-941b-5cce89640ac81614696496383-5.jpg"
+            ],
+            "brand":"CUTECUMBER",
+            "description":"Girls Blue Cotton Shirt Dress",
+            "price":"999",
+            "strikeOff_price":"2,000",
+          "type":"Girl",
+            "offer":"50"
+        },
+        {
+            "id":658,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/773ad89e-629a-42b8-982f-749bb3e20c511620286773799-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/bb718f75-ed13-4e3c-8288-92f1470248071620286773819-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/5e6b5bc0-2418-4f58-97c1-28dc879cd5b51620286773841-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/6/4089e38b-278c-4c9b-a544-d00db0d5d89d1620286773885-5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Girls Pink Polka Dots Printed Fit & Flare Dress",
+            "price":"1069",
+            "strikeOff_price":"2,500",
+            "type":"Girl",
+            "offer":"60"
+        },
+        {
+            "id":659,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/8b03e839-a098-4097-80ea-3b344106f4d91645776120683CutiekinsBlackFloralOff-ShoulderCrepeMidiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/1ed910cc-dcb4-47b9-9364-50de7b91d39c1645776120666CutiekinsBlackFloralOff-ShoulderCrepeMidiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/bf6f7b13-7100-4925-a102-926d6855710d1645776120656CutiekinsBlackFloralOff-ShoulderCrepeMidiDress4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17288464/2022/2/25/ef94b66b-d7f2-4c37-941b-cd48a654b0281645776120693CutiekinsBlackFloralOff-ShoulderCrepeMidiDress5.jpg"
+            ],
+            "brand":"Cutiekins",
+            "description":"Black Floral Off-Shoulder High Low Crepe Dress",
+            "price":"1000",
+            "strikeOff_price":"2,500",
+          "type":"Girl",
+            "offer":"65"
+        },
+        {
+            "id":660,
+            "gender":"Girl",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2898f0cc-401d-48c8-b078-dc154588b9e31649175831291BETTYMustardYellowGeorgetteEthnicMaxiDress1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/2757d3c0-45a5-464a-876f-7db95f9d6b6c1649175831339BETTYMustardYellowGeorgetteEthnicMaxiDress2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/d9dd9f0b-1953-4a66-b6f3-2bbf5524267b1649175831315BETTYMustardYellowGeorgetteEthnicMaxiDress3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17771098/2022/4/5/9caed68d-20c0-47e8-a1eb-5433710081771649175831304BETTYMustardYellowGeorgetteEthnicMaxiDress4.jpg"
+            ],
+            "brand":"BETTY",
+            "description":"Mustard Yellow Georgette Ethnic Maxi Dress",
+            "price":"1200",
+            "strikeOff_price":"2,260",
+          "type":"Girl",
+            "offer":"68"
+        },
+        {
+            "id":461,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/1/c/7/39-pesfonup786340-peter-england-original-imagdecygg7zgqtn.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/n/o/1/39-pesfonup786340-peter-england-original-imagdecy7qzxkteh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/i/m/h/39-pesfonup786340-peter-england-original-imagdecythghmmhx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/a/o/h/39-pesfonup786340-peter-england-original-imagdecyerffzfh5.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Regular Fit Solid Spread Collar Formal Shirt",
+            "price":"930",
+            "strikeOff_price":"1,550",
+           "type":"Shirt",
+            "offer":"49"
+        },
+        {
+            "id":462,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/u/a/t/l-frml-st2-vebnor-original-imag6apmphuh2ayu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/z/e/c/l-frml-st2-vebnor-original-imag6apmrww553re.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/c/0/h/l-frml-st2-vebnor-original-imag6apmthyshyvd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/f/7/v/l-frml-st2-vebnor-original-imag6apmq69vfxqz.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"830",
+            "strikeOff_price":"1,230",
+           "type":"Shirt",
+            "offer":"52"
+        },
+        {
+            "id":463,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/u/a/t/l-frml-st2-vebnor-original-imag6apmphuh2ayu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/z/e/c/l-frml-st2-vebnor-original-imag6apmrww553re.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/c/0/h/l-frml-st2-vebnor-original-imag6apmthyshyvd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/f/7/v/l-frml-st2-vebnor-original-imag6apmq69vfxqz.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"830",
+            "strikeOff_price":"1,230",
+           "type":"Shirt",
+            "offer":"52"
+        },
+        {
+            "id":464,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/w/p/o/xxl-frml-st2-vebnor-original-imag6bkegkwmqv75.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/n/w/0/xxl-frml-st2-vebnor-original-imag6bkedpse4rx8.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/u/6/a/xxl-frml-st2-vebnor-original-imag6bkexqpqzenx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/3/e/r/xxl-frml-st2-vebnor-original-imag6bkeshjnrepy.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"650",
+            "strikeOff_price":"1,290",
+           "type":"Shirt",
+            "offer":"42"
+        },
+        {
+            "id":465,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/a/7/7/38-afacsh0718-arrow-sport-original-imagbfytquzeferq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/n/r/0/38-afacsh0718-arrow-sport-original-imagbfytqtjg9g9g.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/5/f/t/38-afacsh0718-arrow-sport-original-imagbfytdwhyw3mh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/f/b/2/38-afacsh0718-arrow-sport-original-imagbfytrvg5zduh.jpeg?q=70"
+            ],
+            "brand":"Arrow Sport",
+            "description":"Men Slim Fit Printed Formal Shirt",
+            "price":"670",
+            "strikeOff_price":"1,600",
+           "type":"Shirt",
+            "offer":"59"
+        },
+        {
+            "id":466,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/c/l/w/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7erppncps.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/b/m/0/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7vmueybke.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/o/z/0/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7fdg87dt2.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/e/l/y/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7jdx6hrfy.jpeg?q=70"
+            ],
+            "brand":"MILDIN",
+            "description":"Men Slim Fit Solid Formal Shirt",
+            "price":"599",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":467,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/0/c/d/40-pesfoslpp44467-peter-england-original-imagczgzufpkzqwy.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/h/e/f/40-pesfoslpp44467-peter-england-original-imagczgz8ecuvymu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/6/a/w/40-pesfoslpp44467-peter-england-original-imagczgzxau88qm6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/w/e/l/40-pesfoslpp44467-peter-england-original-imagczgz6zfypqsg.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"699",
+            "strikeOff_price":"1,520",
+           "type":"Shirt",
+            "offer":"46"
+        },
+        {
+            "id":468,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/p/o/z/38-pesfoslp912026-peter-england-original-imag9vp3tfzb9dty.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/a/3/t/38-pesfoslp912026-peter-england-original-imag9vp3yybngzkx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/x/6/a/38-pesfoslp912026-peter-england-original-imag9vp3ghfg3mvk.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/b/p/s/38-pesfoslp912026-peter-england-original-imag9vp3pvbbg6vu.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"899",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"78"
+        },
+        {
+            "id":469,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/s/k/v/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgypwwvdtwf.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/h/4/y/s-fo-prn-shw2-mrn-5th-anfold-original-imafzkgyafvfecz6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/u/7/v/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgytxuqyuhz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/5/n/o/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgym9rapmjm.jpeg?q=70"
+            ],
+            "brand":"5TH ANFOLD",
+            "description":"Men Slim Fit Printed Formal Shirt",
+            "price":"850",
+            "strikeOff_price":"1,560",
+           "type":"Shirt",
+            "offer":"68"
+        },
+        {
+            "id":470,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/efbde05f-7f74-458c-b092-bbc9c2600ce71566454086768-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/936afc2c-4596-4c38-8f90-770d21935f281566454086747-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/b40e3089-2e16-4982-b6e9-9e5522d6725b1566454086712-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-5.jpg"
+            ],
+            "brand":"Dennis Lingo",
+            "description":"Men Pink Slim Fit Casual Shirt",
+            "price":"654",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":471,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/3eae8fb4-b7ca-4e01-80bf-d1e59ab1568d1553080254589-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/f1d7cfb5-41f9-49f0-bae4-2f0427aaebcf1553080254532-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/00e2f60e-0ed3-4b12-9c98-6840e99b506d1553080254483-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-6.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/540f5e54-8aec-4f9e-9ef1-229df2b9cb0a1553080254512-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-5.jpg"
+            ],
+            "brand":"Roadster",
+            "description":"Men Black & White Checked Pure Cotton Casual Sustainable Shirt",
+            "price":"956",
+            "strikeOff_price":"1,265",
+           "type":"Shirt",
+            "offer":"36"
+        },
+        {
+            "id":472,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/29ab8ff4-aece-4f9c-80f7-6ab0dbf3772a1566992341955-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/da9f7a39-3d0f-4bd8-819b-e768d8d263c81566992341936-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/621bb169-4f2a-4ca1-b990-b7a737a629221566992341919-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-4.jpg"
+            ],
+            "brand":"WROGN",
+            "description":"Navy Blue Slim Fit Checked Casual Shirt",
+            "price":"566",
+            "strikeOff_price":"1,658",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":473,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/a350d284-d816-406e-9a3b-5e9928ebe26d1575548743594-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/ccd81400-3ca4-4d4f-b073-b59f364e481b1575548743523-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/b2d5545c-9eb7-4160-95e6-79f555cc5eaf1575548743441-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/43f8fa9e-fbeb-47e2-9fdb-71cd16d149691575548743292-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-5.jpg"
+            ],
+            "brand":"WROGN",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"566",
+            "strikeOff_price":"1,658",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":474,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/c293452c-bd29-4327-a56d-1e847a26eedc1552650275369-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/5d993b51-ec02-4a30-8625-79cb17408e201552650275344-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/52b14e41-04f3-48c9-8d21-a40a000a16341552650275328-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/f1d5d9a6-370b-4551-8039-04639f8e61271552650275295-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-5.jpg"
+            ],
+            "brand":"HIGHLANDER",
+            "description":"Highlander Maroon Slim Fit Casual Shirt",
+            "price":"856",
+            "strikeOff_price":"1,235",
+           "type":"Shirt",
+            "offer":"36"
+        },
+        {
+            "id":475,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/d56e75f6-f1a7-4fdd-b430-51befb36f88d1566454760527-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/a6482112-9af7-4934-9e65-6443f0df4b8c1566454760508-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/48984a02-d42e-4301-be15-9d22066ca8d51566454760488-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/c6f7cf43-0002-4dc8-863b-f5b1afb204d81566454760448-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-5.jpg"
+            ],
+            "brand":"Campus Sutra",
+            "description":"Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt",
+            "price":"966",
+            "strikeOff_price":"1,569",
+           "type":"Shirt",
+            "offer":"46"
+        },
+        {
+            "id":476,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/1/c/7/39-pesfonup786340-peter-england-original-imagdecygg7zgqtn.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/n/o/1/39-pesfonup786340-peter-england-original-imagdecy7qzxkteh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/i/m/h/39-pesfonup786340-peter-england-original-imagdecythghmmhx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l1xwqkw0/shirt/a/o/h/39-pesfonup786340-peter-england-original-imagdecyerffzfh5.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Regular Fit Solid Spread Collar Formal Shirt",
+            "price":"930",
+            "strikeOff_price":"1,550",
+           "type":"Shirt",
+            "offer":"49"
+        },
+        {
+            "id":477,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/u/a/t/l-frml-st2-vebnor-original-imag6apmphuh2ayu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/z/e/c/l-frml-st2-vebnor-original-imag6apmrww553re.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/c/0/h/l-frml-st2-vebnor-original-imag6apmthyshyvd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/f/7/v/l-frml-st2-vebnor-original-imag6apmq69vfxqz.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"830",
+            "strikeOff_price":"1,230",
+           "type":"Shirt",
+            "offer":"52"
+        },
+        {
+            "id":478,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/u/a/t/l-frml-st2-vebnor-original-imag6apmphuh2ayu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/z/e/c/l-frml-st2-vebnor-original-imag6apmrww553re.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/c/0/h/l-frml-st2-vebnor-original-imag6apmthyshyvd.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kst9gnk0/shirt/f/7/v/l-frml-st2-vebnor-original-imag6apmq69vfxqz.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"830",
+            "strikeOff_price":"1,230",
+           "type":"Shirt",
+            "offer":"52"
+        },
+        {
+            "id":479,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/w/p/o/xxl-frml-st2-vebnor-original-imag6bkegkwmqv75.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/n/w/0/xxl-frml-st2-vebnor-original-imag6bkedpse4rx8.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/u/6/a/xxl-frml-st2-vebnor-original-imag6bkexqpqzenx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/ksuowi80/shirt/3/e/r/xxl-frml-st2-vebnor-original-imag6bkeshjnrepy.jpeg?q=70"
+            ],
+            "brand":"VeBNoR",
+            "description":"Men Regular Fit Solid Button Down Collar Formal Shirt",
+            "price":"650",
+            "strikeOff_price":"1,290",
+           "type":"Shirt",
+            "offer":"42"
+        },
+        {
+            "id":480,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/a/7/7/38-afacsh0718-arrow-sport-original-imagbfytquzeferq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/n/r/0/38-afacsh0718-arrow-sport-original-imagbfytqtjg9g9g.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/5/f/t/38-afacsh0718-arrow-sport-original-imagbfytdwhyw3mh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/f/b/2/38-afacsh0718-arrow-sport-original-imagbfytrvg5zduh.jpeg?q=70"
+            ],
+            "brand":"Arrow Sport",
+            "description":"Men Slim Fit Printed Formal Shirt",
+            "price":"670",
+            "strikeOff_price":"1,600",
+           "type":"Shirt",
+            "offer":"59"
+        },
+        {
+            "id":481,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/c/l/w/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7erppncps.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/b/m/0/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7vmueybke.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/o/z/0/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7fdg87dt2.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kx7vc7k0/shirt/e/l/y/xxl-men-slim-fit-solid-mandarin-collar-formal-shirt-mildin-original-imag9pt7jdx6hrfy.jpeg?q=70"
+            ],
+            "brand":"MILDIN",
+            "description":"Men Slim Fit Solid Formal Shirt",
+            "price":"599",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":482,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/0/c/d/40-pesfoslpp44467-peter-england-original-imagczgzufpkzqwy.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/h/e/f/40-pesfoslpp44467-peter-england-original-imagczgz8ecuvymu.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/6/a/w/40-pesfoslpp44467-peter-england-original-imagczgzxau88qm6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/l111lzk0/shirt/w/e/l/40-pesfoslpp44467-peter-england-original-imagczgz6zfypqsg.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"699",
+            "strikeOff_price":"1,520",
+           "type":"Shirt",
+            "offer":"46"
+        },
+        {
+            "id":483,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/p/o/z/38-pesfoslp912026-peter-england-original-imag9vp3tfzb9dty.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/a/3/t/38-pesfoslp912026-peter-england-original-imag9vp3yybngzkx.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/x/6/a/38-pesfoslp912026-peter-england-original-imag9vp3ghfg3mvk.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kxf0jgw0/shirt/b/p/s/38-pesfoslp912026-peter-england-original-imag9vp3pvbbg6vu.jpeg?q=70"
+            ],
+            "brand":"PETER ENGLAND",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"899",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"78"
+        },
+        {
+            "id":484,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/s/k/v/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgypwwvdtwf.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/h/4/y/s-fo-prn-shw2-mrn-5th-anfold-original-imafzkgyafvfecz6.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/u/7/v/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgytxuqyuhz.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kk5rgy80/shirt/5/n/o/l-fo-prn-shw2-mrn-5th-anfold-original-imafzkgym9rapmjm.jpeg?q=70"
+            ],
+            "brand":"5TH ANFOLD",
+            "description":"Men Slim Fit Printed Formal Shirt",
+            "price":"850",
+            "strikeOff_price":"1,560",
+           "type":"Shirt",
+            "offer":"68"
+        },
+        {
+            "id":485,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/efbde05f-7f74-458c-b092-bbc9c2600ce71566454086768-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/936afc2c-4596-4c38-8f90-770d21935f281566454086747-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7488102/2019/8/22/b40e3089-2e16-4982-b6e9-9e5522d6725b1566454086712-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-5.jpg"
+            ],
+            "brand":"Dennis Lingo",
+            "description":"Men Pink Slim Fit Casual Shirt",
+            "price":"654",
+            "strikeOff_price":"1,890",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":486,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/3eae8fb4-b7ca-4e01-80bf-d1e59ab1568d1553080254589-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/f1d7cfb5-41f9-49f0-bae4-2f0427aaebcf1553080254532-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-4.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/00e2f60e-0ed3-4b12-9c98-6840e99b506d1553080254483-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-6.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889611/2019/3/20/540f5e54-8aec-4f9e-9ef1-229df2b9cb0a1553080254512-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-5.jpg"
+            ],
+            "brand":"Roadster",
+            "description":"Men Black & White Checked Pure Cotton Casual Sustainable Shirt",
+            "price":"956",
+            "strikeOff_price":"1,265",
+           "type":"Shirt",
+            "offer":"36"
+        },
+        {
+            "id":487,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/29ab8ff4-aece-4f9c-80f7-6ab0dbf3772a1566992341955-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/da9f7a39-3d0f-4bd8-819b-e768d8d263c81566992341936-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1729391/2019/8/28/621bb169-4f2a-4ca1-b990-b7a737a629221566992341919-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-4.jpg"
+            ],
+            "brand":"WROGN",
+            "description":"Navy Blue Slim Fit Checked Casual Shirt",
+            "price":"566",
+            "strikeOff_price":"1,658",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":488,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/a350d284-d816-406e-9a3b-5e9928ebe26d1575548743594-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/ccd81400-3ca4-4d4f-b073-b59f364e481b1575548743523-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/b2d5545c-9eb7-4160-95e6-79f555cc5eaf1575548743441-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2358006/2019/12/5/43f8fa9e-fbeb-47e2-9fdb-71cd16d149691575548743292-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-5.jpg"
+            ],
+            "brand":"WROGN",
+            "description":"Men Slim Fit Solid Spread Collar Formal Shirt",
+            "price":"566",
+            "strikeOff_price":"1,658",
+           "type":"Shirt",
+            "offer":"56"
+        },
+        {
+            "id":489,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/c293452c-bd29-4327-a56d-1e847a26eedc1552650275369-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/5d993b51-ec02-4a30-8625-79cb17408e201552650275344-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/52b14e41-04f3-48c9-8d21-a40a000a16341552650275328-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265388/2019/3/15/f1d5d9a6-370b-4551-8039-04639f8e61271552650275295-Highlander-Maroon-Slim-Fit-Casual-Shirt-1801552650274001-5.jpg"
+            ],
+            "brand":"HIGHLANDER",
+            "description":"Highlander Maroon Slim Fit Casual Shirt",
+            "price":"856",
+            "strikeOff_price":"1,235",
+           "type":"Shirt",
+            "offer":"36"
+        },
+        {
+            "id":490,
+            "gender":"Men",
+            "image":[
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/d56e75f6-f1a7-4fdd-b430-51befb36f88d1566454760527-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/a6482112-9af7-4934-9e65-6443f0df4b8c1566454760508-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/48984a02-d42e-4301-be15-9d22066ca8d51566454760488-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-3.jpg",
+                "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10456354/2019/8/22/c6f7cf43-0002-4dc8-863b-f5b1afb204d81566454760448-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-5.jpg"
+            ],
+            "brand":"Campus Sutra",
+            "description":"Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt",
+            "price":"966",
+            "strikeOff_price":"1,569",
+           "type":"Shirt",
+            "offer":"46"
+        },
+        {
+            "id":491,
+            "gender":"Men",
+            "image":[
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/a/7/7/38-afacsh0718-arrow-sport-original-imagbfytquzeferq.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/n/r/0/38-afacsh0718-arrow-sport-original-imagbfytqtjg9g9g.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/5/f/t/38-afacsh0718-arrow-sport-original-imagbfytdwhyw3mh.jpeg?q=70",
+                "https://rukminim2.flixcart.com/image/832/832/kyxb9u80/shirt/f/b/2/38-afacsh0718-arrow-sport-original-imagbfytrvg5zduh.jpeg?q=70"
+            ],
+            "brand":"Arrow Sport",
+            "description":"Men Slim Fit Printed Formal Shirt",
+            "price":"670",
+            "strikeOff_price":"1,600",
+           "type":"Shirt",
+            "offer":"59"
         }
     ]
 }

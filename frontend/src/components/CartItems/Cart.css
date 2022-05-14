@@ -1,0 +1,203 @@
+.container{
+    width: 80%;
+    height: 100vh;
+    margin:30px auto;
+    border: 1px solid grey;
+    display: flex;
+    gap:35px
+}
+.leftContainer{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+}
+.rightContainer{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+}
+.pincode{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1px solid grey
+}
+.delivery{
+    color: #282c3f;
+    font-size: 17px;
+    font-weight: 600;
+}
+.pincode-btn{
+   padding: 5px 15px;
+   border: 0px;
+   color: #ff3f6c;
+   border: 1px solid #ff3f6c;
+}
+.discount{
+    border: 0.1px solid grey;
+    margin-top: 10px;
+}
+.discount p:nth-child(1){
+    color:#282c3f;
+    font-size: 16px;
+    font-weight: 600;   
+}
+.discount p:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    color: #282c3f;    
+}
+.shipping{
+    width: 100%;
+    height: 70px;
+    border: 0.1px solid grey;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.shipping>p{
+    color: #3e4152;
+    font-size: 16px;
+    font-weight: 400;
+}
+.shipping span{
+  font-size: 17px;
+  font-weight: 600;
+  color: #535766;
+}
+.btn-click{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    border: 0.1px solid grey;
+    margin-top: 10px;
+    justify-content: right;
+    gap:10px;
+    align-items: center;
+}
+.btn-click p{
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 320px;
+    margin-top: 12px;
+}
+.btn-click button{
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #535766;
+    padding: 5px 8px;
+}
+.append{
+    height: 250px;
+    width: 100%;
+    border: 1px solid grey;
+    margin-top: 10px;
+    display: flex;
+    gap:15px;
+    top:0;
+}
+.imageDiv{
+   height: 100%;
+   width: 25%;
+   border: 1px solid grey;
+}
+.right-details{
+    width: 75%;
+    height: 100%;
+    /* border:1px solid yellow; */
+}
+.details{
+    width: 100%;
+    height: 50%;
+    border: 1px solid white;
+}
+.size-qty{
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    border: 1px solid white;
+}
+.append div:nth-child(1) img{
+    height: 100%;
+    width: 100%;
+}
+.details p:nth-child(1){
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 600;
+}
+.append p:nth-child(2){
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 400;
+}
+.append p:nth-child(3){
+    color: #94969f;
+    font-size: 12px;
+    font-weight: 400;
+} 
+
+.topDiv{
+    height: 300px;
+    width: 100%;
+}
+.topDiv P:nth-child(1){
+    color: #535766;
+    font-size: 14px;
+    font-weight: 600;
+}
+.topDiv p:nth-child(2){
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 600;
+}
+.topDiv button{
+    border: 0;
+    padding: 15px, 35px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.topDiv p:last-child{
+    color: #ff3f6c;
+    font-size: 16px;
+    font-weight: 600;
+}
+.coupon>P{
+  color: #535766;
+  font-weight: 600;
+  font-size: 14px;
+}
+.flex-coupon{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-coupon p{
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 600;
+}
+.flex-coupon button{
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    padding: 0 15px;
+}
+.see{
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login{
+    color: #ff3f6c;
+    font-size: 16px;
+    font-weight: 700;
+}
+.flex{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}

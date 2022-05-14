@@ -1,40 +1,19 @@
-import Navbar from './components/Navbar/Navbar';
-import AllRoutes from './Routes/Routes';
-import { useDispatch} from 'react-redux'
-import { useEffect } from 'react';
-import { addKurti, addShirt, addGirlDress } from './Redux/Actions/Action';
-import axios from 'axios';
+import AllRoutes from "./components/allRoutes/Routes";
+import MainModel from "./components/MainModel/MainModel";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  const dispatch=useDispatch();
-
-  useEffect(()=>{
-    getKurti();
-    getShirt();
-    getGirlDress();
-  },[])
-  
-  const getKurti=()=>{
-    axios.get('http://localhost:3001/kurti').then(({data})=>{
-      dispatch(addKurti(data))
-    })
-  }
-  const getShirt=()=>{
-    axios.get('http://localhost:3001/shirts').then(({data})=>{
-      dispatch(addShirt(data))
-    })
-  }
-  const getGirlDress=()=>{
-    axios.get('http://localhost:3001/girlsdresses').then(({data})=>{
-      dispatch(addGirlDress(data))
-    })
-  }
-  
+  let props={
+    url:'http://localhost:3002/fashion'
+}
   return (
-    <div className="App">
-      <Navbar/>
-      <AllRoutes/>
-    </div>
+    <>
+    <Navbar data={props.url}/>
+    {/* <video>
+        <source src="https://www.gap.com/Asset_Archive/GPWeb/content/0028/744/304/assets/UNREC_3/ALL_22_SP1_GOL_Denim_06_1138x700.mp4" type="video/mp4"/>
+      </video> */}
+    <AllRoutes />
+    </>
   );
 }
 
