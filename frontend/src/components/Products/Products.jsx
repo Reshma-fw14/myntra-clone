@@ -97,8 +97,8 @@ export default function Products() {
 
   return (
     <>
-      <h1>Best of All Brands</h1>
-      <CarouselModel img={img} />
+      {/* <h1>Best of All Brands</h1> */}
+      {/* <CarouselModel img={img} /> */}
 
       <Filter />
 

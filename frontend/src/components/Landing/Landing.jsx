@@ -39,7 +39,9 @@ export default function Landing() {
   return (
     <div>
         <CarouselModel img={img}/><br /><br />
-        <h1>Jewellery and Heels top Pics</h1>
+        <div style={{marginLeft:"300px", marginBottom:'20px'}}>
+            <img src="https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/5103ed09-07ea-4c14-b7d4-861749480d72.jpg" alt="" />
+        </div>
         <CarouselModel img={jewellery}/><br /><br />
         <div className='animation' style={{marginLeft:'250px'}}>
            <img src="https://images-static.nykaa.com/uploads/tr:w-1200,/96082820-e43d-4c31-a63e-a0a525c2cb9b.gif" alt="" />

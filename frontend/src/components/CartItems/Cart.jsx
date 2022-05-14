@@ -1,14 +1,28 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import "./Cart.css"
+import "./Cart.css";
+import RestoreFromTrashIcon from '@mui/icons-material/RestoreFromTrash';
+import axios from 'axios';
+import { bindActionCreators } from "redux";
+import { ActionCreators } from "../states/store/ActionCreator";
+import { useDispatch } from "react-redux";
 
 export default function Cart() {
     const cartItem=useParams()
-    // console.log("item",cartItem.cartItem)
 
     const url = useSelector((state) => state.CartReducer);
-    console.log("url",url)
+    // console.log("url",url)
+
+    const dispatch = useDispatch();
+    const action = bindActionCreators(ActionCreators, dispatch);
+
+    const handleDelete=(i)=>{
+        url.cartEle.splice(i,1)
+        // console.log("deleted",e)
+        action.CartAction({url})
+        // axios.delete(`http://localhost:3002/fashion?${e.id}`)
+    }
 
 
   return (
@@ -32,11 +46,11 @@ export default function Cart() {
                     <button>REMOVE</button>
                     <button>MOVE TO WISHLIST</button>
                 </div>
-                {url.cartEle.map((e)=>
+                {url.cartEle.map((e,i)=>
                     <div className='mainAppend'>
                         <div className='append'>
                             <div className='imageDiv'>
-                                <img src={e.image[0]} alt="" />
+                                <img src={e.image[0]} alt="img" />
                             </div>
                             <div className='right-details'>
                                 <div className='Details'>
@@ -54,6 +68,7 @@ export default function Cart() {
                                     </select>
                                 </div>
                             </div>
+                            <RestoreFromTrashIcon onClick={()=>handleDelete(i)} />
                         </div>
                     </div>
                 )}

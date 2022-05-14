@@ -21,7 +21,7 @@ export default function FilterCard({data}) {
   return (
     <div>
         <button onClick={()=>{handleClick(data.key)}} style={{border:"none"}}>
-            <img src={data.image} alt="img" />
+            <img style={{width:'100%', height:'100%'}} src={data.image} alt="img" />
         </button>
     </div>
   )
