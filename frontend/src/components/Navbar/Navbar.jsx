@@ -4,7 +4,7 @@ import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import Women from "../CatModels/Design";
+import Women from "../CatModels/WomenDesign";
 
 const women=[{key:"Kurta-Sets",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/a3847fe4-e42b-4761-b4e8-0966c08ae89c.jpg"},
 {key:"Kurti",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/ab5a2866-40af-4355-aa7d-5a98cb8cffa6.jpg"},
@@ -30,17 +30,13 @@ export default function Navbar({data}) {
     action.TypeAction({ url: data });
     action.ImageAction({images:array});
     action.CounterAction(1)
-    action.DesignAction(design)
-    nav(`/allProducts/${gender}`);
+   if(gender==="Women") {action.DesignAction({men:false,women:true,girl:false})}
+   else if(gender==="Men"){action.DesignAction({men:true,women:false,girl:false})}
+   else if(gender==="Girl"){action.DesignAction({men:false,women:false,girl:true})}
+       nav(`/allProducts/${gender}`);
   }
 
-  const womenDesign=["https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/ef9bfb3a-9ab4-4ad3-87d9-0af2b093ed73.gif",
-                    "https://images-static.nykaa.com/uploads/c620335e-85dc-4bee-a0ee-02665668b794.gif?tr=w-600,cm-pad_resize",
-                    "https://images-static.nykaa.com/uploads/3252ce59-13b6-4a92-b7a2-95f2402ce7e9.gif?tr=w-600,cm-pad_resize",
-                    "https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/85a8480c-5f90-4a8e-8c8c-4e6fc034d780.gif",
-                    "https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/1232de15-36f5-4939-a72f-3ee8306bec6e.jpg",
-                    "https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/86856eb5-a0f3-4f1f-b1fa-f2c3ec8b2acf.jpg"
-                    ]
+ 
 
   return (
     <div style={{marginBottom:"30px"}}>
@@ -64,7 +60,7 @@ export default function Navbar({data}) {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <div>
-                <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Women',women,womenDesign)}>
+                <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Women',women)}>
                 Women <span className="sr-only">(current)</span>
               </button>
               </div>
@@ -76,7 +72,7 @@ export default function Navbar({data}) {
             </li>
             <li className="nav-item">
             <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Girl',girl)}>
-                Kids <span className="sr-only">(current)</span>
+                girl <span className="sr-only">(current)</span>
               </button>
             </li>
           </ul>

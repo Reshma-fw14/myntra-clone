@@ -13,15 +13,17 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useParams, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
+
 import FilterCard from "../Card/FilterCard";
 import CarouselModel from "../Carousel/Carousel";
 import Filter from "../FilterCard/Filter";
 
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
-import { useDispatch } from "react-redux";
-import Design from "../CatModels/Design";
+import { useDispatch,useSelector } from "react-redux";
+import Design from "../CatModels/WomenDesign";
+import MenDesign from "../CatModels/MenDesign";
+import KidsDesign from "../CatModels/KidsDesign";
 
 export default function Model() {
   const nav = useNavigate();
@@ -29,6 +31,7 @@ export default function Model() {
   const [data, setData] = useState([]);
   const url = useSelector((state) => state.TypeReducer);
   const counter = useSelector((state) => state.CounterReducer);
+  const {men,women,girl}=useSelector((state)=>state.DesignReducer)
   // console.log("url:",url.url)
 
   const { gender } = useParams();
@@ -74,59 +77,10 @@ export default function Model() {
 
   return (
     <>
-      {/* <div style={{width:"100%", marginLeft:'300px', marginBottom:'20px'}}>
-            <img src="https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/ef9bfb3a-9ab4-4ad3-87d9-0af2b093ed73.gif" alt="" />
-        </div>
-      <CarouselModel img={img} />
-      <br />
-      <br />
-
-      <div style={{ display: "flex" }}>
-        <div style={{ height: "500px", width: "850px", marginRight: "20px" }}>
-          <img
-            height="100%"
-            width="100%"
-            src="https://images-static.nykaa.com/uploads/c620335e-85dc-4bee-a0ee-02665668b794.gif?tr=w-600,cm-pad_resize"
-            alt="slide1"
-          />
-        </div>
-        <div style={{ height: "500px", width: "850px" }}>
-          <img
-            height="100%"
-            width="100%"
-            src="https://images-static.nykaa.com/uploads/3252ce59-13b6-4a92-b7a2-95f2402ce7e9.gif?tr=w-600,cm-pad_resize"
-            alt="slide2"
-          />
-        </div>
-      </div>
-      <br />
-      <br />
-
-      <div>
-        <div style={{ marginLeft: "240px" }}>
-          <img
-            width="1290px"
-            src="https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/85a8480c-5f90-4a8e-8c8c-4e6fc034d780.gif"
-            alt=""
-          />
-        </div>
-        <div style={{ display: "flex", margin: "20px 240px" }}>
-          <div style={{ marginRight: "10px" }}>
-            <img
-              src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/1232de15-36f5-4939-a72f-3ee8306bec6e.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/86856eb5-a0f3-4f1f-b1fa-f2c3ec8b2acf.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div> */}
-       
-       <Design />
+      {women && <Design />}
+      {men && <MenDesign/>}
+      {girl && <KidsDesign/>}
+      
 
      <div>
        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/f4b10903-d18d-44fa-8dc9-b49e7e86ae521651897264790-Shop-By-Category.jpg" alt="" />
