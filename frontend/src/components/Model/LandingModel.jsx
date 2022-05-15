@@ -64,7 +64,7 @@ export default function ModelScrollX({ data }) {
         </div>
         <div
           className="overflow-scroll model_container_user "
-          style={{ scrollbarWidth: "none" }}
+          style={{ scrollbarWidth: "none", marginTop:'15px' }}
         >
           {TypeData.map((ele) => (
             <CardModel data={ele} key={ele.id} />

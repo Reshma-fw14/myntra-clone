@@ -14,6 +14,9 @@
     flex-direction: row-reverse;
     margin-right: 1%;
   }
+  .model_container_user::-webkit-scrollbar{
+    display: none;
+  }
   @media only screen and (max-width: 992px) {
     .model_bar_user {
       margin: auto;

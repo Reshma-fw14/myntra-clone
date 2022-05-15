@@ -6,4 +6,6 @@
   .container_user_listing {
     margin: auto;
   }
-  
+  .container_user_listing::-webkit-scrollbar{
+    display: none;
+  }

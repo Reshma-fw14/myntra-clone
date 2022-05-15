@@ -14,9 +14,20 @@ const women=[{key:"Kurta-Sets",image:"https://images-static.nykaa.com/uploads/tr
 {key:"Jewellery",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/7b9b830a-1292-4b3a-adcd-7b84be114916.jpg"}
 ]
 
-const men=[{key:'Shirt',image:'https://images-static.nykaa.com/uploads/tr:w-180,/19508f79-bf7e-4190-99c7-210aa8ddbe01.jpg'}]
+const men=[{key:'Shirt',image:'https://images-static.nykaa.com/uploads/tr:w-180,/19508f79-bf7e-4190-99c7-210aa8ddbe01.jpg'},
+           {key:'T-Shirt', image:"https://images-static.nykaa.com/uploads/tr:w-180,/774c9981-6602-4a0e-90e2-a2017f0a83ee.jpg"},
+           {key:'Jeans', image:'https://images-static.nykaa.com/uploads/tr:w-180,/d867879b-4a87-4c95-9690-0a7ecfb3db9b.jpg'},
+           {key:'Formal-Shoes', image:'https://images-static.nykaa.com/uploads/tr:w-180,/da1908aa-3590-4883-baa5-735c669c5b7b.jpg'},
+           {key:'Watch', image:'https://images-static.nykaa.com/uploads/tr:w-180,/afba691f-2190-46e0-9360-1617f1bad81d.jpg'},
+           {key:'Fashion-Accessories', image:'https://images-static.nykaa.com/uploads/tr:w-180,/3c1ae391-f98b-4a84-8ba4-d83a7a10894e.jpg'},
+           {key:'Men-Kurta-Sets', image:'https://images-static.nykaa.com/uploads/tr:w-180,/ae551956-6227-4d71-aa4a-423458e83568.jpg'}
+          ]
 
-const girl=[{key:"Girl",image:'https://images-static.nykaa.com/uploads/tr:w-220.8,/a6b87c37-9206-4243-bde6-74cabd22ebfb.jpg'}]
+const girl=[{key:"Girl",image:'https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/2ab2f5b3-441a-430c-a605-2ac9d06007c01604906586315-28-Essentials-Dresses.jpg'},
+             {key:"Kids-Ethnic-Wear",image:'https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/efc4b19d-179f-4437-961c-839df50299a51604906586690-36-Essentials-Night_innerwear.jpg'},
+             {key:'Flip-Flops',image:'https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/33368b8b-8702-4108-96a9-b8fa5b7ed36f1604906586455-31-Essentials-FlipFlop_sandals.jpg'},
+             {key:'Shorts', image:'https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/29baf945-9e5b-4f0e-bb05-0ce65c57f9c91604906586502-32-Essentials-Shorts.jpg'}
+            ]
 
 
 export default function Navbar({data}) {
