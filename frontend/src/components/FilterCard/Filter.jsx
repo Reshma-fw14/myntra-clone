@@ -12,7 +12,7 @@ export default function Filter() {
 
   return (
     <div>
-       <div style={{display:'flex', gap:'2%', width:'100%', margin:' 40px 50px', border:'0px'}}>
+       <div style={{display:'flex', gap:'2%', width:'100%', margin:' 40px 50px'}}>
          {state.images.map((ele)=>
             <FilterCard data={ele}/>
          )} 

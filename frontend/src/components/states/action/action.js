@@ -3,6 +3,7 @@ const images='IMAGES';
 const counter="COUNTER";
 const view="VIEW";
 const cart="CART";
+const design="DESIGN";
 
 export const TypeAction = (x) => {
   return (dispatch) => {
@@ -45,6 +46,15 @@ export const CartAction = (x) => {
   return (dispatch) => {
     dispatch({
       type: cart,
+      payload: x,
+    });
+  };
+};
+
+export const DesignAction = (x) => {
+  return (dispatch) => {
+    dispatch({
+      type: design,
       payload: x,
     });
   };

@@ -21,6 +21,7 @@ import Filter from "../FilterCard/Filter";
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
+import Design from "../CatModels/Design";
 
 export default function Model() {
   const nav = useNavigate();
@@ -70,15 +71,10 @@ export default function Model() {
     nav(`/cart/${item.id}`)
   }
 
-  const img = [
-    "https://assets.ajio.com/cms/AJIO/WEB/11052022-D-unisex-topbannercarousel-p5-brands-4070.jpg",
-    "https://assets.ajio.com/cms/AJIO/WEB/11052022-D-unisex-banner1-men-p4-brands-min50.jpg",
-    "https://assets.ajio.com/cms/AJIO/WEB/11052022-D-unisex-banner1-men-p3-brands-upto70.jpg",
-  ];
 
   return (
     <>
-      <div style={{width:"100%", marginLeft:'300px', marginBottom:'20px'}}>
+      {/* <div style={{width:"100%", marginLeft:'300px', marginBottom:'20px'}}>
             <img src="https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/ef9bfb3a-9ab4-4ad3-87d9-0af2b093ed73.gif" alt="" />
         </div>
       <CarouselModel img={img} />
@@ -128,8 +124,13 @@ export default function Model() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
+       
+       <Design />
 
+     <div>
+       <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/f4b10903-d18d-44fa-8dc9-b49e7e86ae521651897264790-Shop-By-Category.jpg" alt="" />
+     </div>
       <Filter />
       
       <div>
