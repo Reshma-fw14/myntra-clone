@@ -131,10 +131,7 @@ export default function Model() {
       </div>
 
       <Filter />
-
-      {/* <h1 style={{ textAlign: "center", color: "silver" }}>
-        Choose Your Favorite
-      </h1> */}
+      
       <div>
         <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/ba07b5b3-ad1f-4800-8968-4b1bc000be191651897264745-Budget-Buys.jpg" alt="" />
       </div>
