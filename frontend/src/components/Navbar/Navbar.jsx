@@ -46,13 +46,16 @@ export default function Navbar({data}) {
        nav(`/allProducts/${gender}`);
   }
 
+  // const handleSearch=()=>{
+    
+  // }
  
 
   return (
-    <div style={{marginBottom:"30px"}}>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div style={{marginBottom:"10px"}}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">
-          <img style={{height:'50px', width:'70px', marginLeft:'70px', marginRight:'100px'}} src="https://cdn.mos.cms.futurecdn.net/Ziv82j6YvdrvHqmxYjiTo3-1024-80.png.webp" alt="" />
+          <img style={{height:'50px', width:'70px', marginLeft:'70px', marginRight:'100px'}} src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Myntra_logo.png" alt="" />
         </a>
         <button
           className="navbar-toggler"
@@ -70,18 +73,18 @@ export default function Navbar({data}) {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <div>
-                <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Women',women)}>
+                <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px',color:'#ff3f6c', background:'#f8f9fa', border:'0'}} onClick={()=>handleClick('Women',women)}>
                 Women <span className="sr-only">(current)</span>
               </button>
               </div>
             </li>
             <li className="nav-item">
-            <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Men',men)}>
+            <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px',color:'#ff3f6c', background:'#f8f9fa', border:'0'}} onClick={()=>handleClick('Men',men)}>
                 Men <span className="sr-only">(current)</span>
               </button>
             </li>
             <li className="nav-item">
-            <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px'}} onClick={()=>handleClick('Girl',girl)}>
+            <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px', color:'#ff3f6c', background:'#f8f9fa', border:'0'}} onClick={()=>handleClick('Girl',girl)}>
                 girl <span className="sr-only">(current)</span>
               </button>
             </li>
@@ -93,12 +96,14 @@ export default function Navbar({data}) {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={()=>{
+              // handleSearch()
+            }}>
               Search
             </button>
           </form>
-          <button style={{marginLeft:'100px', marginRight:'10px', border:'0px'}}>Signup</button>
-          <button style={{border:'10px'}}>Login</button>
+          <button style={{marginLeft:'100px', marginRight:'10px', border:'0px',padding:'5px 10px'}}>Signup</button>
+          <button style={{border:'10px',padding:'5px 11px'}}>Login</button>
         </div>
       </nav>
     </div>

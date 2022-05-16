@@ -22,13 +22,6 @@ import { useDispatch } from "react-redux";
 
 export default function Products() {
    const brand=useSelector((state)=>state.BrandReducer);
-  
-   const getBrand=()=>{
-      axios.get(`${brand.url}/?brand=${routeName}`).then(({data})=>{
-        // console.log("data::",data)
-        setitemData(data);
-      })
-   }
 
 
   const limit = 10;
@@ -52,7 +45,7 @@ export default function Products() {
     getAll();
     getPage();
     getBrand()
-  }, [counter]);
+  }, [counter,setitemData]);
 
   function getAll() {
     if (routeName === "all") {
@@ -81,6 +74,12 @@ export default function Products() {
     }
   }
 
+  const getBrand=()=>{
+    axios.get(`${brand.url}/?brand=${routeName}`).then(({data})=>{
+      // console.log("data::",data)
+      setitemData(data);
+    })
+ }
 
   const img = [
     "https://assets.ajio.com/cms/AJIO/WEB/12052022-D-unisex-topbannercarousel-p3-ethnicwear-brands-4070.jpg",
@@ -100,16 +99,33 @@ export default function Products() {
     nav(`/cart/${item.id}`);
   };
 
+  const handleSort=(x)=>{
+    let sorted=itemData.sort((a,b)=>{
+      if(x==1){
+        return a.price-b.price
+      }else{
+        return b.price-a.price
+      }
+    })
+    setitemData([...sorted])
+  }
+// console.log("itemData",itemData)
+
+
   return (
     <>
       <Filter />
-
+  
       <div>
         <img
           src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/4f8a8f56-e3d2-4a91-830b-98c6e4069b461651897264784-Loving-These-Brands.jpg"
           alt=""
         />
       </div>
+       <div style={{marginLeft:'1300px'}}>
+       <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Sort Low to High</button>
+       <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Sort High to Low</button>
+       </div><hr />
       <ImageList
         className="container_user_listing"
         sx={{ width: "80%", height: "90%" }}

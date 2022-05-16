@@ -71,6 +71,17 @@ export default function Model() {
     nav(`/cart/${item.id}`);
   };
 
+  const handleSort=(x)=>{
+    let sorted=data.sort((a,b)=>{
+      if(x==1){
+        return a.price-b.price
+      }else{
+        return b.price-a.price
+      }
+    })
+    setData([...sorted])
+  }
+
   return (
     <>
       {women && <Design />}
@@ -91,6 +102,12 @@ export default function Model() {
           alt=""
         />
       </div>
+
+      <div style={{marginLeft:'1300px'}}>
+       <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Sort Low to High</button>
+       <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Sort High to Low</button>
+       </div><hr />
+
       <ImageList
         className="container_user_listing"
         sx={{ width: "80%", height: "90%" }}
