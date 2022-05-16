@@ -29,7 +29,7 @@ export default function Model() {
   const url = useSelector((state) => state.TypeReducer);
   const counter = useSelector((state) => state.CounterReducer);
   const { men, women, girl } = useSelector((state) => state.DesignReducer);
-  // console.log("url:",url.url)
+  console.log("url:",url.url)
 
   const { gender } = useParams();
 

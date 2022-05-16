@@ -18,9 +18,9 @@ export default function Women() {
   "https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/86856eb5-a0f3-4f1f-b1fa-f2c3ec8b2acf.jpg"
   ]
   const img = [
-    "https://images-static.nykaa.com/uploads/tr:w-3038,/5eecfbad-151b-4044-b65c-27fdaa1779a1.gif",
-    "https://images-static.nykaa.com/uploads/tr:w-3038,/50adcd25-6854-4168-bc80-81cf5f62f7ed.jpg",
-    "https://images-static.nykaa.com/uploads/tr:w-3038,/859ddead-9901-4af8-8d3b-f462f0389f2f.jpg",
+    "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/a20271c6-249f-480b-bcc7-1b150516e54e1651599573998-Dressberry_Desk.jpg",
+    "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/17/f1874a9d-c423-44d3-a529-6c63521d6f991650181498608-Sarees_Desk.jpg",
+    "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/17/1377cd42-3e4c-4cd7-ae0e-1719e81ff1db1650181498574-Formal-Footwear_Desk.jpg",
   ];
 
   const handleCategory=(x)=>{

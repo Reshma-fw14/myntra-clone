@@ -4,6 +4,7 @@ const counter="COUNTER";
 const view="VIEW";
 const cart="CART";
 const design="DESIGN";
+const brand="BRAND"
 
 export const TypeAction = (x) => {
   return (dispatch) => {
@@ -55,6 +56,15 @@ export const DesignAction = (x) => {
   return (dispatch) => {
     dispatch({
       type: design,
+      payload: x,
+    });
+  };
+};
+
+export const BrandAction = (x) => {
+  return (dispatch) => {
+    dispatch({
+      type: brand,
       payload: x,
     });
   };

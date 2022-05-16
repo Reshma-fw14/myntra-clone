@@ -5,6 +5,7 @@ import { CounterReducer } from "./CounterReducer";
 import {ViewReducer} from "./ViewReducer";
 import {CartReducer} from "./CartReducer";
 import { DesignReducer } from "./DesignReducer";
+import {BrandReducer} from "./BrandReducer"
 
 export const Reducers = combineReducers({
   TypeReducer,
@@ -12,5 +13,6 @@ export const Reducers = combineReducers({
   CounterReducer,
   ViewReducer,
   CartReducer,
-  DesignReducer
+  DesignReducer,
+  BrandReducer
 });

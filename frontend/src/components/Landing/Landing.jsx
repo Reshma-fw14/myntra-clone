@@ -1,11 +1,12 @@
 import React from 'react'
 import CarouselModel from '../Carousel/Carousel'
 import ModelScrollX from '../Model/LandingModel'
-
+import ListByCategory from './ListByCategory';
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useNavigate } from "react-router-dom";
+import ListByBrand from './ListByBrand';
 
 
 export default function Landing() {
@@ -59,6 +60,8 @@ export default function Landing() {
         <div onClick={()=>handleCategory('Kurta-Sets')} style={{width:'100%'}}>
             <img style={{width:'100%'}} src="https://images-static.nykaa.com/uploads/tr:w-3038,/b683cab1-d890-4e53-a697-be7801aeb84b.gif" alt="" />
         </div><br />
+       <ListByCategory/><br />
+       <ListByBrand/><br />
         <CarouselModel img={jewellery}/><br /><br />
         <div className='animation' style={{marginLeft:'280px'}}>
            <img src="https://images-static.nykaa.com/uploads/tr:w-1200,/96082820-e43d-4c31-a63e-a0a525c2cb9b.gif" alt="" />

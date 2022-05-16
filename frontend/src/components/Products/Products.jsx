@@ -16,21 +16,31 @@ import "./Products.css";
 import CarouselModel from "../Carousel/Carousel";
 import Filter from "../FilterCard/Filter";
 import { useEffect } from "react";
-
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 
 export default function Products() {
+   const brand=useSelector((state)=>state.BrandReducer);
+  
+   const getBrand=()=>{
+      axios.get(`${brand.url}/?brand=${routeName}`).then(({data})=>{
+        // console.log("data::",data)
+        setitemData(data);
+      })
+   }
+
+
   const limit = 10;
 
   const dispatch = useDispatch();
   const action = bindActionCreators(ActionCreators, dispatch);
   const url = useSelector((state) => state.TypeReducer);
-  console.log("URL", url);
+  // console.log("URL", url);
 
   const counter = useSelector((state) => state.CounterReducer);
   const { routeName } = useParams();
+  // console.log("routeName",routeName)
 
   const nav = useNavigate();
 
@@ -41,6 +51,7 @@ export default function Products() {
   useEffect(() => {
     getAll();
     getPage();
+    getBrand()
   }, [counter]);
 
   function getAll() {
@@ -69,6 +80,7 @@ export default function Products() {
       });
     }
   }
+
 
   const img = [
     "https://assets.ajio.com/cms/AJIO/WEB/12052022-D-unisex-topbannercarousel-p3-ethnicwear-brands-4070.jpg",
