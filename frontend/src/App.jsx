@@ -1,5 +1,4 @@
 import AllRoutes from "./components/allRoutes/Routes";
-import MainModel from "./components/MainModel/MainModel";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {

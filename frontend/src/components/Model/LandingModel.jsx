@@ -46,6 +46,7 @@ export default function ModelScrollX({ data }) {
           </div>
           <div className="user_model_button">
             <Button
+            style={{border:'0'}}
               variant="outlined"
               onClick={() => {
                 handelClick(0);
@@ -54,6 +55,7 @@ export default function ModelScrollX({ data }) {
               Products
             </Button>
             <Button
+            style={{border:'0'}}
               variant="outlined"
               onClick={() => {
                 handelClick(1);
