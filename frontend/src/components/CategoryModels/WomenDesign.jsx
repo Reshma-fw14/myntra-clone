@@ -1,10 +1,15 @@
 import React from 'react'
 import CarouselModel from "../Carousel/Carousel";
-import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { bindActionCreators } from "redux";
+import { ActionCreators } from "../states/store/ActionCreator";
+import { useNavigate } from "react-router-dom";
 
 export default function Women() {
-  // const design = useSelector((state) => state.DesignReducer);
-  // console.log("design",design)
+  const nav = useNavigate();
+  const dispatch = useDispatch();
+  const action = bindActionCreators(ActionCreators, dispatch);
+
   const design=["https://images-static.nykaa.com/tr:w-1162,c-at_max/uploads/ef9bfb3a-9ab4-4ad3-87d9-0af2b093ed73.gif",
   "https://images-static.nykaa.com/uploads/c620335e-85dc-4bee-a0ee-02665668b794.gif?tr=w-600,cm-pad_resize",
   "https://images-static.nykaa.com/uploads/3252ce59-13b6-4a92-b7a2-95f2402ce7e9.gif?tr=w-600,cm-pad_resize",
@@ -17,6 +22,12 @@ export default function Women() {
     "https://images-static.nykaa.com/uploads/tr:w-3038,/50adcd25-6854-4168-bc80-81cf5f62f7ed.jpg",
     "https://images-static.nykaa.com/uploads/tr:w-3038,/859ddead-9901-4af8-8d3b-f462f0389f2f.jpg",
   ];
+
+  const handleCategory=(x)=>{
+    action.TypeAction({ url: "http://localhost:3002/fashion" });
+      nav(`/products/${x}`);
+  }
+
   return (
     <div>
         <div style={{width:"100%", marginLeft:'300px', marginBottom:'20px'}}>
@@ -27,7 +38,7 @@ export default function Women() {
       <br />
 
       <div style={{ display: "flex" }}>
-        <div style={{ height: "500px", width: "850px", marginRight: "20px" }}>
+        <div onClick={()=>handleCategory('Jewellery')} style={{ height: "500px", width: "850px", marginRight: "20px" }}>
           <img
             height="100%"
             width="100%"
@@ -35,7 +46,7 @@ export default function Women() {
             alt="slide1"
           />
         </div>
-        <div style={{ height: "500px", width: "850px" }}>
+        <div onClick={()=>handleCategory('Flats-Heels')} style={{ height: "500px", width: "850px" }}>
           <img
             height="100%"
             width="100%"

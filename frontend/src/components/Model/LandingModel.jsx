@@ -26,6 +26,7 @@ export default function ModelScrollX({ data }) {
   };
 
   function handelClick(x) {
+ 
     action.TypeAction({ url: data.url });
     if (x == 1) {
       nav(`/products/${data.type}`);

@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { useNavigate, useParams,Link } from "react-router-dom";
+import { useNavigate, useParams, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./Products.css";
 import CarouselModel from "../Carousel/Carousel";
@@ -23,16 +23,16 @@ import { useDispatch } from "react-redux";
 
 export default function Products() {
   const limit = 10;
-  
+
   const dispatch = useDispatch();
-  const action = bindActionCreators(ActionCreators, dispatch)
+  const action = bindActionCreators(ActionCreators, dispatch);
   const url = useSelector((state) => state.TypeReducer);
+  console.log("URL", url);
+
   const counter = useSelector((state) => state.CounterReducer);
   const { routeName } = useParams();
-  // console.log("URL",url)
 
   const nav = useNavigate();
-
 
   const isActive = useMediaQuery("(max-width:800px)");
   const [itemData, setitemData] = React.useState([]);
@@ -57,12 +57,8 @@ export default function Products() {
         });
     }
   }
-  // console.log(itemData);
-  // console.log(`${url.url}/?_page=1&_limit=${limit}&type=${routeName}`);
-  // console.log(`${url.url}/?_page=1&_limit=${limit}`)
 
   function getPage() {
-  
     if (routeName == "all") {
       axios.get(`${url.url}`).then(({ data }) => {
         setPageNumber(data.length);
@@ -80,30 +76,27 @@ export default function Products() {
     "https://assets.ajio.com/cms/AJIO/WEB/12052022-D-MHP-topbannercarousel-p2-categorydays-shirts&tshirts-min50.jpg",
   ];
 
-
-;
-
-  const handleClick=(singleItem)=>{
+  const handleClick = (singleItem) => {
     // console.log("item",singleItem.id)
-    action.ViewAction({ item : singleItem });
-    nav(`/ProductView/${singleItem.id}`)
-  }
+    action.ViewAction({ item: singleItem });
+    nav(`/ProductView/${singleItem.id}`);
+  };
 
-  const handleCart=(item)=>{
+  const handleCart = (item) => {
     // console.log("cart",cartItem);
-    action.CartAction({item})
-    nav(`/cart/${item.id}`)
-  }
+    action.CartAction({ item });
+    nav(`/cart/${item.id}`);
+  };
 
   return (
     <>
-      {/* <h1>Best of All Brands</h1> */}
-      {/* <CarouselModel img={img} /> */}
-
       <Filter />
 
       <div>
-        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/4f8a8f56-e3d2-4a91-830b-98c6e4069b461651897264784-Loving-These-Brands.jpg" alt="" />
+        <img
+          src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/4f8a8f56-e3d2-4a91-830b-98c6e4069b461651897264784-Loving-These-Brands.jpg"
+          alt=""
+        />
       </div>
       <ImageList
         className="container_user_listing"
@@ -114,7 +107,12 @@ export default function Products() {
       >
         {itemData.map((item) => (
           <ImageListItem key={item.id}>
-            <Card sx={{ maxWidth: 245, marginBottom: 9 }}>
+            <Card
+              onClick={() => {
+                handleClick(item);
+              }}
+              sx={{ maxWidth: 245, marginBottom: 9 }}
+            >
               {/* <CardMedia
                 component="img"
                 image={item.image[0]}
@@ -122,14 +120,22 @@ export default function Products() {
               /> */}
               <CardContent>
                 <img
-                  style={{ height: "300px", width: "100%", marginBottom:'10px' }}
+                  style={{
+                    height: "300px",
+                    width: "100%",
+                    marginBottom: "10px",
+                  }}
                   src={item.image[0]}
                   alt=""
                 />
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{marginBottom:'10px', color:'black', fontWeight:'600'}}
+                  style={{
+                    marginBottom: "10px",
+                    color: "black",
+                    fontWeight: "600",
+                  }}
                 >
                   {item.brand}
                 </Typography>
@@ -158,8 +164,11 @@ export default function Products() {
                   </Typography>
                 </div>
               </CardContent>
-              <CardActions style={{ display: "flex", justifyContent:"space-between"}}>
-                <Button style={{color:"#ff3e6c", fontWeight:'600'}}
+              <CardActions
+                style={{ display: "flex", justifyContent: "space-between" }}
+              >
+                <Button
+                  style={{ color: "#ff3e6c", fontWeight: "600" }}
                   size="small"
                   onClick={() => {
                     handleClick(item);
@@ -167,9 +176,13 @@ export default function Products() {
                 >
                   View
                 </Button>
-                <Button size="small" style={{color:"#ff3e6c", fontWeight:'600'}} onClick={()=>{
-                    handleCart(item)
-                }}>
+                <Button
+                  size="small"
+                  style={{ color: "#ff3e6c", fontWeight: "600" }}
+                  onClick={() => {
+                    handleCart(item);
+                  }}
+                >
                   Add to Cart
                 </Button>
               </CardActions>

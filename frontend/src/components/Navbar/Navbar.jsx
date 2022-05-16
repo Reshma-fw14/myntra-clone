@@ -4,7 +4,6 @@ import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import Women from "../CatModels/WomenDesign";
 
 const women=[{key:"Kurta-Sets",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/a3847fe4-e42b-4761-b4e8-0966c08ae89c.jpg"},
 {key:"Kurti",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/ab5a2866-40af-4355-aa7d-5a98cb8cffa6.jpg"},
