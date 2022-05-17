@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom"
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import axios from 'axios';
 
 const women=[{key:"Kurta-Sets",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/a3847fe4-e42b-4761-b4e8-0966c08ae89c.jpg"},
 {key:"Kurti",image:"https://images-static.nykaa.com/uploads/tr:w-220.8,/ab5a2866-40af-4355-aa7d-5a98cb8cffa6.jpg"},
@@ -31,10 +32,10 @@ const girl=[{key:"Girl",image:'https://assets.myntassets.com/f_webp,w_196,c_limi
 
 export default function Navbar({data}) {
   const nav = useNavigate();
-  // console.log("dataa:",data)
   const dispatch = useDispatch();
   const action = bindActionCreators(ActionCreators, dispatch);
-  // console.log("action",action)
+
+  const [search, setSearch]=useState("")
 
   const handleClick=(gender,array,design)=>{
     action.TypeAction({ url: data });
@@ -46,9 +47,14 @@ export default function Navbar({data}) {
        nav(`/allProducts/${gender}`);
   }
 
-  // const handleSearch=()=>{
-    
-  // }
+  const handleSearch=(e)=>{
+    e.preventDefault()
+    console.log(`${search}`)
+    axios.get(`http://localhost:3002/fashion?type=${search}`).then(({data})=>{
+      // console.log(data)
+      action.TypeAction({url:data})
+    })
+  }
  
 
   return (
@@ -85,20 +91,19 @@ export default function Navbar({data}) {
             </li>
             <li className="nav-item">
             <button className="btn btn-primary" style={{marginRight:'50px', fontSize:'20px', color:'#ff3f6c', background:'#f8f9fa', border:'0'}} onClick={()=>handleClick('Girl',girl)}>
-                girl <span className="sr-only">(current)</span>
+                Girl <span className="sr-only">(current)</span>
               </button>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          <form className="form-inline my-2 my-lg-0" onSubmit={(e)=>handleSearch(e)}>
             <input
+            onChange={(e)=>{setSearch(e.target.value)}}
               className="form-control mr-sm-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={()=>{
-              // handleSearch()
-            }}>
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
               Search
             </button>
           </form>

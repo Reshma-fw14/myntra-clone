@@ -137,7 +137,7 @@ export default function Products() {
           <ImageListItem key={item.id}>
             <Card
               onClick={() => {
-                handleClick(item);
+                // handleClick(item);
               }}
               sx={{ maxWidth: 245, marginBottom: 9 }}
             >

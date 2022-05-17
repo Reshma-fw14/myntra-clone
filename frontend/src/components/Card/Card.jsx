@@ -31,7 +31,7 @@ export const CardModel = ({ data }) => {
     <>
       <Card
         onClick={() => {
-          handleClick(data);
+          // handleClick(data);
         }}
         sx={{ minWidth: 245 }}
         elevation={5}

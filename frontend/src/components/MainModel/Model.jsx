@@ -119,7 +119,7 @@ export default function Model() {
           <ImageListItem key={item.id}>
             <Card
               onClick={() => {
-                handleClick(item);
+                // handleClick(item);
               }}
               sx={{ maxWidth: 245, marginBottom: 9 }}
             >
