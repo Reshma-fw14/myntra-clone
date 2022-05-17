@@ -123,8 +123,8 @@ export default function Products() {
         />
       </div>
        <div style={{marginLeft:'1300px'}}>
-       <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Sort Low to High</button>
-       <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Sort High to Low</button>
+       <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Price Low to High</button>
+       <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Price High to Low</button>
        </div><hr />
       <ImageList
         className="container_user_listing"
