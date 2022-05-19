@@ -7,7 +7,6 @@ export default function Filter() {
 
   const state=useSelector((state)=>state.ImageReducer)
   // const [State,SetState]=useState(state)
-  // console.log(state)
 
 
   return (

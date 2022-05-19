@@ -6,14 +6,14 @@ import {useDispatch} from "react-redux"
 import {useNavigate} from 'react-router-dom'
 
 export default function FilterCard({data}) {
-    // console.log("dataaaa",data)
+  
     const dispatch=useDispatch()
    const nav=useNavigate()
 
    const action=bindActionCreators(ActionCreators,dispatch)
 
    function handleClick(cat){
-    action.TypeAction({ url: 'http://localhost:3002/fashion' });
+    action.TypeAction({ url: 'http://localhost:4000/fashion' });
     action.CounterAction(1)
     nav(`/products/${cat}`) 
    }

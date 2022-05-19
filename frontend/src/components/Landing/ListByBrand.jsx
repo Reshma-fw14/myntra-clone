@@ -11,7 +11,7 @@ export default function ListByBrand() {
     const action = bindActionCreators(ActionCreators, dispatch);
 
      const handleBrand=(x)=>{
-        action.BrandAction({url:'http://localhost:3002/fashion'})
+        action.BrandAction({url:'http://localhost:4000/fashion'})
         nav(`/products/${x}`)
     }
 

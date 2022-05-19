@@ -19,6 +19,7 @@ import { useEffect } from "react";
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
+import AddToCartButton from "../AddToCartButton"
 
 export default function Products() {
    const brand=useSelector((state)=>state.BrandReducer);
@@ -50,14 +51,14 @@ export default function Products() {
   function getAll() {
     if (routeName === "all") {
       axios.get(`${url.url}/?_page=1&_limit=${limit}`).then(({ data }) => {
-        // console.log("data,",data)
-        setitemData(data);
+        // console.log("data all product",data.data)
+        setitemData(data.data);
       });
     } else {
       axios
         .get(`${url.url}/?_page=1&_limit=${limit}&type=${routeName}`)
         .then(({ data }) => {
-          setitemData(data);
+          setitemData(data.data);
         });
     }
   }
@@ -65,19 +66,19 @@ export default function Products() {
   function getPage() {
     if (routeName == "all") {
       axios.get(`${url.url}`).then(({ data }) => {
-        setPageNumber(data.length);
+        setPageNumber(data.data.length);
       });
     } else {
       axios.get(`${url.url}/?type=${routeName}`).then(({ data }) => {
-        setPageNumber(data.length);
+        setPageNumber(data.data.length);
       });
     }
   }
 
   const getBrand=()=>{
     axios.get(`${brand.url}/?brand=${routeName}`).then(({data})=>{
-      // console.log("data::",data)
-      setitemData(data);
+      // console.log("data::",data.data)
+      setitemData(data.data);
     })
  }
 
@@ -134,7 +135,7 @@ export default function Products() {
         gap={8}
       >
         {itemData.map((item) => (
-          <ImageListItem key={item.id}>
+          <ImageListItem key={item._id}>
             <Card
               onClick={() => {
                 // handleClick(item);
@@ -213,6 +214,7 @@ export default function Products() {
                 >
                   Add to Cart
                 </Button>
+                {/* <AddToCartButton/> */}
               </CardActions>
             </Card>
           </ImageListItem>
@@ -227,17 +229,17 @@ export default function Products() {
           onChange={(e, d) => {
             if (routeName === "all") {
               axios
-                .get(`http://localhost:3002/fashion?_page=${d}&_limit=${limit}`)
+                .get(`http://localhost:4000/fashion?_page=${d}&_limit=${limit}`)
                 .then(({ data }) => {
-                  setitemData(data);
+                  setitemData(data.data);
                 });
             } else {
               axios
                 .get(
-                  `http://localhost:3002/fashion?_page=${d}&_limit=${limit}&type=${routeName}`
+                  `http://localhost:4000/fashion?_page=${d}&_limit=${limit}&type=${routeName}`
                 )
                 .then(({ data }) => {
-                  setitemData(data);
+                  setitemData(data.data);
                 });
             }
           }}

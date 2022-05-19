@@ -11,7 +11,7 @@ export default function ListByCategory() {
     const action = bindActionCreators(ActionCreators, dispatch);
 
     const handleCategory=(x)=>{
-        action.TypeAction({ url: "http://localhost:3002/fashion" });
+        action.TypeAction({ url: "http://localhost:4000/fashion" });
           nav(`/products/${x}`);
     }
 

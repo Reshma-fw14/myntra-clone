@@ -7,10 +7,10 @@ import { useNavigate } from "react-router-dom";
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
+import AddToCartButton from "../AddToCartButton"
 
 export const CardModel = ({ data }) => {
   const nav = useNavigate();
-  // console.log("data",data)
 
   const dispatch = useDispatch();
   const action = bindActionCreators(ActionCreators, dispatch);
@@ -18,13 +18,13 @@ export const CardModel = ({ data }) => {
   const handleClick = (singleItem) => {
     // console.log("item",singleItem.id)
     action.ViewAction({ item: singleItem });
-    nav(`/ProductView/${singleItem.id}`);
+    nav(`/ProductView/${singleItem._id}`);
   };
 
   const handleCart = (item) => {
-    // console.log("cart",cartItem);
+    console.log("cart",item);
     action.CartAction({ item });
-    nav(`/cart/${item.id}`);
+    nav(`/cart/${item._id}`);
   };
 
   return (
@@ -84,6 +84,7 @@ export const CardModel = ({ data }) => {
             >
               Add Cart
             </Button>
+             {/* <AddToCartButton /> */}
 
             <Button
               size="small"

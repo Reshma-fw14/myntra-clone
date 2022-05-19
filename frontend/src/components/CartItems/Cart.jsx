@@ -8,11 +8,12 @@ import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 
+
 export default function Cart() {
     const cartItem=useParams()
 
     const url = useSelector((state) => state.CartReducer);
-    // console.log("url",url)
+    console.log("url",url)
 
     const dispatch = useDispatch();
     const action = bindActionCreators(ActionCreators, dispatch);
@@ -126,26 +127,3 @@ export default function Cart() {
     </div>
   )
 }
-
-
-{/* <div className='append'>
-                        <div className='imageDiv'>
-                            <img src={url.item.image[0]} alt="" />
-                        </div>
-                        <div className='right-details'>
-                            <div className='Details'>
-                                <p>{`${url.item.brand}`}</p>
-                                <p>{`${url.item.description}`}</p>
-                                <p>{`Sold by : ${url.item.brand} Apparels`}</p>
-                            </div>
-                            <div className='size-qty'>
-                                <p>Size : M</p>
-                                <select name="" id="">
-                                    <option value="">Qty: 1</option>
-                                    <option value="">2</option>
-                                    <option value="">3</option>
-                                    <option value="">4</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div> */}

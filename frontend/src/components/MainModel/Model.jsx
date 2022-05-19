@@ -21,15 +21,17 @@ import { useDispatch, useSelector } from "react-redux";
 import Design from "../CategoryModels/WomenDesign";
 import MenDesign from "../CategoryModels/MenDesign";
 import KidsDesign from "../CategoryModels/KidsDesign";
+import AddToCartButton from "../AddToCartButton";
 
 export default function Model() {
   const nav = useNavigate();
   const limit = 10;
   const [data, setData] = useState([]);
+
   const url = useSelector((state) => state.TypeReducer);
+  // console.log("url",url)
   const counter = useSelector((state) => state.CounterReducer);
   const { men, women, girl } = useSelector((state) => state.DesignReducer);
-  console.log("url:",url.url)
 
   const { gender } = useParams();
 
@@ -45,14 +47,14 @@ export default function Model() {
     axios
       .get(`${url.url}/?gender=${gender}&_page=1&_limit=${limit}`)
       .then(({ data }) => {
-        // console.log(data)
-        setData(data);
+        // console.log(data.data)
+        setData(data.data);
       });
   };
 
   function getPage() {
     axios.get(`${url.url}/?gender=${gender}`).then(({ data }) => {
-      setPageNumber(data.length);
+      setPageNumber(data.data.length);
     });
   }
 
@@ -94,6 +96,7 @@ export default function Model() {
           alt=""
         />
       </div>
+
       <Filter />
 
       <div>
@@ -199,6 +202,7 @@ export default function Model() {
                 >
                   Add to Cart
                 </Button>
+                {/* <AddToCartButton/> */}
               </CardActions>
             </Card>
           </ImageListItem>

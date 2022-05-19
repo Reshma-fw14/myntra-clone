@@ -18,10 +18,6 @@ export default function ViewItem() {
     const nav = useNavigate();
     // console.log("url",url.item)
 
-//     const nav=useNavigate()
-//     const dispatch = useDispatch();
-//   const action = bindActionCreators(ActionCreators, dispatch);
-
     const handleCart=(item)=>{
     // console.log("cart",cartItem);
     action.CartAction({item:item})

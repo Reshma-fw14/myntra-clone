@@ -9,6 +9,7 @@ import axios from "axios";
 import "./LandingModel.css";
 
 export default function ModelScrollX({ data }) {
+  
   const [TypeData, setTypeData] = useState([]);
   const nav = useNavigate();
   const dispatch = useDispatch();
@@ -18,10 +19,12 @@ export default function ModelScrollX({ data }) {
     getTypeData();
   }, []);
 
+
   const getTypeData = () => {
     const { url, type, limit } = data;
-    axios.get(`${url}?type=${type}&_limit=${limit}`).then(({ data }) => {
-      setTypeData(data);
+    axios.get(`${url}/?type=${type}&_limit=${limit}`).then(({ data }) => {
+      setTypeData(data.data);
+     
     });
   };
 
@@ -70,7 +73,7 @@ export default function ModelScrollX({ data }) {
           style={{ scrollbarWidth: "none", marginTop:'15px' }}
         >
           {TypeData.map((ele) => (
-            <CardModel data={ele} key={ele.id} />
+            <CardModel data={ele} key={ele._id} />
           ))}
         </div>
       </div>
