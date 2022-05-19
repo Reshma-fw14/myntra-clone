@@ -21,7 +21,7 @@ export default function ViewItem() {
     const handleCart=(item)=>{
     // console.log("cart",cartItem);
     action.CartAction({item:item})
-    nav(`/cart/${item.id}`)
+    nav(`/cart/${item._id}`)
   }
     
   return (

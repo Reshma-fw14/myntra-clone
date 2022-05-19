@@ -91,13 +91,13 @@ export default function Products() {
   const handleClick = (singleItem) => {
     // console.log("item",singleItem.id)
     action.ViewAction({ item: singleItem });
-    nav(`/ProductView/${singleItem.id}`);
+    nav(`/ProductView/${singleItem._id}`);
   };
 
   const handleCart = (item) => {
     // console.log("cart",cartItem);
     action.CartAction({ item });
-    nav(`/cart/${item.id}`);
+    nav(`/cart/${item._id}`);
   };
 
   const handleSort=(x)=>{
