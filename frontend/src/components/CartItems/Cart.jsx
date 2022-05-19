@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import "./Cart.css";
@@ -10,21 +10,20 @@ import { useDispatch } from "react-redux";
 
 
 export default function Cart() {
-    const cartItem=useParams()
+    // const cartItem=useParams()
 
-    const url = useSelector((state) => state.CartReducer);
-    console.log("url",url)
+    const cartData = useSelector((state) => state.CartReducer);
+    const counter = useSelector((state) => state.CounterReducer);
+   
 
     const dispatch = useDispatch();
     const action = bindActionCreators(ActionCreators, dispatch);
 
-    const handleDelete=(i)=>{
-        url.cartEle.splice(i,1)
-        // console.log("deleted",e)
-        action.CartAction({url})
-        // axios.delete(`http://localhost:3002/fashion?${e.id}`)
-    }
-
+  function handelDelete(i){
+    action.RemaoveAction(i)
+    action.CounterAction(1)
+  }
+useEffect(()=>{},[counter])
 
   return (
     <div>
@@ -47,8 +46,8 @@ export default function Cart() {
                     <button>REMOVE</button>
                     <button>MOVE TO WISHLIST</button>
                 </div>
-                {url.cartEle.map((e,i)=>
-                    <div className='mainAppend'>
+                {cartData.cartEle.length==0?<p  className='h3' style={{color:"#ff3f6c",textAlign:"center",marginTop:"100px"}}>oops!! your cart is empty</p>:cartData.cartEle.map((e,i)=>
+                    <div className='mainAppend' key={i}>
                         <div className='append'>
                             <div className='imageDiv'>
                                 <img src={e.image[0]} alt="img" />
@@ -69,7 +68,10 @@ export default function Cart() {
                                     </select>
                                 </div>
                             </div>
-                            <RestoreFromTrashIcon onClick={()=>handleDelete(i)} />
+                            <RestoreFromTrashIcon onClick={()=>{
+                                  handelDelete(i)
+                            }} style={{cursor:"pointer"}} />
+                          
                         </div>
                     </div>
                 )}
@@ -102,11 +104,11 @@ export default function Cart() {
                     <p className='price-1-details'>PRICE DETAILS</p>
                     <div className='flex1'>
                         <p>Total MRP</p>
-                        <p>{`Rs. ${url.actualPrice}`}</p>
+                        <p>{`Rs. ${cartData.actualPrice}`}</p>
                     </div>
                     <div className='flex2'>
                         <p>Discount on MRP</p>
-                        <p>{`Rs. ${url.discount}`}</p>
+                        <p>{`Rs. ${cartData.discount}`}</p>
                     </div>
                     <div className='flex3'>
                         <p>Coupon Discoung</p>
@@ -114,11 +116,11 @@ export default function Cart() {
                     </div>
                     <div className='flex4'>
                         <p>Convenience fee <span>Know more</span></p>
-                        <p><span> Rs.99 </span> FREE</p>
+                        <p><span> Rs.49 </span> FREE</p>
                     </div>
                     <div className='flex5'>
                         <p>Total Amount</p>
-                        <p>{`Rs. ${url.finalPrice}`}</p>
+                        <p>{`Rs. ${cartData.finalPrice}`}</p>
                     </div>
                 </div>
                 <button className='placeOrder-btn'>PLACE ORDER</button>

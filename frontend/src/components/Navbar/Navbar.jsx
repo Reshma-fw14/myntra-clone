@@ -4,8 +4,11 @@ import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import LocalMallIcon from '@mui/icons-material/LocalMall';
-import "./Navbar.css"
+import "./Navbar.css";
+import Badge from "@mui/material/Badge";
+import { styled } from "@mui/material/styles";
+import IconButton from "@mui/material/IconButton";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const women = [
   {
@@ -134,16 +137,25 @@ export default function Navbar({ data }) {
       });
   };
 
-  const handleSignup=()=>{
-    nav('/user/signup')
-  }
+  const handleSignup = () => {
+    nav("/user/signup");
+  };
 
-  const handleLogin=()=>{
-    nav('/user/login')
-  }
+  const handleLogin = () => {
+    nav("/user/login");
+  };
+
+  // const StyledBadge = styled(Badge)(({ theme }) => ({
+  //   "& .MuiBadge-badge": {
+  //     right: -3,
+  //     top: 13,
+  //     border: `2px solid ${theme.palette.background.paper}`,
+  //     padding: "0 4px",
+  //   },
+  // }));
 
   return (
-    <div style={{ marginBottom: "10px", width:'100%' }}>
+    <div style={{ marginBottom: "10px", width: "100%" }}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">
           <img
@@ -233,20 +245,28 @@ export default function Navbar({ data }) {
               aria-label="Search"
             />
             <button
+              style={{ marginRight: "50px" }}
               className="btn btn-outline-success my-2 my-sm-0"
               type="submit"
             >
               Search
             </button>
           </form>
-          <LocalMallIcon style={{marginLeft:'80px'}}/>
-          <button
-            className="btn-signup"
-            onClick={()=>handleSignup()}
-          >
+          {/* <IconButton aria-label="cart">
+            <StyledBadge badgeContent={1} color="secondary">
+              <ShoppingCartIcon />
+            </StyledBadge>
+          </IconButton> */}
+          <button className="btn-signup" onClick={() => handleSignup()}>
             SIGNUP
           </button>
-          <button className="btn-login" onClick={()=>handleLogin()} style={{ border: "10px", padding: "6px 11px" }}>LOGIN</button>
+          <button
+            className="btn-login"
+            onClick={() => handleLogin()}
+            style={{ border: "10px", padding: "6px 11px" }}
+          >
+            LOGIN
+          </button>
         </div>
       </nav>
     </div>

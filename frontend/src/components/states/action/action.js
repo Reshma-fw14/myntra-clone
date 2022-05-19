@@ -69,3 +69,11 @@ export const BrandAction = (x) => {
     });
   };
 };
+export const RemaoveAction = (x) => {
+  return (dispatch) => {
+    dispatch({
+      type: "REMOVECART",
+      payload: x,
+    });
+  };
+};

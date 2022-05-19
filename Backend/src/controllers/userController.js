@@ -11,10 +11,9 @@ const signUp = async (req, res) => {
     let data = {
       fullName: `${req.body.firstName} ${req.body.lastName}`,
       email: req.body.email,
-      contactNumber: req.body.contact,
-      address: `${req.body.address}, ${req.body.country}`,
+
       token: "",
-      cartItems: [],
+
       password: hashPassword,
     };
     // console.log(data);
@@ -29,13 +28,13 @@ const signUp = async (req, res) => {
   }
 };
 
-
 const login = async (req, res) => {
   try {
     const oldUser = await user.findOne({ email: req.body.email }).lean().exec();
-    // console.log(oldUser);
-    // const token = jwt.sign({id:oldUser._id,email:oldUser.email}, 'shhhhh');
-    return res.status(200).json({ message: "login succesfull" });
+    const token = jwt.sign({id:oldUser._id,email:oldUser.email}, 'shhhhh');
+await user.findOneAndUpdate({email:req.body.email},{token});
+    const update =await user.findOne({email:req.body.email}).lean().exec();
+    return res.status(200).json({ message: "login succesfull",update });
   } catch (err) {
     return res.status(500).json({
       status: false,

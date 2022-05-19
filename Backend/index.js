@@ -16,6 +16,7 @@ app.use(cors())
 
 
 app.use('/fashion', productController)
+app.use('',auth)
 // app.use('/api/stripe', stripe)
 
 const port=process.env.PORT || 4000
