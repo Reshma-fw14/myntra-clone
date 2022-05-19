@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import LocalMallIcon from '@mui/icons-material/LocalMall';
+import "./Navbar.css"
 
 const women = [
   {
@@ -133,8 +134,16 @@ export default function Navbar({ data }) {
       });
   };
 
+  const handleSignup=()=>{
+    nav('/user/signup')
+  }
+
+  const handleLogin=()=>{
+    nav('/user/login')
+  }
+
   return (
-    <div style={{ marginBottom: "10px" }}>
+    <div style={{ marginBottom: "10px", width:'100%' }}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">
           <img
@@ -168,14 +177,14 @@ export default function Navbar({ data }) {
                   className="btn btn-primary"
                   style={{
                     marginRight: "50px",
-                    fontSize: "20px",
+                    fontSize: "16px",
                     color: "#ff3f6c",
                     background: "#f8f9fa",
                     border: "0",
                   }}
                   onClick={() => handleClick("Women", women)}
                 >
-                  Women <span className="sr-only">(current)</span>
+                  WOMEN <span className="sr-only">(current)</span>
                 </button>
               </div>
             </li>
@@ -184,14 +193,14 @@ export default function Navbar({ data }) {
                 className="btn btn-primary"
                 style={{
                   marginRight: "50px",
-                  fontSize: "20px",
+                  fontSize: "16px",
                   color: "#ff3f6c",
                   background: "#f8f9fa",
                   border: "0",
                 }}
                 onClick={() => handleClick("Men", men)}
               >
-                Men <span className="sr-only">(current)</span>
+                MEN <span className="sr-only">(current)</span>
               </button>
             </li>
             <li className="nav-item">
@@ -199,14 +208,14 @@ export default function Navbar({ data }) {
                 className="btn btn-primary"
                 style={{
                   marginRight: "50px",
-                  fontSize: "20px",
+                  fontSize: "16px",
                   color: "#ff3f6c",
                   background: "#f8f9fa",
                   border: "0",
                 }}
                 onClick={() => handleClick("Girl", girl)}
               >
-                Girl <span className="sr-only">(current)</span>
+                KIDS <span className="sr-only">(current)</span>
               </button>
             </li>
           </ul>
@@ -232,16 +241,12 @@ export default function Navbar({ data }) {
           </form>
           <LocalMallIcon style={{marginLeft:'80px'}}/>
           <button
-            style={{
-              marginLeft: "100px",
-              marginRight: "10px",
-              border: "0px",
-              padding: "5px 10px",
-            }}
+            className="btn-signup"
+            onClick={()=>handleSignup()}
           >
-            Signup
+            SIGNUP
           </button>
-          <button style={{ border: "10px", padding: "5px 11px" }}>Login</button>
+          <button className="btn-login" onClick={()=>handleLogin()} style={{ border: "10px", padding: "6px 11px" }}>LOGIN</button>
         </div>
       </nav>
     </div>

@@ -1,0 +1,30 @@
+body{
+    background-color: #fdefea;
+}
+*{
+    font-family: sans-serif;
+}
+.sigup-container{
+    width: 600px;
+    height: 700px;
+    margin: 40px auto;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.sigup-container input{
+    margin-left: 10px;
+}
+.signup-text{
+    color: #424553;
+    font-size: 25px;
+    font-weight: 500;
+}
+.signup-btn{
+    border: 0;
+    padding: 8px 130px;
+    background-color: #ff3f6c;
+    color: white;
+}
+.sigup-container span{
+    color: #ff3f6c;
+}

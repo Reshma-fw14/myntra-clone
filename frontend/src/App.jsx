@@ -1,6 +1,8 @@
 import AllRoutes from "./components/allRoutes/Routes";
 import Navbar from "./components/Navbar/Navbar";
 import AddToCartButton from "./components/AddToCartButton"
+import Signup from "./components/Registration/Signup";
+import Login from "./components/Registration/Login";
 
 function App() {
   let props={

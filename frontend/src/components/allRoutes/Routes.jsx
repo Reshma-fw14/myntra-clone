@@ -5,6 +5,8 @@ import Products from '../Products/Products';
 import WomenModel from '../MainModel/Model';
 import ViewItem from '../ViewItem/ViewItem';
 import Cart from '../CartItems/Cart';
+import Signup from '../Registration/Signup';
+import Login from '../Registration/Login';
 
 export default function AllRoutes() {
   return (
@@ -15,6 +17,8 @@ export default function AllRoutes() {
            <Route path="/products/:routeName" element={<Products />} />
            <Route path="/allProducts/:gender" element={<WomenModel/>}/>
            <Route path="/ProductView/:SingleItem" element={<ViewItem/>}/>
+           <Route path='/user/signup' element={<Signup/>}/>
+           <Route path='/user/login' element={<Login/>} />
         </Routes>
     </div>
   )
