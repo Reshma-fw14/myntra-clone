@@ -11,7 +11,7 @@ export default function ListByBrand() {
     const action = bindActionCreators(ActionCreators, dispatch);
 
      const handleBrand=(x)=>{
-        action.BrandAction({url:'http://localhost:4000/fashion'})
+        action.BrandAction({url:'https://myntra-application.herokuapp.com/fashion'})
         nav(`/products/${x}`)
     }
 

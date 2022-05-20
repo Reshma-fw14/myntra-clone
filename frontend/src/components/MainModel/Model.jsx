@@ -29,7 +29,7 @@ export default function Model() {
   const [data, setData] = useState([]);
 
   const url = useSelector((state) => state.TypeReducer);
-  // console.log("url",url)
+  console.log("url in model", url)
   const counter = useSelector((state) => state.CounterReducer);
   const { men, women, girl } = useSelector((state) => state.DesignReducer);
 
@@ -47,7 +47,7 @@ export default function Model() {
     axios
       .get(`${url.url}/?gender=${gender}&_page=1&_limit=${limit}`)
       .then(({ data }) => {
-        // console.log(data.data)
+        console.log(data.data)
         setData(data.data);
       });
   };
@@ -68,7 +68,7 @@ export default function Model() {
   };
 
   const handleCart = (item) => {
-    console.log("cart",item);
+    // console.log("cart",item);
     action.CartAction({ item });
     nav(`/cart/${item._id}`);
   };
@@ -217,14 +217,14 @@ export default function Model() {
           onChange={(e, d) => {
             if (gender === "all") {
               axios
-                .get(`http://localhost:3002/fashion?_page=${d}&_limit=${limit}`)
+                .get(`https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}`)
                 .then(({ data }) => {
                   setData(data);
                 });
             } else {
               axios
                 .get(
-                  `http://localhost:3002/fashion?_page=${d}&_limit=${limit}&gender=${gender}`
+                  `https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}&gender=${gender}`
                 )
                 .then(({ data }) => {
                   setData(data);

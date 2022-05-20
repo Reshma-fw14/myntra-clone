@@ -16,17 +16,17 @@ export default function Landing() {
 
     let props={
         kurti:{
-            url:"http://localhost:4000/fashion",
+            url:"https://myntra-application.herokuapp.com/fashion",
             type:"Kurti",
             limit:5,
         },
         shirt:{
-            url:"http://localhost:4000/fashion",
+            url:"https://myntra-application.herokuapp.com/fashion",
             type:"Shirt",
             limit:5,
         },
         girlDress:{
-            url:"http://localhost:4000/fashion",
+            url:"https://myntra-application.herokuapp.com/fashion",
             type:"Girl",
             limit:5,
         }
@@ -50,7 +50,7 @@ export default function Landing() {
     
 
     const handleCategory=(x)=>{
-        action.TypeAction({ url: "http://localhost:4000/fashion" });
+        action.TypeAction({ url: "https://myntra-application.herokuapp.com/fashion" });
           nav(`/products/${x}`);
     }
 

@@ -24,7 +24,6 @@ import AddToCartButton from "../AddToCartButton"
 export default function Products() {
    const brand=useSelector((state)=>state.BrandReducer);
 
-
   const limit = 10;
 
   const dispatch = useDispatch();
@@ -51,7 +50,7 @@ export default function Products() {
   function getAll() {
     if (routeName === "all") {
       axios.get(`${url.url}/?_page=1&_limit=${limit}`).then(({ data }) => {
-        // console.log("data all product",data.data)
+        console.log("data all product",data.data)
         setitemData(data.data);
       });
     } else {
@@ -229,14 +228,14 @@ export default function Products() {
           onChange={(e, d) => {
             if (routeName === "all") {
               axios
-                .get(`http://localhost:4000/fashion?_page=${d}&_limit=${limit}`)
+                .get(`https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}`)
                 .then(({ data }) => {
                   setitemData(data.data);
                 });
             } else {
               axios
                 .get(
-                  `http://localhost:4000/fashion?_page=${d}&_limit=${limit}&type=${routeName}`
+                  `https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}&type=${routeName}`
                 )
                 .then(({ data }) => {
                   setitemData(data.data);

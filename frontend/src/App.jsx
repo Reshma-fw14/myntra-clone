@@ -3,8 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   let props={
-    url:'http://localhost:4000/fashion'
+    url:'https://myntra-application.herokuapp.com/fashion'
 }
+
   return (
     <>
     <Navbar data={props.url}/>
@@ -14,3 +15,4 @@ function App() {
 }
 
 export default App;
+

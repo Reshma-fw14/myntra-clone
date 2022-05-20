@@ -13,7 +13,7 @@ export default function FilterCard({data}) {
    const action=bindActionCreators(ActionCreators,dispatch)
 
    function handleClick(cat){
-    action.TypeAction({ url: 'http://localhost:4000/fashion' });
+    action.TypeAction({ url: 'https://myntra-application.herokuapp.com/fashion' });
     action.CounterAction(1)
     nav(`/products/${cat}`) 
    }

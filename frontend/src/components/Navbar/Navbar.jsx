@@ -130,7 +130,7 @@ export default function Navbar({ data }) {
     e.preventDefault();
     // console.log(`${search}`)
     axios
-      .get(`http://localhost:4000/fashion?type=${search}`)
+      .get(`https://myntra-application.herokuapp.com/fashion?type=${search}`)
       .then(({ data }) => {
         // console.log(data)
         action.TypeAction({ url: data });

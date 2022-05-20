@@ -17,7 +17,7 @@ export default function KidsDesign() {
       ];
 
       const handleCategory=(x)=>{
-        action.TypeAction({ url: "http://localhost:4000/fashion" });
+        action.TypeAction({ url: "https://myntra-application.herokuapp.com/fashion" });
           nav(`/products/${x}`);
       }
 
