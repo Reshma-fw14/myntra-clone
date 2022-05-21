@@ -33,7 +33,7 @@ export default function Products() {
 
   const counter = useSelector((state) => state.CounterReducer);
   const { routeName } = useParams();
-  // console.log("routeName",routeName)
+  
 
   const nav = useNavigate();
 
@@ -45,22 +45,25 @@ export default function Products() {
     getAll();
     getPage();
     getBrand()
-  }, [counter,setitemData]);
+  }, [counter]);
 
   function getAll() {
     if (routeName === "all") {
       axios.get(`${url.url}/?_page=1&_limit=${limit}`).then(({ data }) => {
-        console.log("data all product",data.data)
+        
         setitemData(data.data);
       });
     } else {
-      axios
+        axios
         .get(`${url.url}/?_page=1&_limit=${limit}&type=${routeName}`)
         .then(({ data }) => {
-          setitemData(data.data);
+        
+           setitemData(data.data)
+       
         });
     }
   }
+  // console.log("itemdata",itemData.data)
 
   function getPage() {
     if (routeName == "all") {
@@ -109,8 +112,6 @@ export default function Products() {
     })
     setitemData([...sorted])
   }
-// console.log("itemData",itemData)
-
 
   return (
     <>
@@ -126,98 +127,102 @@ export default function Products() {
        <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Price Low to High</button>
        <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Price High to Low</button>
        </div><hr />
-      <ImageList
+    
+       <ImageList
         className="container_user_listing"
         sx={{ width: "80%", height: "90%" }}
         variant="woven"
         cols={isActive ? 2 : 5}
         gap={8}
       >
-        {itemData.map((item) => (
-          <ImageListItem key={item._id}>
-            <Card
-              onClick={() => {
-                // handleClick(item);
-              }}
-              sx={{ maxWidth: 245, marginBottom: 9 }}
-            >
-              {/* <CardMedia
-                component="img"
-                image={item.image[0]}
-                alt="green iguana"
-              /> */}
-              <CardContent>
-                <img
-                  style={{
-                    height: "300px",
-                    width: "100%",
-                    marginBottom: "10px",
-                  }}
-                  src={item.image[0]}
-                  alt=""
-                />
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  style={{
-                    marginBottom: "10px",
-                    color: "black",
-                    fontWeight: "600",
-                  }}
-                >
-                  {item.brand}
-                </Typography>
-                {/* <Typography variant="body2" color="text.secondary" style={{color:'silver'}}>
-             {item.description}
-          </Typography> */}
-                <div
-                  style={{ display: "flex", justifyContent: "space-around" }}
-                >
-                  <Typography
+         {itemData.map((item) => (
+            <ImageListItem key={item._id}>
+              <Card
+                onClick={() => {
+                  // handleClick(item);
+                }}
+                sx={{ maxWidth: 245, marginBottom: 9 }}
+              >
+                {/* <CardMedia
+                  component="img"
+                  image={item.image[0]}
+                  alt="green iguana"
+                /> */}
+                <CardContent>
+                  <img
                     style={{
+                      height: "300px",
+                      width: "100%",
+                      marginBottom: "10px",
+                    }}
+                    src={item.image[0]}
+                    alt=""
+                  />
+                  <Typography
+                    variant="body2"
+                    color="text.secondary"
+                    style={{
+                      marginBottom: "10px",
                       color: "black",
-                      fontWeight: "500",
-                      fontSize: "16px",
+                      fontWeight: "600",
                     }}
                   >
-                    {`${item.price}/-`}
+                    {item.brand}
                   </Typography>
-                  <Typography
-                    style={{ textDecoration: "line-Through", color: "#878787" }}
+                  {/* <Typography variant="body2" color="text.secondary" style={{color:'silver'}}>
+               {item.description}
+            </Typography> */}
+                  <div
+                    style={{ display: "flex", justifyContent: "space-around" }}
                   >
-                    {`${item.strikeOff_price}/-`}
-                  </Typography>
-                  <Typography style={{ color: "#388e3c" }}>
-                    {`${item.offer}% Off`}
-                  </Typography>
-                </div>
-              </CardContent>
-              <CardActions
-                style={{ display: "flex", justifyContent: "space-between" }}
-              >
-                <Button
-                  style={{ color: "#ff3e6c", fontWeight: "600" }}
-                  size="small"
-                  onClick={() => {
-                    handleClick(item);
-                  }}
+                    <Typography
+                      style={{
+                        color: "black",
+                        fontWeight: "500",
+                        fontSize: "16px",
+                      }}
+                    >
+                      {`${item.price}/-`}
+                    </Typography>
+                    <Typography
+                      style={{ textDecoration: "line-Through", color: "#878787" }}
+                    >
+                      {`${item.strikeOff_price}/-`}
+                    </Typography>
+                    <Typography style={{ color: "#388e3c" }}>
+                      {`${item.offer}% Off`}
+                    </Typography>
+                  </div>
+                </CardContent>
+                <CardActions
+                  style={{ display: "flex", justifyContent: "space-between" }}
                 >
-                  View
-                </Button>
-                <Button
-                  size="small"
-                  style={{ color: "#ff3e6c", fontWeight: "600" }}
-                  onClick={() => {
-                    handleCart(item);
-                  }}
-                >
-                  Add to Cart
-                </Button>
-                {/* <AddToCartButton/> */}
-              </CardActions>
-            </Card>
-          </ImageListItem>
-        ))}
+                  <Button
+                    style={{ color: "#ff3e6c", fontWeight: "600" }}
+                    size="small"
+                    onClick={() => {
+                      handleClick(item);
+                    }}
+                  >
+                    View
+                  </Button>
+                  <Button
+                    size="small"
+                    style={{ color: "#ff3e6c", fontWeight: "600" }}
+                    onClick={() => {
+                      handleCart(item);
+                    }}
+                  >
+                    Add to Cart
+                  </Button>
+                  {/* <AddToCartButton/> */}
+                </CardActions>
+              </Card>
+            </ImageListItem>
+          ))}
+
+ 
+        
       </ImageList>
       <Stack spacing={1}>
         <Pagination
@@ -247,3 +252,7 @@ export default function Products() {
     </>
   );
 }
+/*
+
+
+*/

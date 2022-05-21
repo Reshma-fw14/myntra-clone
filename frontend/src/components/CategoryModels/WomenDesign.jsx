@@ -25,6 +25,8 @@ export default function Women() {
 
   const handleCategory=(x)=>{
     action.TypeAction({ url: "https://myntra-application.herokuapp.com/fashion" });
+    
+    action.CounterAction(1)
       nav(`/products/${x}`);
   }
 

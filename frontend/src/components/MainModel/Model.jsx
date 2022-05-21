@@ -29,7 +29,7 @@ export default function Model() {
   const [data, setData] = useState([]);
 
   const url = useSelector((state) => state.TypeReducer);
-  console.log("url in model", url)
+  // console.log("url in model", url)
   const counter = useSelector((state) => state.CounterReducer);
   const { men, women, girl } = useSelector((state) => state.DesignReducer);
 
@@ -47,7 +47,7 @@ export default function Model() {
     axios
       .get(`${url.url}/?gender=${gender}&_page=1&_limit=${limit}`)
       .then(({ data }) => {
-        console.log(data.data)
+        // console.log(data.data)
         setData(data.data);
       });
   };
