@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/myntra-clone/static/css/main.07210865.css",
-    "main.js": "/myntra-clone/static/js/main.acacdd54.js",
+    "main.css": "/myntra-clone/static/css/main.648c486a.css",
+    "main.js": "/myntra-clone/static/js/main.2f4d5dbe.js",
     "index.html": "/myntra-clone/index.html",
-    "main.07210865.css.map": "/myntra-clone/static/css/main.07210865.css.map",
-    "main.acacdd54.js.map": "/myntra-clone/static/js/main.acacdd54.js.map"
+    "main.648c486a.css.map": "/myntra-clone/static/css/main.648c486a.css.map",
+    "main.2f4d5dbe.js.map": "/myntra-clone/static/js/main.2f4d5dbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.07210865.css",
-    "static/js/main.acacdd54.js"
+    "static/css/main.648c486a.css",
+    "static/js/main.2f4d5dbe.js"
   ]
 }
