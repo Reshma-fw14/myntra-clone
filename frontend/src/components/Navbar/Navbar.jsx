@@ -189,7 +189,7 @@ export default function Navbar({ data }) {
                   className="btn btn-primary"
                   style={{
                     marginRight: "50px",
-                    fontSize: "16px",
+                    fontSize: "14px",
                     color: "#ff3f6c",
                     background: "#f8f9fa",
                     border: "0",
@@ -205,7 +205,7 @@ export default function Navbar({ data }) {
                 className="btn btn-primary"
                 style={{
                   marginRight: "50px",
-                  fontSize: "16px",
+                  fontSize: "14px",
                   color: "#ff3f6c",
                   background: "#f8f9fa",
                   border: "0",
@@ -220,7 +220,7 @@ export default function Navbar({ data }) {
                 className="btn btn-primary"
                 style={{
                   marginRight: "50px",
-                  fontSize: "16px",
+                  fontSize: "14px",
                   color: "#ff3f6c",
                   background: "#f8f9fa",
                   border: "0",

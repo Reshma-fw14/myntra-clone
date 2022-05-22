@@ -9,7 +9,7 @@
     gap:2%
 }
 .LeftImageContainer{
-    width: 57%;
+    width: 77%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -17,8 +17,8 @@
     /* border: 1px solid red; */
 }
 .LeftImageContainer div{
-    height: 650px;
-    width: 510px;
+    height: 750px;
+    width: 610px;
 }
 .LeftImageContainer img{
     height:100%;
@@ -28,6 +28,7 @@
 }
 .RightDescriptionContainer{
     width:35%;
+    /* border: 1px solid red; */
 }
 .brand{
     color: #282c3f;
@@ -98,7 +99,7 @@
 }
 .cart-btn{
     color: white;
-    padding: 20px 100px;
+    padding: 15px 70px;
     background-color: #ff3e6c;
     font-size: 16px;
     font-weight: 500;
@@ -111,7 +112,7 @@
 .wishlist-btn{
     border: 0;
     color: black;
-    padding: 20px 80px;
+    padding: 15px 70px;
     border-radius: 10px;
 }
 .wishlist-btn:hover{
