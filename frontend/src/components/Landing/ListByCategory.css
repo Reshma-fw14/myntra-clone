@@ -1,0 +1,16 @@
+*{
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+}
+.category-div{
+    margin: 15px 0px;
+}
+.category-div p{
+   font-size: 29px;
+   font-weight: 500;
+   color: #3e4152;
+}
+.category-div-flex{
+    background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
