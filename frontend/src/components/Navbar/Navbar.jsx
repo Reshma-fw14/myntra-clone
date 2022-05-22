@@ -157,7 +157,7 @@ export default function Navbar({ data }) {
   return (
     <div style={{ marginBottom: "10px", width: "100%" }}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/myntra-clone">
+        <a className="navbar-brand" href="/">
           <img
             style={{
               height: "50px",
