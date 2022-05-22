@@ -12,7 +12,7 @@ export default function AllRoutes() {
   return (
     <div>
         <Routes>
-           <Route path="/" element={<Landing/>} />
+           <Route path="/myntra-clone" element={<Landing/>} />
            <Route path='/cart/:id' element={<Cart/>}/>
            <Route path="/products/:routeName" element={<Products />} />
            <Route path="/allProducts/:gender" element={<WomenModel/>}/>
