@@ -1,10 +1,29 @@
 const typeAction = "TYPE";
-const images='IMAGES';
-const counter="COUNTER";
-const view="VIEW";
-const cart="CART";
-const design="DESIGN";
-const brand="BRAND"
+const images = "IMAGES";
+const counter = "COUNTER";
+const view = "VIEW";
+const cart = "CART";
+const design = "DESIGN";
+const brand = "BRAND";
+const track = "TRACK";
+
+export const LoginAction = (loginData) => {
+  return (dispatch) => {
+    dispatch({
+      type: "LOGIN",
+      payload: loginData,
+    });
+  };
+};
+
+export const Track = (x) => {
+  return (dispatch) => {
+    dispatch({
+      type: track,
+      payload: x,
+    });
+  };
+};
 
 export const TypeAction = (x) => {
   return (dispatch) => {
@@ -32,7 +51,6 @@ export const CounterAction = (x) => {
     });
   };
 };
-
 
 export const ViewAction = (x) => {
   return (dispatch) => {

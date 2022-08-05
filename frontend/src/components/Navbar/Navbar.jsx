@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import "./Navbar.css";
-import Badge from "@mui/material/Badge";
-import { styled } from "@mui/material/styles";
-import IconButton from "@mui/material/IconButton";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import Badge from "@mui/material/Badge";
+// import { styled } from "@mui/material/styles";
+// import IconButton from "@mui/material/IconButton";
+// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const women = [
   {
@@ -105,7 +106,8 @@ const girl = [
 ];
 
 export default function Navbar({ data }) {
-  // console.log("data in nav : ", data);
+  const track = useSelector((state) => state.TrackReducer);
+  const state = useSelector((state) => state.LoginReducer);
   const nav = useNavigate();
   const dispatch = useDispatch();
   const action = bindActionCreators(ActionCreators, dispatch);
@@ -145,14 +147,10 @@ export default function Navbar({ data }) {
     nav("/user/login");
   };
 
-  // const StyledBadge = styled(Badge)(({ theme }) => ({
-  //   "& .MuiBadge-badge": {
-  //     right: -3,
-  //     top: 13,
-  //     border: `2px solid ${theme.palette.background.paper}`,
-  //     padding: "0 4px",
-  //   },
-  // }));
+  function handelLogOut() {
+    localStorage.removeItem("loginData");
+    window.location.href = "/";
+  }
 
   return (
     <div style={{ marginBottom: "10px", width: "100%" }}>
@@ -165,7 +163,7 @@ export default function Navbar({ data }) {
               marginLeft: "70px",
               marginRight: "100px",
             }}
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Myntra_logo.png"
+            src="https://cdn.mos.cms.futurecdn.net/Ziv82j6YvdrvHqmxYjiTo3.png"
             alt=""
           />
         </a>
@@ -257,18 +255,55 @@ export default function Navbar({ data }) {
               <ShoppingCartIcon />
             </StyledBadge>
           </IconButton> */}
-          <button className="btn-signup" onClick={() => handleSignup()}>
-            SIGNUP
-          </button>
-          <button
+          {state.status ? (
+            <button
+              className="btn-signup"
+              onClick={() => {
+                handelLogOut();
+              }}
+            >
+              LOGOUT
+            </button>
+          ) : (
+            <Link to="/user/signup">
+              <button
+                className="btn-signup"
+              >
+              SIGN UP
+              </button>
+            </Link>
+          )}
+          
+          {/* <button
             className="btn-login"
-            onClick={() => handleLogin()}
+            onClick={() => {
+              handleLogin();
+            }}
             style={{ border: "10px", padding: "6px 11px" }}
           >
             LOGIN
-          </button>
+          </button> */}
+           {state.status ? (
+                    <button
+                       className="btn-login"
+                       style={{ border: "10px", padding: "6px 11px" }}
+                      disabled
+                    >
+                      {state.name}
+                    </button>
+                  ) : (
+                    <Link to="/user/login">
+                      <button
+                         className="btn-login"
+                         style={{ border: "10px", padding: "6px 11px" }}
+                      >
+                        LOGIN
+                      </button>
+                    </Link>
+                  )}
         </div>
       </nav>
+      <hr />
     </div>
   );
 }

@@ -20,6 +20,7 @@ import { bindActionCreators } from "redux";
 import { ActionCreators } from "../states/store/ActionCreator";
 import { useDispatch } from "react-redux";
 import AddToCartButton from "../AddToCartButton"
+import { TestMap } from "../test/test";
 
 export default function Products() {
    const brand=useSelector((state)=>state.BrandReducer);
@@ -45,7 +46,7 @@ export default function Products() {
     getAll();
     getPage();
     getBrand()
-  }, [counter]);
+  },[counter]);
 
   function getAll() {
     if (routeName === "all") {
@@ -57,13 +58,14 @@ export default function Products() {
         axios
         .get(`${url.url}/?_page=1&_limit=${limit}&type=${routeName}`)
         .then(({ data }) => {
-        
-           setitemData(data.data)
+          // console.log(data)
+        console.log("data inside get data : ",data.data)
+           setitemData([...data.data])
        
         });
     }
   }
-  // console.log("itemdata",itemData.data)
+  
 
   function getPage() {
     if (routeName == "all") {
@@ -123,7 +125,7 @@ export default function Products() {
           alt=""
         />
       </div>
-       <div style={{marginLeft:'1300px'}}>
+       <div style={{marginLeft:'1100px'}}>
        <button style={{border:'0', marginRight:'20px', padding:'5px 15px'}} onClick={()=>handleSort(1)}>Price Low to High</button>
        <button style={{border:'0',padding:'5px 15px'}} onClick={()=>handleSort(-1)}>Price High to Low</button>
        </div><hr />
@@ -135,91 +137,7 @@ export default function Products() {
         cols={isActive ? 2 : 5}
         gap={8}
       >
-         {itemData.map((item) => (
-            <ImageListItem key={item._id}>
-              <Card
-                onClick={() => {
-                  // handleClick(item);
-                }}
-                sx={{ maxWidth: 245, marginBottom: 9 }}
-              >
-                {/* <CardMedia
-                  component="img"
-                  image={item.image[0]}
-                  alt="green iguana"
-                /> */}
-                <CardContent>
-                  <img
-                    style={{
-                      height: "300px",
-                      width: "100%",
-                      marginBottom: "10px",
-                    }}
-                    src={item.image[0]}
-                    alt=""
-                  />
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    style={{
-                      marginBottom: "10px",
-                      color: "black",
-                      fontWeight: "600",
-                    }}
-                  >
-                    {item.brand}
-                  </Typography>
-                  {/* <Typography variant="body2" color="text.secondary" style={{color:'silver'}}>
-               {item.description}
-            </Typography> */}
-                  <div
-                    style={{ display: "flex", justifyContent: "space-around" }}
-                  >
-                    <Typography
-                      style={{
-                        color: "black",
-                        fontWeight: "500",
-                        fontSize: "16px",
-                      }}
-                    >
-                      {`${item.price}/-`}
-                    </Typography>
-                    <Typography
-                      style={{ textDecoration: "line-Through", color: "#878787" }}
-                    >
-                      {`${item.strikeOff_price}/-`}
-                    </Typography>
-                    <Typography style={{ color: "#388e3c" }}>
-                      {`${item.offer}% Off`}
-                    </Typography>
-                  </div>
-                </CardContent>
-                <CardActions
-                  style={{ display: "flex", justifyContent: "space-between" }}
-                >
-                  <Button
-                    style={{ color: "#ff3e6c", fontWeight: "600" }}
-                    size="small"
-                    onClick={() => {
-                      handleClick(item);
-                    }}
-                  >
-                    View
-                  </Button>
-                  <Button
-                    size="small"
-                    style={{ color: "#ff3e6c", fontWeight: "600" }}
-                    onClick={() => {
-                      handleCart(item);
-                    }}
-                  >
-                    Add to Cart
-                  </Button>
-                  {/* <AddToCartButton/> */}
-                </CardActions>
-              </Card>
-            </ImageListItem>
-          ))}
+        {itemData===undefined||itemData.length===0?<h1 style={{alignItems:'center'}}>getting data</h1>:<TestMap data={itemData}/>}
 
  
         
@@ -235,7 +153,7 @@ export default function Products() {
               axios
                 .get(`https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}`)
                 .then(({ data }) => {
-                  setitemData(data.data);
+                  setitemData([...data.data]);
                 });
             } else {
               axios
@@ -243,7 +161,7 @@ export default function Products() {
                   `https://myntra-application.herokuapp.com/fashion?_page=${d}&_limit=${limit}&type=${routeName}`
                 )
                 .then(({ data }) => {
-                  setitemData(data.data);
+                  setitemData([...data.data]);
                 });
             }
           }}
